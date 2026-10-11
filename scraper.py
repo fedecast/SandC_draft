@@ -1,17 +1,13 @@
-"""Scraper giocatori liberi sports.ws -> data/players.json + data/players.csv
+"""Scraper sports.ws -> data/free_agents.json, data/free_agents.csv, data/players_all.json
 
-Variabili d'ambiente (da GitHub Secrets / Variables):
-  SPORTSWS_USER, SPORTSWS_PASS   credenziali (Secrets)
-  PLAYERS_URL                    opzionale, default https://sports.ws/nba/stats
-                                 Se la paginazione e' nell'URL, metti {page} al posto del numero.
-  LOGIN_URL                      opzionale, default https://sports.ws/fantasy-basketball/
-  USER_SELECTOR, PASS_SELECTOR   opzionali, selettori CSS dei campi utente e password
-  MAX_PAGES                      opzionale, default 40
-
-Output:
-  data/players_all.json   tutti i giocatori (con la colonna Team della lega)
-  data/free_agents.json   solo i liberi, cioe' Team == "-"
-  data/free_agents.csv    come sopra, in CSV
+Secrets:   SPORTSWS_USER (username sports.ws), SPORTSWS_PASS
+Variables (opzionali):
+  PLAYERS_URL     default https://sports.ws/nba/stats   ({page} se la paginazione e' nell'URL)
+  LOGIN_URL       default https://sports.ws/fantasy-basketball/
+  USER_SELECTOR   default campo con placeholder "Username"
+  PASS_SELECTOR   default input[type=password]
+  MAX_PAGES       default 40
+Liberi = righe con "-" nella colonna Team.
 """
 import csv, datetime, hashlib, json, os, sys
 from playwright.sync_api import sync_playwright
@@ -24,22 +20,36 @@ USER_SEL = os.environ.get("USER_SELECTOR") or (
     "input[placeholder='Username' i], input[name*=user i], input[id*=user i], input[type=email]")
 PASS_SEL = os.environ.get("PASS_SELECTOR") or "input[type=password]"
 MAX_PAGES = int(os.environ.get("MAX_PAGES") or 40)
+OUT, DEBUG = "data", "debug"
 DROP_COLS = {"Action", "Watch"}
-OUT = "data"
+NAV_TIMEOUT = 60_000
 
-# Stessa logica dello script da console: prende la tabella con piu' righe
+# Il sito ha pubblicita' e tracker che non smettono mai di caricare:
+# niente "networkidle", e blocchiamo le risorse inutili per andare piu' veloci.
+BLOCK_TYPES = {"image", "media", "font"}
+BLOCK_HOSTS = ("doubleclick", "googlesyndication", "googletagmanager", "google-analytics",
+               "adservice", "amazon-adsystem", "adnxs", "criteo", "taboola", "outbrain",
+               "facebook.net", "quantserve", "scorecardresearch", "pubmatic", "rubicon",
+               "openx", "moatads", "consensu", "cookielaw", "onetrust", "privacy-mgmt")
+
 JS_TABLE = """() => {
   const t = [...document.querySelectorAll('table')].sort((a,b) => b.rows.length - a.rows.length)[0];
   if (!t) return null;
   return [...t.rows].map(r => [...r.cells].map(c => c.innerText.trim()));
 }"""
 
-# Se la tabella ha un selettore "mostra N righe", sceglie il valore piu' alto
+JS_FIRST_ROW = """() => {
+  const t = [...document.querySelectorAll('table')].sort((a,b) => b.rows.length - a.rows.length)[0];
+  return t && t.rows[1] ? t.rows[1].innerText : '';
+}"""
+
 JS_MAX_LENGTH = """() => {
   for (const s of document.querySelectorAll('select')) {
     const nums = [...s.options].map(o => parseInt(o.value)).filter(n => !isNaN(n));
     if (nums.length >= 2 && nums.some(n => n >= 50)) {
-      const best = [...s.options].reduce((a, o) => (parseInt(o.value) === -1 || parseInt(o.value) > parseInt(a.value)) ? o : a);
+      const best = [...s.options].reduce((a, o) =>
+        (parseInt(o.value) === -1 || parseInt(o.value) > parseInt(a.value)) ? o : a);
+      if (s.value === best.value) return null;
       s.value = best.value; s.dispatchEvent(new Event('change', {bubbles: true}));
       return best.value;
     }
@@ -47,30 +57,63 @@ JS_MAX_LENGTH = """() => {
   return null;
 }"""
 
+JS_LOGIN = """([u, p, us, ps]) => {
+  const user = document.querySelector(us), pw = document.querySelector(ps);
+  if (!user || !pw) return 'campi non trovati';
+  const set = (el, v) => { el.value = v;
+    el.dispatchEvent(new Event('input', {bubbles: true}));
+    el.dispatchEvent(new Event('change', {bubbles: true})); };
+  set(user, u); set(pw, p);
+  const scope = pw.closest('form') || document;
+  const btn = scope.querySelector('button[type=submit], input[type=submit]') ||
+    [...scope.querySelectorAll('button, a, input[type=button]')]
+      .find(b => /log\\s*in/i.test(b.innerText || b.value || ''));
+  if (btn) { btn.click(); return 'click'; }
+  if (pw.form) { pw.form.submit(); return 'submit'; }
+  return 'pulsante non trovato';
+}"""
+
+JS_NEXT = """() => {
+  const cands = [...document.querySelectorAll('a, button'), ...document.querySelectorAll('li, span')].filter(e => {
+    const t = (e.innerText || '').trim();
+    return /^(next|›|»|>|>>)$/i.test(t) || /next/i.test(e.getAttribute('aria-label') || '');
+  });
+  const el = cands.find(e => !e.disabled && !/disabled/.test(e.className + ' ' + (e.parentElement||{}).className));
+  if (!el) return false;
+  el.click(); return true;
+}"""
+
+
+def goto(page, url):
+    page.goto(url, wait_until="domcontentloaded", timeout=NAV_TIMEOUT)
+
 
 def login(page):
-    # Il form di login sta nel menu laterale (nascosto): i campi si compilano via JS
-    page.goto(LOGIN_URL, wait_until="networkidle")
-    res = page.evaluate("""([u, p, us, ps]) => {
-      const user = document.querySelector(us), pw = document.querySelector(ps);
-      if (!user || !pw) return 'campi non trovati';
-      const set = (el, v) => { el.value = v;
-        el.dispatchEvent(new Event('input', {bubbles: true}));
-        el.dispatchEvent(new Event('change', {bubbles: true})); };
-      set(user, u); set(pw, p);
-      const scope = pw.closest('form') || document;
-      const btn = scope.querySelector('button[type=submit], input[type=submit]') ||
-        [...scope.querySelectorAll('button, a, input[type=button]')]
-          .find(b => /log\\s*in/i.test(b.innerText || b.value || ''));
-      if (btn) { btn.click(); return 'click'; }
-      if (pw.form) { pw.form.submit(); return 'submit'; }
-      return 'pulsante non trovato';
-    }""", [USER, PWD, USER_SEL, PASS_SEL])
+    goto(page, LOGIN_URL)
+    page.wait_for_selector(PASS_SEL, state="attached", timeout=30_000)
+    res = page.evaluate(JS_LOGIN, [USER, PWD, USER_SEL, PASS_SEL])
     print("Login:", res)
     if res not in ("click", "submit"):
         raise RuntimeError(f"Login fallito: {res}")
-    page.wait_for_load_state("networkidle")
-    page.wait_for_timeout(3000)
+    try:
+        page.wait_for_load_state("domcontentloaded", timeout=30_000)
+    except Exception:
+        pass
+    page.wait_for_timeout(4000)
+
+
+def wait_table(page):
+    page.wait_for_function(
+        "() => [...document.querySelectorAll('table')].some(t => t.rows.length > 5)",
+        timeout=45_000)
+
+
+def wait_change(page, before):
+    try:
+        page.wait_for_function(f"() => ({JS_FIRST_ROW})() !== {json.dumps(before)}", timeout=20_000)
+    except Exception:
+        pass
+    page.wait_for_timeout(500)
 
 
 def scrape(page):
@@ -78,10 +121,14 @@ def scrape(page):
     header, rows, seen = None, [], set()
     for i in range(1, MAX_PAGES + 1):
         if paged or i == 1:
-            page.goto(PLAYERS_URL.format(page=i) if paged else PLAYERS_URL, wait_until="networkidle")
-            if page.evaluate(JS_MAX_LENGTH):
-                page.wait_for_load_state("networkidle")
-                page.wait_for_timeout(1500)
+            goto(page, PLAYERS_URL.format(page=i) if paged else PLAYERS_URL)
+            wait_table(page)
+            if i == 1:
+                before = page.evaluate(JS_FIRST_ROW)
+                n = page.evaluate(JS_MAX_LENGTH)
+                if n:
+                    print("Righe per pagina impostate a", n)
+                    page.wait_for_timeout(3000)
         table = page.evaluate(JS_TABLE)
         if not table or len(table) < 2:
             break
@@ -90,19 +137,19 @@ def scrape(page):
         new = 0
         for r in body:
             key = "|".join(r)
-            if r == head or key in seen:
+            if r == head or key in seen or len(r) != len(header):
                 continue
             seen.add(key)
             rows.append(r)
             new += 1
+        print(f"Pagina {i}: {new} nuove righe (totale {len(rows)})")
         if new == 0:
             break
-        if not paged:  # paginazione via link "Next"
-            nxt = page.locator("a:has-text('Next'), button:has-text('Next'), a:has-text('›'), a:has-text('»')").first
-            if not nxt.count() or not nxt.is_visible():
+        if not paged:
+            before = page.evaluate(JS_FIRST_ROW)
+            if not page.evaluate(JS_NEXT):
                 break
-            nxt.click()
-            page.wait_for_load_state("networkidle")
+            wait_change(page, before)
     return header, rows
 
 
@@ -110,19 +157,31 @@ def main():
     os.makedirs(OUT, exist_ok=True)
     with sync_playwright() as p:
         browser = p.chromium.launch()
-        page = browser.new_page()
+        ctx = browser.new_context(viewport={"width": 1400, "height": 1000},
+                                  user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                                  "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36")
+        ctx.set_default_timeout(30_000)
+        ctx.route("**/*", lambda r: r.abort() if (r.request.resource_type in BLOCK_TYPES or
+                  any(h in r.request.url for h in BLOCK_HOSTS)) else r.continue_())
+        page = ctx.new_page()
         try:
             login(page)
             header, rows = scrape(page)
         except Exception:
-            os.makedirs("debug", exist_ok=True)
-            page.screenshot(path="debug/screenshot.png", full_page=True)
+            os.makedirs(DEBUG, exist_ok=True)
+            print("URL al momento dell'errore:", page.url)
+            try:
+                page.screenshot(path=f"{DEBUG}/screenshot.png", full_page=True)
+            except Exception as e:
+                print("Screenshot non riuscito:", e)
             raise
         finally:
             browser.close()
 
     if not rows:
-        sys.exit("Nessuna riga trovata: controlla PLAYERS_URL")
+        sys.exit("Nessuna riga trovata nella tabella")
+    if "Team" not in header:
+        sys.exit(f"Colonna Team non trovata (login non riuscito?). Colonne: {header}")
 
     digest = hashlib.sha256(json.dumps(rows).encode()).hexdigest()
     hash_file = os.path.join(OUT, ".hash")
@@ -132,9 +191,7 @@ def main():
 
     cols = [c for c in header if c not in DROP_COLS]
     players = [{c: v for c, v in zip(header, r) if c not in DROP_COLS} for r in rows]
-    if "Team" not in cols:
-        sys.exit(f"Colonna Team non trovata. Colonne: {header}")
-    free = [p for p in players if p.get("Team", "").strip() in ("-", "")]
+    free = [pl for pl in players if pl.get("Team", "").strip() in ("-", "")]
     now = datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds")
     for name, data in (("players_all.json", players), ("free_agents.json", free)):
         with open(os.path.join(OUT, name), "w", encoding="utf-8") as f:
