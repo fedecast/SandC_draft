@@ -4,7 +4,8 @@ Variabili d'ambiente (da GitHub Secrets / Variables):
   SPORTSWS_USER, SPORTSWS_PASS   credenziali (Secrets)
   PLAYERS_URL                    opzionale, default https://sports.ws/nba/stats
                                  Se la paginazione e' nell'URL, metti {page} al posto del numero.
-  LOGIN_URL                      opzionale, default https://sports.ws/login
+  LOGIN_URL                      opzionale, default https://sports.ws/fantasy-basketball/
+  USER_SELECTOR, PASS_SELECTOR   opzionali, selettori CSS dei campi utente e password
   MAX_PAGES                      opzionale, default 40
 
 Output:
@@ -18,7 +19,10 @@ from playwright.sync_api import sync_playwright
 USER = os.environ["SPORTSWS_USER"]
 PWD = os.environ["SPORTSWS_PASS"]
 PLAYERS_URL = os.environ.get("PLAYERS_URL") or "https://sports.ws/nba/stats"
-LOGIN_URL = os.environ.get("LOGIN_URL") or "https://sports.ws/login"
+LOGIN_URL = os.environ.get("LOGIN_URL") or "https://sports.ws/fantasy-basketball/"
+USER_SEL = os.environ.get("USER_SELECTOR") or (
+    "input[placeholder='Username' i], input[name*=user i], input[id*=user i], input[type=email]")
+PASS_SEL = os.environ.get("PASS_SELECTOR") or "input[type=password]"
 MAX_PAGES = int(os.environ.get("MAX_PAGES") or 40)
 DROP_COLS = {"Action", "Watch"}
 OUT = "data"
@@ -45,14 +49,28 @@ JS_MAX_LENGTH = """() => {
 
 
 def login(page):
-    page.goto(LOGIN_URL, wait_until="domcontentloaded")
-    page.locator("input[type=email], input[name*=user i], input[name*=email i], input[name*=login i]").first.fill(USER)
-    pwd = page.locator("input[type=password]").first
-    pwd.fill(PWD)
-    pwd.press("Enter")
+    # Il form di login sta nel menu laterale (nascosto): i campi si compilano via JS
+    page.goto(LOGIN_URL, wait_until="networkidle")
+    res = page.evaluate("""([u, p, us, ps]) => {
+      const user = document.querySelector(us), pw = document.querySelector(ps);
+      if (!user || !pw) return 'campi non trovati';
+      const set = (el, v) => { el.value = v;
+        el.dispatchEvent(new Event('input', {bubbles: true}));
+        el.dispatchEvent(new Event('change', {bubbles: true})); };
+      set(user, u); set(pw, p);
+      const scope = pw.closest('form') || document;
+      const btn = scope.querySelector('button[type=submit], input[type=submit]') ||
+        [...scope.querySelectorAll('button, a, input[type=button]')]
+          .find(b => /log\\s*in/i.test(b.innerText || b.value || ''));
+      if (btn) { btn.click(); return 'click'; }
+      if (pw.form) { pw.form.submit(); return 'submit'; }
+      return 'pulsante non trovato';
+    }""", [USER, PWD, USER_SEL, PASS_SEL])
+    print("Login:", res)
+    if res not in ("click", "submit"):
+        raise RuntimeError(f"Login fallito: {res}")
     page.wait_for_load_state("networkidle")
-    if page.locator("input[type=password]:visible").count():
-        raise RuntimeError("Login fallito: controlla credenziali o LOGIN_URL")
+    page.wait_for_timeout(3000)
 
 
 def scrape(page):
