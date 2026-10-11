@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-11T20:31:18+00:00",
- "count": 1126,
+ "updated": "2026-10-11T20:41:50+00:00",
+ "count": 1125,
  "columns": [
   "Player",
   "FPPG",
@@ -61,26 +61,6 @@
    "Age": "32.5",
    "Team": "-",
    "FILTERS": "pos=f|mpg>10|mpg>20|mpg>30|FTavail|age>25|age>30|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|Pascal"
-  },
-  {
-   "Player": "M. Porter Jr., BKN, F",
-   "FPPG": "33.3",
-   "FPPM": "1.02",
-   "G": "52",
-   "MPG": "32.5",
-   "PPG": "24.2",
-   "RPG": "7.1",
-   "APG": "3.0",
-   "BPG": "0.2",
-   "SPG": "1.1",
-   "OWN": "93.2",
-   "ADP": "56.1",
-   "CON": "$40.8M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "28.3",
-   "Team": "-",
-   "FILTERS": "pos=f|mpg>10|mpg>20|mpg>30|FTavail|age<30|age>25|NBAteam|g>5|g>10|g>20|g>30|g>50|Michael"
   },
   {
    "Player": "J. Giddey, CHI, G",
