@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-11T16:22:07+00:00",
- "count": 1127,
+ "updated": "2026-10-11T20:31:18+00:00",
+ "count": 1126,
  "columns": [
   "Player",
   "FPPG",
@@ -101,26 +101,6 @@
    "Age": "24.0",
    "Team": "-",
    "FILTERS": "pos=g|mpg>10|mpg>20|mpg>30|FTavail|age<25|age<30|NBAteam|g>5|g>10|g>20|g>30|g>50|Josh"
-  },
-  {
-   "Player": "J. Randle, BKN, F",
-   "FPPG": "31.4",
-   "FPPM": "0.95",
-   "G": "79",
-   "MPG": "33.0",
-   "PPG": "21.1",
-   "RPG": "6.7",
-   "APG": "5.0",
-   "BPG": "0.2",
-   "SPG": "1.1",
-   "OWN": "98.0",
-   "ADP": "46.8",
-   "CON": "$33.3M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "31.9",
-   "Team": "-",
-   "FILTERS": "pos=f|mpg>10|mpg>20|mpg>30|FTavail|age>25|age>30|NBAteam|g>5|g>10|g>20|g>30|g>50|g>70|Julius"
   },
   {
    "Player": "T. Murphy III, NOP, GF",

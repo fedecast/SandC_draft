@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T16:22:07+00:00",
+ "updated": "2026-10-11T20:31:18+00:00",
  "count": 1247,
  "columns": [
   "Player",
@@ -759,8 +759,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "31.9",
-   "Team": "-",
-   "FILTERS": "pos=f|mpg>10|mpg>20|mpg>30|FTavail|age>25|age>30|NBAteam|g>5|g>10|g>20|g>30|g>50|g>70|Julius"
+   "Team": "ALB",
+   "FILTERS": "pos=f|mpg>10|mpg>20|mpg>30|age>25|age>30|NBAteam|g>5|g>10|g>20|g>30|g>50|g>70|Julius"
   },
   {
    "Player": "E. Mobley, CLE, FC",
