@@ -1,6 +1,4 @@
 Player,FPPG,FPPM,G,MPG,PPG,RPG,APG,BPG,SPG,OWN,ADP,CON,Poss/G,FPPP,Age,Team,FILTERS
-"A. Davis, WAS, C",34.9,1.12,20,31.3,20.4,11.1,2.8,1.7,1.1,91.2,36.7,$58.5M,,0.00,33.6,-,pos=c|mpg>10|mpg>20|mpg>30|FTavail|age>25|age>30|NBAteam|Disney|g>5|g>10|Anthony
-"P. Siakam, IND, F",33.7,1.02,62,33.2,24.0,6.6,3.8,0.4,1.1,92.6,43.1,$48.9M,,0.00,32.5,-,pos=f|mpg>10|mpg>20|mpg>30|FTavail|age>25|age>30|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|Pascal
 "J. Giddey, CHI, G",32.4,1.01,54,32.1,17.0,8.3,9.1,0.5,1.0,98.0,27.0,$25.0M,,0.00,24.0,-,pos=g|mpg>10|mpg>20|mpg>30|FTavail|age<25|age<30|NBAteam|g>5|g>10|g>20|g>30|g>50|Josh
 "T. Murphy III, NOP, GF",31.1,0.88,66,35.5,21.5,5.7,3.8,0.4,1.5,97.3,57.6,$27.0M,,0.00,26.3,-,pos=g|pos=gf|pos=f|mpg>10|mpg>20|mpg>30|FTavail|age<30|age>25|NBAteam|g>5|g>10|g>20|g>30|g>50|Trey
 "J. Butler, GSW, F",30.5,0.98,38,31.1,20.0,5.6,4.9,0.2,1.4,79.7,100.2,$56.8M,,0.00,37.1,-,pos=f|mpg>10|mpg>20|mpg>30|FTavail|age>25|age>30|NBAteam|g>5|g>10|g>20|g>30|Jimmy

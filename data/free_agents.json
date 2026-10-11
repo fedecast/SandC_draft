@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-11T20:41:50+00:00",
- "count": 1125,
+ "updated": "2026-10-11T21:23:10+00:00",
+ "count": 1123,
  "columns": [
   "Player",
   "FPPG",
@@ -22,46 +22,6 @@
   "FILTERS"
  ],
  "players": [
-  {
-   "Player": "A. Davis, WAS, C",
-   "FPPG": "34.9",
-   "FPPM": "1.12",
-   "G": "20",
-   "MPG": "31.3",
-   "PPG": "20.4",
-   "RPG": "11.1",
-   "APG": "2.8",
-   "BPG": "1.7",
-   "SPG": "1.1",
-   "OWN": "91.2",
-   "ADP": "36.7",
-   "CON": "$58.5M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "33.6",
-   "Team": "-",
-   "FILTERS": "pos=c|mpg>10|mpg>20|mpg>30|FTavail|age>25|age>30|NBAteam|Disney|g>5|g>10|Anthony"
-  },
-  {
-   "Player": "P. Siakam, IND, F",
-   "FPPG": "33.7",
-   "FPPM": "1.02",
-   "G": "62",
-   "MPG": "33.2",
-   "PPG": "24.0",
-   "RPG": "6.6",
-   "APG": "3.8",
-   "BPG": "0.4",
-   "SPG": "1.1",
-   "OWN": "92.6",
-   "ADP": "43.1",
-   "CON": "$48.9M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "32.5",
-   "Team": "-",
-   "FILTERS": "pos=f|mpg>10|mpg>20|mpg>30|FTavail|age>25|age>30|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|Pascal"
-  },
   {
    "Player": "J. Giddey, CHI, G",
    "FPPG": "32.4",
