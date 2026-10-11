@@ -6,7 +6,7 @@ Variables (opzionali):
   LOGIN_URL       default https://sports.ws/fantasy-basketball/
   USER_SELECTOR   default campo con placeholder "Username"
   PASS_SELECTOR   default input[type=password]
-  MAX_PAGES       default 40
+  MAX_PAGES       default 80
   LEAGUE_URL      default https://sports.ws/fantasy-basketball/league/ (imposta la lega NBA attiva)
 Liberi = righe con "-" nella colonna Team.
 """
@@ -20,7 +20,7 @@ LOGIN_URL = os.environ.get("LOGIN_URL") or "https://sports.ws/fantasy-basketball
 USER_SEL = os.environ.get("USER_SELECTOR") or (
     "input[placeholder='Username' i], input[name*=user i], input[id*=user i], input[type=email]")
 PASS_SEL = os.environ.get("PASS_SELECTOR") or "input[type=password]"
-MAX_PAGES = int(os.environ.get("MAX_PAGES") or 40)
+MAX_PAGES = int(os.environ.get("MAX_PAGES") or 80)
 LEAGUE_URL = os.environ.get("LEAGUE_URL") or "https://sports.ws/fantasy-basketball/league/"
 OUT, DEBUG = "data", "debug"
 DROP_COLS = {"Action", "Watch"}
@@ -57,6 +57,15 @@ JS_MAX_LENGTH = """() => {
     }
   }
   return null;
+}"""
+
+# La tabella di sports.ws e' una DataTable: chiediamo tutte le righe via API
+JS_DT_ALL = """() => {
+  const t = [...document.querySelectorAll('table')].sort((a,b) => b.rows.length - a.rows.length)[0];
+  if (!t || !window.jQuery || !jQuery.fn.dataTable || !jQuery.fn.dataTable.isDataTable(t)) return null;
+  const dt = jQuery(t).DataTable();
+  dt.page.len(-1).draw();
+  return dt.rows().count();
 }"""
 
 JS_LOGIN = """([u, p, us, ps]) => {
@@ -144,15 +153,24 @@ def scrape(page):
                 with open(os.path.join(OUT, "page_info.json"), "w", encoding="utf-8") as f:
                     json.dump(info, f, ensure_ascii=False, indent=1)
                 print("Pagina statistiche:", info["url"], "|", info["title"])
-                before = page.evaluate(JS_FIRST_ROW)
-                n = page.evaluate(JS_MAX_LENGTH)
-                if n:
-                    print("Righe per pagina impostate a", n)
-                    page.wait_for_timeout(3000)
+                n_dt = page.evaluate(JS_DT_ALL)
+                n = None if n_dt else page.evaluate(JS_MAX_LENGTH)
+                print("DataTable righe totali:", n_dt, "| select impostata a:", n)
+                if n_dt or n:
+                    try:
+                        page.wait_for_function(
+                            "() => Math.max(...[...document.querySelectorAll('table')].map(t => t.rows.length)) > 30",
+                            timeout=60_000)
+                    except Exception:
+                        print("La tabella non si e' allargata oltre 30 righe")
+                    page.wait_for_timeout(2000)
         table = page.evaluate(JS_TABLE)
         if not table or len(table) < 2:
             break
         head, body = table[0], table[1:]
+        if header is None:
+            print("Colonne:", head)
+            print("Prima riga:", body[0] if body else None)
         header = header or head
         new = 0
         for r in body:
@@ -173,8 +191,21 @@ def scrape(page):
     return header, rows
 
 
+class Tee:
+    """Copia l'output anche in data/run_log.txt, cosi' Claude legge il log dal repo."""
+    def __init__(self, path):
+        self.f = open(path, "w", encoding="utf-8")
+        self.out = sys.stdout
+    def write(self, s):
+        self.out.write(s); self.f.write(s); self.f.flush()
+    def flush(self):
+        self.out.flush(); self.f.flush()
+
+
 def main():
     os.makedirs(OUT, exist_ok=True)
+    sys.stdout = Tee(os.path.join(OUT, "run_log.txt"))
+    print("Avvio:", datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"))
     with sync_playwright() as p:
         browser = p.chromium.launch()
         ctx = browser.new_context(viewport={"width": 1400, "height": 1000},
