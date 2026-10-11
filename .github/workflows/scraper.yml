@@ -36,6 +36,7 @@ jobs:
           SPORTSWS_PASS: ${{ secrets.SPORTSWS_PASS }}
           PLAYERS_URL: ${{ vars.PLAYERS_URL }}
           LOGIN_URL: ${{ vars.LOGIN_URL }}
+          LEAGUE_URL: ${{ vars.LEAGUE_URL }}
 
       - name: Screenshot di debug se fallisce
         if: failure()
