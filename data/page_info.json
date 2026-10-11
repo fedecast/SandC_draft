@@ -1,0 +1,296 @@
+{
+ "url": "https://sports.ws/nba/stats",
+ "title": "Sports.ws | Fantasy Basketball",
+ "table_rows": 26,
+ "headings": [
+  "PLAYER\nSTATS"
+ ],
+ "controls": [
+  {
+   "tag": "SELECT",
+   "text": "25\n50\n100\n200\nAll",
+   "cls": "",
+   "href": null,
+   "onclick": "",
+   "opts": [
+    "25:25",
+    "50:50",
+    "100:100",
+    "200:200",
+    "-1:All"
+   ]
+  },
+  {
+   "tag": "INPUT",
+   "text": "",
+   "cls": "",
+   "href": null,
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "N. Jokic",
+   "cls": "",
+   "href": "/nba/nikola-jokic",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "L. Doncic",
+   "cls": "",
+   "href": "/nba/luka-doncic",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "S. Gilgeous-Alexander",
+   "cls": "",
+   "href": "/nba/shai-gilgeous-alexander",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "V. Wembanyama",
+   "cls": "",
+   "href": "/nba/victor-wembanyama",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "G. Antetokounmpo",
+   "cls": "",
+   "href": "/nba/giannis-antetokounmpo",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "T. Maxey",
+   "cls": "",
+   "href": "/nba/tyrese-maxey",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "J. Johnson",
+   "cls": "",
+   "href": "/nba/jalen-johnson",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "J. Brown",
+   "cls": "",
+   "href": "/nba/jaylen-brown",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "K. Leonard",
+   "cls": "",
+   "href": "/nba/kawhi-leonard",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "C. Cunningham",
+   "cls": "",
+   "href": "/nba/cade-cunningham",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "J. Embiid",
+   "cls": "",
+   "href": "/nba/joel-embiid",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "D. Mitchell",
+   "cls": "",
+   "href": "/nba/donovan-mitchell",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "A. Edwards",
+   "cls": "",
+   "href": "/nba/anthony-edwards",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "J. Tatum",
+   "cls": "",
+   "href": "/nba/jayson-tatum",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "J. Murray",
+   "cls": "",
+   "href": "/nba/jamal-murray",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "L. Markkanen",
+   "cls": "",
+   "href": "/nba/lauri-markkanen",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "D. Avdija",
+   "cls": "",
+   "href": "/nba/deni-avdija",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "A. Davis",
+   "cls": "",
+   "href": "/nba/anthony-davis",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "K. Durant",
+   "cls": "",
+   "href": "/nba/kevin-durant",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "J. Brunson",
+   "cls": "",
+   "href": "/nba/jalen-brunson",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "A. Sengun",
+   "cls": "",
+   "href": "/nba/alperen-sengun",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "J. Harden",
+   "cls": "",
+   "href": "/nba/james-harden",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "P. Banchero",
+   "cls": "",
+   "href": "/nba/paolo-banchero",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "D. Booker",
+   "cls": "",
+   "href": "/nba/devin-booker",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "K. Towns",
+   "cls": "",
+   "href": "/nba/karl-anthony-towns",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "Previous",
+   "cls": "paginate_button previous disabled",
+   "href": null,
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "1",
+   "cls": "paginate_button current",
+   "href": null,
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "2",
+   "cls": "paginate_button ",
+   "href": null,
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "3",
+   "cls": "paginate_button ",
+   "href": null,
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "4",
+   "cls": "paginate_button ",
+   "href": null,
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "5",
+   "cls": "paginate_button ",
+   "href": null,
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "50",
+   "cls": "paginate_button ",
+   "href": null,
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "Next",
+   "cls": "paginate_button next",
+   "href": null,
+   "onclick": "",
+   "opts": null
+  }
+ ]
+}
