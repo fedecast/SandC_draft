@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T21:23:10+00:00",
+ "updated": "2026-10-11T23:59:43+00:00",
  "count": 1247,
  "columns": [
   "Player",
@@ -639,8 +639,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "24.0",
-   "Team": "-",
-   "FILTERS": "pos=g|mpg>10|mpg>20|mpg>30|FTavail|age<25|age<30|NBAteam|g>5|g>10|g>20|g>30|g>50|Josh"
+   "Team": "IDA",
+   "FILTERS": "pos=g|mpg>10|mpg>20|mpg>30|age<25|age<30|NBAteam|g>5|g>10|g>20|g>30|g>50|Josh"
   },
   {
    "Player": "A. Reaves, LAL, G",
@@ -899,8 +899,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "30.5",
-   "Team": "-",
-   "FILTERS": "pos=c|mpg>10|mpg>20|FTavail|age>25|age>30|NBAteam|Disney|g>5|g>10|Domantas"
+   "Team": "SAL",
+   "FILTERS": "pos=c|mpg>10|mpg>20|age>25|age>30|NBAteam|Disney|g>5|g>10|Domantas"
   },
   {
    "Player": "K. Porter Jr., MIL, G",

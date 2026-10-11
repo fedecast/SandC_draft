@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-11T21:23:10+00:00",
- "count": 1123,
+ "updated": "2026-10-11T23:59:43+00:00",
+ "count": 1121,
  "columns": [
   "Player",
   "FPPG",
@@ -22,26 +22,6 @@
   "FILTERS"
  ],
  "players": [
-  {
-   "Player": "J. Giddey, CHI, G",
-   "FPPG": "32.4",
-   "FPPM": "1.01",
-   "G": "54",
-   "MPG": "32.1",
-   "PPG": "17.0",
-   "RPG": "8.3",
-   "APG": "9.1",
-   "BPG": "0.5",
-   "SPG": "1.0",
-   "OWN": "98.0",
-   "ADP": "27.0",
-   "CON": "$25.0M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "24.0",
-   "Team": "-",
-   "FILTERS": "pos=g|mpg>10|mpg>20|mpg>30|FTavail|age<25|age<30|NBAteam|g>5|g>10|g>20|g>30|g>50|Josh"
-  },
   {
    "Player": "T. Murphy III, NOP, GF",
    "FPPG": "31.1",
@@ -101,26 +81,6 @@
    "Age": "29.1",
    "Team": "-",
    "FILTERS": "pos=f|mpg>10|mpg>20|mpg>30|FTavail|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|g>70|Brandon"
-  },
-  {
-   "Player": "D. Sabonis, SAC, C",
-   "FPPG": "29.8",
-   "FPPM": "1.00",
-   "G": "19",
-   "MPG": "29.7",
-   "PPG": "15.8",
-   "RPG": "11.4",
-   "APG": "4.1",
-   "BPG": "0.2",
-   "SPG": "0.9",
-   "OWN": "96.6",
-   "ADP": "30.2",
-   "CON": "$45.5M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "30.5",
-   "Team": "-",
-   "FILTERS": "pos=c|mpg>10|mpg>20|FTavail|age>25|age>30|NBAteam|Disney|g>5|g>10|Domantas"
   },
   {
    "Player": "K. Porter Jr., MIL, G",
