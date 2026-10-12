@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T05:47:20+00:00",
+ "updated": "2026-10-12T06:51:32+00:00",
  "count": 1247,
  "columns": [
   "Player",
@@ -799,8 +799,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "26.3",
-   "Team": "-",
-   "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|mpg>30|FTavail|age<30|age>25|NBAteam|g>5|g>10|g>20|g>30|g>50|Trey"
+   "Team": "VIC",
+   "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|mpg>30|age<30|age>25|NBAteam|g>5|g>10|g>20|g>30|g>50|Trey"
   },
   {
    "Player": "A. Thompson, HOU, F",
@@ -939,8 +939,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "26.3",
-   "Team": "-",
-   "FILTERS": "pos=f|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|g>5|g>10|g>20|g>30|g>50|Zion"
+   "Team": "ZUC",
+   "FILTERS": "pos=f|mpg>10|mpg>20|age<30|age>25|NBAteam|g>5|g>10|g>20|g>30|g>50|Zion"
   },
   {
    "Player": "F. Wagner, ORL, F",
@@ -1019,8 +1019,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "26.7",
-   "Team": "-",
-   "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|mpg>30|FTavail|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|g>30|Tyler"
+   "Team": "VIL",
+   "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|mpg>30|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|g>30|Tyler"
   },
   {
    "Player": "W. Kessler, LAL, C",
@@ -2359,8 +2359,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "27.1",
-   "Team": "-",
-   "FILTERS": "pos=f|pos=fc|pos=c|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|g>5|g>10|g>20|g>30|g>50|g>70|Naz"
+   "Team": "ZUC",
+   "FILTERS": "pos=f|pos=fc|pos=c|mpg>10|mpg>20|age<30|age>25|NBAteam|g>5|g>10|g>20|g>30|g>50|g>70|Naz"
   },
   {
    "Player": "B. Podziemski, GSW, GF",
