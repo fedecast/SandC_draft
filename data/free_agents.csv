@@ -1,17 +1,10 @@
 Player,FPPG,FPPM,G,MPG,PPG,RPG,APG,BPG,SPG,OWN,ADP,CON,Poss/G,FPPP,Age,Team,FILTERS
 "J. Butler, GSW, F",30.5,0.98,38,31.1,20.0,5.6,4.9,0.2,1.4,80.6,100.0,$56.8M,,0.00,37.1,-,pos=f|mpg>10|mpg>20|mpg>30|FTavail|age>25|age>30|NBAteam|g>5|g>10|g>20|g>30|Jimmy
 "K. Porter Jr., MIL, G",29.8,0.90,38,33.2,17.4,5.2,7.4,0.5,2.2,93.8,81.7,$5.4M,,0.00,26.5,-,pos=g|mpg>10|mpg>20|mpg>30|FTavail|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|g>30|con<10|con<15|con<20|Kevin
-"D. Fox, SAS, G",27.7,0.89,72,31.0,18.6,3.8,6.2,0.3,1.2,87.5,71.1,$49.5M,,0.00,28.8,-,pos=g|mpg>10|mpg>20|mpg>30|FTavail|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|g>70|De'Aaron
-"N. Alexander-Walker, ATL, G",27.7,0.83,78,33.4,20.8,3.4,3.7,0.5,1.3,93.8,75.1,$14.4M,,0.00,28.1,-,pos=g|mpg>10|mpg>20|mpg>30|FTavail|age<30|age>25|NBAteam|g>5|g>10|g>20|g>30|g>50|g>70|con<15|con<20|Nickeil
-"R. Barrett, TOR, GF",27.2,0.90,57,30.3,19.3,5.3,3.3,0.3,0.7,92.5,82.9,$29.6M,,0.00,26.3,-,pos=g|pos=gf|pos=f|mpg>10|mpg>20|mpg>30|FTavail|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|RJ
-"N. Powell, CHI, G",27.1,0.92,58,29.6,21.7,3.5,2.4,0.2,1.1,90.6,90.8,$21.5M,,0.00,33.4,-,pos=g|mpg>10|mpg>20|FTavail|age>25|age>30|NBAteam|g>5|g>10|g>20|g>30|g>50|Norman
 "D. Murray, NOP, G",26.9,0.97,14,27.8,16.7,5.4,6.4,0.2,1.6,89.4,71.5,$32.8M,,0.00,30.1,-,pos=g|mpg>10|mpg>20|FTavail|age>25|age>30|NBAteam|g>5|g>10|Dejounte
 "D. White, BOS, G",26.9,0.79,77,34.1,16.5,4.4,5.4,1.3,1.1,90.0,75.6,$30.3M,,0.00,32.3,-,pos=g|mpg>10|mpg>20|mpg>30|FTavail|age>25|age>30|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|g>70|Derrick
-"N. Vucevic, ORL, C",26.7,0.94,64,28.4,15.1,8.4,3.3,0.6,0.6,94.4,79.3,$2.4M,,0.00,36.0,-,pos=c|mpg>10|mpg>20|FTavail|age>25|age>30|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|con<5|con<10|con<15|con<20|Nikola
 "R. Rollins, MIL, G",26.7,0.83,74,32.1,17.3,4.6,5.6,0.4,1.5,92.5,83.2,$4.0M,,0.00,24.3,-,pos=g|mpg>10|mpg>20|mpg>30|FTavail|age<25|age<30|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|g>70|con<5|con<10|con<15|con<20|Ryan
-"P. George, BOS, F",26.6,0.87,37,30.7,17.3,5.3,3.6,0.4,1.7,79.4,95.4,$54.1M,,0.00,36.5,-,pos=f|mpg>10|mpg>20|mpg>30|FTavail|age>25|age>30|NBAteam|Disney|g>5|g>10|g>20|g>30|Paul
 "S. Sharpe, POR, G",26.4,0.90,50,29.4,20.8,4.3,2.6,0.1,1.4,62.5,121.6,$20.1M,,0.00,23.4,-,pos=g|mpg>10|mpg>20|FTavail|age<25|age<30|NBAteam|Disney|g>5|g>10|g>20|g>30|Shaedon
-"I. Zubac, IND, C",26.3,0.87,48,30.1,14.1,10.6,2.2,0.8,0.4,95.6,60.7,$20.3M,,0.00,29.6,-,pos=c|mpg>10|mpg>20|mpg>30|FTavail|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|g>30|Ivica
 "I. Quickley, TOR, G",26.3,0.83,70,31.9,16.4,4.0,5.9,0.1,1.3,86.3,85.5,$32.5M,,0.00,27.3,-,pos=g|mpg>10|mpg>20|mpg>30|FTavail|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|Immanuel
 "A. Nembhard, IND, G",26.1,0.83,57,31.3,16.9,2.8,7.7,0.1,0.9,87.5,104.4,$19.6M,,0.00,26.8,-,pos=g|mpg>10|mpg>20|mpg>30|FTavail|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|con<20|Andrew
 "M. Bridges, PHX, F",25.8,0.83,77,31.0,17.1,5.8,3.2,0.4,0.6,88.8,93.5,$22.8M,,0.00,28.6,-,pos=f|mpg>10|mpg>20|mpg>30|FTavail|age<30|age>25|NBAteam|g>5|g>10|g>20|g>30|g>50|g>70|Miles
