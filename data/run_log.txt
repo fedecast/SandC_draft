@@ -1,9 +1,9 @@
-Avvio: 2026-10-11T23:59:27+00:00
+Avvio: 2026-10-12T05:47:07+00:00
 Login: click
 Contesto lega: https://sports.ws/fantasy-basketball/league/
 Pagina statistiche: https://sports.ws/nba/stats | Sports.ws | Fantasy Basketball
 DataTable righe totali: 1248 | select impostata a: None
 Colonne: ['Player', 'FPPG', 'FPPM', 'G', 'MPG', 'PPG', 'RPG', 'APG', 'BPG', 'SPG', 'OWN', 'ADP', 'CON', 'Poss/G', 'FPPP', 'Age', 'Team', 'Action', 'Watch', 'FILTERS']
-Prima riga: ['N. Jokic, DEN, C', '49.8', '1.43', '65', '34.8', '27.7', '12.9', '10.7', '0.8', '1.4', '99.3', '2.4', '$59.0M', '', '0.00', '31.7', 'SPI', '-', 'Watch', 'pos=c|mpg>10|mpg>20|mpg>30|age>25|age>30|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|Nikola']
+Prima riga: ['N. Jokic, DEN, C', '49.8', '1.43', '65', '34.8', '27.7', '12.9', '10.7', '0.8', '1.4', '99.4', '2.4', '$59.0M', '', '0.00', '31.7', 'SPI', '-', 'Watch', 'pos=c|mpg>10|mpg>20|mpg>30|age>25|age>30|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|Nikola']
 Pagina 1: 1247 nuove righe (totale 1247)
 Salvati 1247 giocatori, di cui 1121 liberi
