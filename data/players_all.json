@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T16:05:00+00:00",
+ "updated": "2026-10-12T20:00:21+00:00",
  "count": 1247,
  "columns": [
   "Player",
@@ -1259,8 +1259,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "30.1",
-   "Team": "-",
-   "FILTERS": "pos=g|mpg>10|mpg>20|FTavail|age>25|age>30|NBAteam|g>5|g>10|Dejounte"
+   "Team": "VIL",
+   "FILTERS": "pos=g|mpg>10|mpg>20|age>25|age>30|NBAteam|g>5|g>10|Dejounte"
   },
   {
    "Player": "D. White, BOS, G",
@@ -1359,8 +1359,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "24.3",
-   "Team": "-",
-   "FILTERS": "pos=g|mpg>10|mpg>20|mpg>30|FTavail|age<25|age<30|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|g>70|con<5|con<10|con<15|con<20|Ryan"
+   "Team": "VEG",
+   "FILTERS": "pos=g|mpg>10|mpg>20|mpg>30|age<25|age<30|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|g>70|con<5|con<10|con<15|con<20|Ryan"
   },
   {
    "Player": "P. George, BOS, F",
@@ -1679,8 +1679,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "28.7",
-   "Team": "-",
-   "FILTERS": "pos=g|mpg>10|mpg>20|mpg>30|FTavail|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|g>70|con<10|con<15|con<20|Payton"
+   "Team": "PHO",
+   "FILTERS": "pos=g|mpg>10|mpg>20|mpg>30|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|g>70|con<10|con<15|con<20|Payton"
   },
   {
    "Player": "R. Westbrook, SAC, GF",
@@ -1739,8 +1739,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "35.1",
-   "Team": "-",
-   "FILTERS": "pos=g|mpg>10|mpg>20|FTavail|age>25|age>30|NBAteam|g>5|g>10|g>20|g>30|g>50|g>70|CJ"
+   "Team": "VEG",
+   "FILTERS": "pos=g|mpg>10|mpg>20|age>25|age>30|NBAteam|g>5|g>10|g>20|g>30|g>50|g>70|CJ"
   },
   {
    "Player": "J. Nurkic, UTA, C",
@@ -1779,8 +1779,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "23.4",
-   "Team": "-",
-   "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|mpg>30|FTavail|age<25|age<30|NBAteam|g>5|g>10|g>20|g>30|g>50|g>70|Dyson"
+   "Team": "SAN",
+   "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|mpg>30|age<25|age<30|NBAteam|g>5|g>10|g>20|g>30|g>50|g>70|Dyson"
   },
   {
    "Player": "R. Gobert, MIN, C",
@@ -2179,8 +2179,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "24.7",
-   "Team": "-",
-   "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|FTavail|age<25|age<30|NBAteam|g>5|g>10|g>20|g>30|Jalen"
+   "Team": "BOL",
+   "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|age<25|age<30|NBAteam|g>5|g>10|g>20|g>30|Jalen"
   },
   {
    "Player": "M. Bridges, NYK, F",
@@ -2239,8 +2239,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "26.7",
-   "Team": "-",
-   "FILTERS": "pos=g|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|g>5|g>10|g>20|g>30|Coby"
+   "Team": "PUN",
+   "FILTERS": "pos=g|mpg>10|mpg>20|age<30|age>25|NBAteam|g>5|g>10|g>20|g>30|Coby"
   },
   {
    "Player": "N. Marshall, DAL, GF",
@@ -12679,8 +12679,8 @@
    "Poss/G": "",
    "FPPP": "",
    "Age": "34.6",
-   "Team": "-",
-   "FILTERS": "pos=g|FTavail|age>25|age>30|NBAteam|Disney|Kyrie"
+   "Team": "WAS",
+   "FILTERS": "pos=g|age>25|age>30|NBAteam|Disney|Kyrie"
   },
   {
    "Player": "E. Okorie, DET, G",
