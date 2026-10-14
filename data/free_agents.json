@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-14T15:12:27+00:00",
- "count": 1053,
+ "updated": "2026-10-14T17:10:47+00:00",
+ "count": 1049,
  "columns": [
   "Player",
   "FPPG",
@@ -22,26 +22,6 @@
   "FILTERS"
  ],
  "players": [
-  {
-   "Player": "J. Butler, GSW, F",
-   "FPPG": "30.5",
-   "FPPM": "0.98",
-   "G": "38",
-   "MPG": "31.1",
-   "PPG": "20.0",
-   "RPG": "5.6",
-   "APG": "4.9",
-   "BPG": "0.2",
-   "SPG": "1.4",
-   "OWN": "79.4",
-   "ADP": "100.5",
-   "CON": "$56.8M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "37.1",
-   "Team": "-",
-   "FILTERS": "pos=f|mpg>10|mpg>20|mpg>30|FTavail|age>25|age>30|NBAteam|g>5|g>10|g>20|g>30|Jimmy"
-  },
   {
    "Player": "R. Westbrook, SAC, GF",
    "FPPG": "25.5",
@@ -101,26 +81,6 @@
    "Age": "24.1",
    "Team": "-",
    "FILTERS": "pos=g|mpg>10|mpg>20|mpg>30|FTavail|age<25|age<30|NBAteam|Disney|g>5|g>10|con<2|con<5|con<10|con<15|con<20|Kennedy"
-  },
-  {
-   "Player": "S. Aldama, DAL, F",
-   "FPPG": "23.9",
-   "FPPM": "0.86",
-   "G": "43",
-   "MPG": "27.9",
-   "PPG": "14.0",
-   "RPG": "6.7",
-   "APG": "2.9",
-   "BPG": "0.7",
-   "SPG": "0.9",
-   "OWN": "92.1",
-   "ADP": "103.4",
-   "CON": "$17.0M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "25.8",
-   "Team": "-",
-   "FILTERS": "pos=f|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|g>30|con<20|Santi"
   },
   {
    "Player": "J. Reese, *FA, C",
@@ -1043,26 +1003,6 @@
    "FILTERS": "pos=c|mpg>10|mpg>20|FTavail|age>25|age>30|NBAteam|g>5|g>10|g>20|g>30|g>50|con<15|con<20|Jock"
   },
   {
-   "Player": "S. Pippen Jr., MEM, G",
-   "FPPG": "17.9",
-   "FPPM": "0.84",
-   "G": "10",
-   "MPG": "21.2",
-   "PPG": "11.4",
-   "RPG": "2.2",
-   "APG": "4.7",
-   "BPG": "0.4",
-   "SPG": "1.9",
-   "OWN": "79.4",
-   "ADP": "139.7",
-   "CON": "$2.5M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "25.9",
-   "Team": "-",
-   "FILTERS": "pos=g|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|Disney|g>5|con<5|con<10|con<15|con<20|Scotty"
-  },
-  {
    "Player": "N. Clowney, BKN, F",
    "FPPG": "17.9",
    "FPPM": "0.66",
@@ -1081,26 +1021,6 @@
    "Age": "22.3",
    "Team": "-",
    "FILTERS": "pos=f|mpg>10|mpg>20|FTavail|age<25|age<30|NBAteam|g>5|g>10|g>20|g>30|g>50|con<10|con<15|con<20|Noah"
-  },
-  {
-   "Player": "O. Toppin, IND, F",
-   "FPPG": "17.7",
-   "FPPM": "1.00",
-   "G": "24",
-   "MPG": "17.7",
-   "PPG": "11.6",
-   "RPG": "4.4",
-   "APG": "2.3",
-   "BPG": "0.0",
-   "SPG": "0.5",
-   "OWN": "81.0",
-   "ADP": "128.2",
-   "CON": "$15.0M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "28.6",
-   "Team": "-",
-   "FILTERS": "pos=f|mpg>10|FTavail|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|con<20|Obi"
   },
   {
    "Player": "S. Merrill, CLE, GF",
