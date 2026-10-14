@@ -13,7 +13,6 @@ Player,FPPG,FPPM,G,MPG,PPG,RPG,APG,BPG,SPG,OWN,ADP,CON,Poss/G,FPPP,Age,Team,FILT
 "G. Allen, CHA, G",23.3,0.81,51,28.8,16.5,3.0,3.8,0.3,1.4,60.8,159.8,$18.1M,,0.00,31.0,-,pos=g|mpg>10|mpg>20|FTavail|age>25|age>30|NBAteam|g>5|g>10|g>20|g>30|g>50|con<20|Grayson
 "P. Washington, DAL, F",23.3,0.75,56,31.0,14.2,7.0,1.8,1.1,1.0,59.3,143.5,$19.8M,,0.00,28.2,-,pos=f|mpg>10|mpg>20|mpg>30|FTavail|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|con<20|P.J.
 "J. Suggs, ORL, G",23.0,0.83,57,27.6,13.8,3.9,5.5,0.7,1.8,77.2,115.3,$32.4M,,0.00,25.4,-,pos=g|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|Jalen
-"N. Marshall, DAL, GF",22.8,0.77,74,29.5,15.2,4.7,3.3,0.1,1.1,73.5,137.1,$9.4M,,0.00,28.7,-,pos=g|pos=gf|pos=f|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|g>70|con<10|con<15|con<20|Naji
 "K. Murray, SAC, F",22.8,0.66,23,34.5,14.0,5.7,1.7,1.6,1.0,55.0,152.2,$24.1M,,0.00,26.2,-,pos=f|mpg>10|mpg>20|mpg>30|FTavail|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|Keegan
 "J. McDaniels, MIN, F",22.1,0.70,73,31.7,14.8,4.2,2.7,1.0,1.1,74.1,126.5,$26.2M,,0.00,26.1,-,pos=f|mpg>10|mpg>20|mpg>30|FTavail|age<30|age>25|NBAteam|g>5|g>10|g>20|g>30|g>50|g>70|Jaden
 "D. Ayton, WAS, C",21.7,0.80,72,27.2,12.5,8.0,0.8,1.0,0.6,81.5,112.1,$8.1M,,0.00,28.2,-,pos=c|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|g>70|con<10|con<15|con<20|Deandre
