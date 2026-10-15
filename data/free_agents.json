@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-15T10:42:28+00:00",
- "count": 1037,
+ "updated": "2026-10-15T12:44:18+00:00",
+ "count": 1035,
  "columns": [
   "Player",
   "FPPG",
@@ -101,26 +101,6 @@
    "Age": "23.3",
    "Team": "-",
    "FILTERS": "pos=c|mpg>10|mpg>20|mpg>30|FTavail|age<25|age<30|NBAteam|g>5|g>10|con<2|con<5|con<10|con<15|con<20|Julian"
-  },
-  {
-   "Player": "A. Wiggins, MIA, F",
-   "FPPG": "23.5",
-   "FPPM": "0.77",
-   "G": "68",
-   "MPG": "30.3",
-   "PPG": "15.4",
-   "RPG": "4.8",
-   "APG": "2.7",
-   "BPG": "1.0",
-   "SPG": "1.1",
-   "OWN": "74.5",
-   "ADP": "128.9",
-   "CON": "$30.2M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "31.7",
-   "Team": "-",
-   "FILTERS": "pos=f|mpg>10|mpg>20|mpg>30|FTavail|age>25|age>30|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|Andrew"
   },
   {
    "Player": "G. Allen, CHA, G",
@@ -1161,26 +1141,6 @@
    "Age": "25.4",
    "Team": "-",
    "FILTERS": "pos=f|pos=fc|pos=c|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|con<20|Isaiah"
-  },
-  {
-   "Player": "T. McConnell, IND, G",
-   "FPPG": "16.8",
-   "FPPM": "0.97",
-   "G": "56",
-   "MPG": "17.2",
-   "PPG": "9.4",
-   "RPG": "2.2",
-   "APG": "5.1",
-   "BPG": "0.2",
-   "SPG": "1.0",
-   "OWN": "83.0",
-   "ADP": "122.7",
-   "CON": "$11.0M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "34.6",
-   "Team": "-",
-   "FILTERS": "pos=g|mpg>10|FTavail|age>25|age>30|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|con<15|con<20|T.J."
   },
   {
    "Player": "M. Monk, SAC, G",
