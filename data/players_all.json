@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T06:48:22+00:00",
+ "updated": "2026-10-15T10:42:28+00:00",
  "count": 1245,
  "columns": [
   "Player",
@@ -2219,8 +2219,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "25.4",
-   "Team": "-",
-   "FILTERS": "pos=g|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|Jalen"
+   "Team": "SAL",
+   "FILTERS": "pos=g|mpg>10|mpg>20|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|Jalen"
   },
   {
    "Player": "C. White, CHA, G",
@@ -2619,8 +2619,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "24.8",
-   "Team": "-",
-   "FILTERS": "pos=c|mpg>10|mpg>20|FTavail|age<25|age<30|NBAteam|g>5|g>10|g>20|g>30|g>50|con<15|con<20|Mark"
+   "Team": "IDA",
+   "FILTERS": "pos=c|mpg>10|mpg>20|age<25|age<30|NBAteam|g>5|g>10|g>20|g>30|g>50|con<15|con<20|Mark"
   },
   {
    "Player": "C. Gillespie, PHX, G",
@@ -2659,8 +2659,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "34.3",
-   "Team": "-",
-   "FILTERS": "pos=f|mpg>10|mpg>20|FTavail|age>25|age>30|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|con<20|Tobias"
+   "Team": "PHO",
+   "FILTERS": "pos=f|mpg>10|mpg>20|age>25|age>30|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|con<20|Tobias"
   },
   {
    "Player": "K. Oubre Jr., IND, F",
@@ -2919,8 +2919,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "22.0",
-   "Team": "-",
-   "FILTERS": "pos=g|mpg>10|mpg>20|FTavail|age<25|age<30|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|con<5|con<10|con<15|con<20|Isaiah"
+   "Team": "VIC",
+   "FILTERS": "pos=g|mpg>10|mpg>20|age<25|age<30|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|con<5|con<10|con<15|con<20|Isaiah"
   },
   {
    "Player": "C. Sexton, LAL, G",
@@ -3119,8 +3119,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "31.2",
-   "Team": "-",
-   "FILTERS": "pos=f|mpg>10|mpg>20|FTavail|age>25|age>30|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|Kyle"
+   "Team": "ALT",
+   "FILTERS": "pos=f|mpg>10|mpg>20|age>25|age>30|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|Kyle"
   },
   {
    "Player": "C. Braun, DEN, GF",
@@ -3419,8 +3419,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "23.1",
-   "Team": "-",
-   "FILTERS": "pos=f|mpg>10|mpg>20|FTavail|age<25|age<30|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|g>70|con<10|con<15|con<20|Jarace"
+   "Team": "ZUC",
+   "FILTERS": "pos=f|mpg>10|mpg>20|age<25|age<30|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|g>70|con<10|con<15|con<20|Jarace"
   },
   {
    "Player": "A. Simons, PHI, G",
@@ -4299,8 +4299,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "28.2",
-   "Team": "-",
-   "FILTERS": "pos=c|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|g>70|con<5|con<10|con<15|con<20|Jay"
+   "Team": "OPE",
+   "FILTERS": "pos=c|mpg>10|mpg>20|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|g>70|con<5|con<10|con<15|con<20|Jay"
   },
   {
    "Player": "T. Johnson, WAS, G",
@@ -9219,8 +9219,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "19.9",
-   "Team": "-",
-   "FILTERS": "pos=f|pos=fc|pos=c|FTavail|age<25|age<30|NBAteam|g>5|g>10|g>20|g>30|con<5|con<10|con<15|con<20|Joan"
+   "Team": "VIL",
+   "FILTERS": "pos=f|pos=fc|pos=c|age<25|age<30|NBAteam|g>5|g>10|g>20|g>30|con<5|con<10|con<15|con<20|Joan"
   },
   {
    "Player": "R. Fleming, PHX, F",
@@ -11679,8 +11679,8 @@
    "Poss/G": "",
    "FPPP": "",
    "Age": "22.7",
-   "Team": "-",
-   "FILTERS": "pos=f|FTavail|age<25|age<30|NBAteam|Disney|con<2|con<5|con<10|con<15|con<20|Baba"
+   "Team": "SAN",
+   "FILTERS": "pos=f|age<25|age<30|NBAteam|Disney|con<2|con<5|con<10|con<15|con<20|Baba"
   },
   {
    "Player": "G. Riller, *FA, G",
