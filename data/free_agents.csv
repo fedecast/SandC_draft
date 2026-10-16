@@ -380,7 +380,6 @@ Player,FPPG,FPPM,G,MPG,PPG,RPG,APG,BPG,SPG,OWN,ADP,CON,Poss/G,FPPP,Age,Team,FILT
 "I. Evans, MIN, F",,,,,,,,,,14.2,128.9,$1.4M,,,20.9,-,pos=f|FTavail|age<25|age<30|NBAteam|con<2|con<5|con<10|con<15|con<20|Isaiah
 "A. Pony, *FA, G",,,,,,,,,,0.4,62.6,$-M,,,38.8,-,pos=g|FTavail|age>25|age>30|con<2|con<5|con<10|con<15|con<20|A
 "I. Mobley, *FA, C",,,,,,,,,,0.4,450,$-M,,,27.1,-,pos=c|FTavail|age<30|age>25|con<2|con<5|con<10|con<15|con<20|Isaiah
-"M. Hezonja, CLE, F",,,,,,,,,,30.5,199.4,$2.4M,,,31.7,-,pos=f|FTavail|age>25|age>30|NBAteam|con<5|con<10|con<15|con<20|Mario
 "N. Djurisic, *FA, GF",,,,,,,,,,0.4,450,$-M,,,22.7,-,pos=g|pos=gf|pos=f|FTavail|age<25|age<30|con<2|con<5|con<10|con<15|con<20|Nikola
 "A. Diallo, DEN, GF",,,,,,,,,,5.8,170.6,$1.4M,,,29.3,-,pos=g|pos=gf|pos=f|FTavail|age<30|age>25|NBAteam|Disney|con<2|con<5|con<10|con<15|con<20|Alpha
 "J. McDaniels, *FA, F",,,,,,,,,,0.4,450,$-M,,,28.7,-,pos=f|FTavail|age<30|age>25|con<2|con<5|con<10|con<15|con<20|Jalen

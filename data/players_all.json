@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T15:48:52+00:00",
+ "updated": "2026-10-16T15:56:51+00:00",
  "count": 1245,
  "columns": [
   "Player",
@@ -11939,8 +11939,8 @@
    "Poss/G": "",
    "FPPP": "",
    "Age": "31.7",
-   "Team": "-",
-   "FILTERS": "pos=f|FTavail|age>25|age>30|NBAteam|con<5|con<10|con<15|con<20|Mario"
+   "Team": "VIL",
+   "FILTERS": "pos=f|age>25|age>30|NBAteam|con<5|con<10|con<15|con<20|Mario"
   },
   {
    "Player": "N. Djurisic, *FA, GF",

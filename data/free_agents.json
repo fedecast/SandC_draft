@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-16T15:48:52+00:00",
- "count": 996,
+ "updated": "2026-10-16T15:56:51+00:00",
+ "count": 995,
  "columns": [
   "Player",
   "FPPG",
@@ -7641,26 +7641,6 @@
    "Age": "27.1",
    "Team": "-",
    "FILTERS": "pos=c|FTavail|age<30|age>25|con<2|con<5|con<10|con<15|con<20|Isaiah"
-  },
-  {
-   "Player": "M. Hezonja, CLE, F",
-   "FPPG": "",
-   "FPPM": "",
-   "G": "",
-   "MPG": "",
-   "PPG": "",
-   "RPG": "",
-   "APG": "",
-   "BPG": "",
-   "SPG": "",
-   "OWN": "30.5",
-   "ADP": "199.4",
-   "CON": "$2.4M",
-   "Poss/G": "",
-   "FPPP": "",
-   "Age": "31.7",
-   "Team": "-",
-   "FILTERS": "pos=f|FTavail|age>25|age>30|NBAteam|con<5|con<10|con<15|con<20|Mario"
   },
   {
    "Player": "N. Djurisic, *FA, GF",
