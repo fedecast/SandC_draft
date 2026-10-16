@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T06:23:11+00:00",
+ "updated": "2026-10-16T09:32:44+00:00",
  "count": 1245,
  "columns": [
   "Player",
@@ -3099,8 +3099,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "27.0",
-   "Team": "-",
-   "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|g>30|con<15|con<20|Aaron"
+   "Team": "PUN",
+   "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|g>30|con<15|con<20|Aaron"
   },
   {
    "Player": "K. Kuzma, MIL, F",
@@ -3359,8 +3359,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "30.6",
-   "Team": "-",
-   "FILTERS": "pos=f|mpg>10|mpg>20|mpg>30|FTavail|age>25|age>30|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|Cameron"
+   "Team": "PHO",
+   "FILTERS": "pos=f|mpg>10|mpg>20|mpg>30|age>25|age>30|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|Cameron"
   },
   {
    "Player": "D. Harper, SAS, G",
@@ -3479,8 +3479,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "25.5",
-   "Team": "-",
-   "FILTERS": "pos=f|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|con<15|con<20|Tari"
+   "Team": "SAL",
+   "FILTERS": "pos=f|mpg>10|mpg>20|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|con<15|con<20|Tari"
   },
   {
    "Player": "J. Smith, CHI, FC",
@@ -3599,8 +3599,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "27.6",
-   "Team": "-",
-   "FILTERS": "pos=c|mpg>10|FTavail|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|con<5|con<10|con<15|con<20|Marvin"
+   "Team": "IDA",
+   "FILTERS": "pos=c|mpg>10|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|con<5|con<10|con<15|con<20|Marvin"
   },
   {
    "Player": "M. Strus, LAC, F",
@@ -3659,8 +3659,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "31.0",
-   "Team": "-",
-   "FILTERS": "pos=c|mpg>10|mpg>20|FTavail|age>25|age>30|NBAteam|g>5|g>10|g>20|g>30|g>50|con<15|con<20|Jock"
+   "Team": "LEV",
+   "FILTERS": "pos=c|mpg>10|mpg>20|FTuser|age>25|age>30|NBAteam|g>5|g>10|g>20|g>30|g>50|con<15|con<20|Jock"
   },
   {
    "Player": "G. Jackson II, MEM, F",
@@ -3839,8 +3839,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "33.1",
-   "Team": "-",
-   "FILTERS": "pos=g|mpg>10|mpg>20|FTavail|age>25|age>30|NBAteam|g>5|g>10|g>20|g>30|g>50|con<15|con<20|Dennis"
+   "Team": "SPI",
+   "FILTERS": "pos=g|mpg>10|mpg>20|age>25|age>30|NBAteam|g>5|g>10|g>20|g>30|g>50|con<15|con<20|Dennis"
   },
   {
    "Player": "T. Hardaway Jr., MIA, GF",
@@ -4219,8 +4219,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "33.2",
-   "Team": "-",
-   "FILTERS": "pos=c|mpg>10|FTavail|age>25|age>30|NBAteam|g>5|g>10|g>20|g>30|g>50|con<5|con<10|con<15|con<20|Andre"
+   "Team": "ZUC",
+   "FILTERS": "pos=c|mpg>10|age>25|age>30|NBAteam|g>5|g>10|g>20|g>30|g>50|con<5|con<10|con<15|con<20|Andre"
   },
   {
    "Player": "J. Goodwin, PHX, G",
@@ -4899,8 +4899,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "24.3",
-   "Team": "-",
-   "FILTERS": "pos=f|mpg>10|mpg>20|FTavail|age<25|age<30|NBAteam|g>5|g>10|g>20|g>30|g>50|con<5|con<10|con<15|con<20|Gui"
+   "Team": "VIC",
+   "FILTERS": "pos=f|mpg>10|mpg>20|age<25|age<30|NBAteam|g>5|g>10|g>20|g>30|g>50|con<5|con<10|con<15|con<20|Gui"
   },
   {
    "Player": "J. Miller, LAC, GF",
@@ -7179,8 +7179,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "29.5",
-   "Team": "-",
-   "FILTERS": "pos=c|mpg>10|FTavail|age<30|age>25|NBAteam|g>5|g>10|g>20|g>30|con<10|con<15|con<20|Moritz"
+   "Team": "VIL",
+   "FILTERS": "pos=c|mpg>10|age<30|age>25|NBAteam|g>5|g>10|g>20|g>30|con<10|con<15|con<20|Moritz"
   },
   {
    "Player": "K. Ellis, BKN, G",
