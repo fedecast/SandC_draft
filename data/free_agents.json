@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-16T11:50:00+00:00",
- "count": 999,
+ "updated": "2026-10-16T15:48:52+00:00",
+ "count": 996,
  "columns": [
   "Player",
   "FPPG",
@@ -183,26 +183,6 @@
    "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|Disney|con<2|con<5|con<10|con<15|con<20|Alondes"
   },
   {
-   "Player": "Q. Grimes, LAL, GF",
-   "FPPG": "19.8",
-   "FPPM": "0.67",
-   "G": "75",
-   "MPG": "29.4",
-   "PPG": "13.4",
-   "RPG": "3.6",
-   "APG": "3.3",
-   "BPG": "0.4",
-   "SPG": "0.9",
-   "OWN": "65.9",
-   "ADP": "146.4",
-   "CON": "$14.0M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "26.5",
-   "Team": "-",
-   "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|g>70|con<15|con<20|Quentin"
-  },
-  {
    "Player": "C. Braun, DEN, GF",
    "FPPG": "19.5",
    "FPPM": "0.61",
@@ -221,26 +201,6 @@
    "Age": "25.5",
    "Team": "-",
    "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|mpg>30|FTavail|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|g>30|Christian"
-  },
-  {
-   "Player": "B. Coulibaly, WAS, GF",
-   "FPPG": "19.5",
-   "FPPM": "0.74",
-   "G": "56",
-   "MPG": "26.2",
-   "PPG": "11.7",
-   "RPG": "4.3",
-   "APG": "2.6",
-   "BPG": "1.0",
-   "SPG": "1.3",
-   "OWN": "58.8",
-   "ADP": "155.1",
-   "CON": "$9.2M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "22.2",
-   "Team": "-",
-   "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|FTavail|age<25|age<30|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|con<10|con<15|con<20|Bilal"
   },
   {
    "Player": "D. Hunter, SAC, F",
@@ -721,26 +681,6 @@
    "Age": "40.4",
    "Team": "-",
    "FILTERS": "pos=c|mpg>10|mpg>20|FTavail|age>25|age>30|NBAteam|g>5|g>10|g>20|g>30|con<10|con<15|con<20|Al"
-  },
-  {
-   "Player": "J. Goodwin, PHX, G",
-   "FPPG": "16.5",
-   "FPPM": "0.73",
-   "G": "70",
-   "MPG": "22.4",
-   "PPG": "8.7",
-   "RPG": "4.9",
-   "APG": "2.1",
-   "BPG": "0.2",
-   "SPG": "1.5",
-   "OWN": "43.8",
-   "ADP": "177.9",
-   "CON": "$5.9M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "28.0",
-   "Team": "-",
-   "FILTERS": "pos=g|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|g>5|g>10|g>20|g>30|g>50|con<10|con<15|con<20|Jordan"
   },
   {
    "Player": "Z. Collins, CHI, C",

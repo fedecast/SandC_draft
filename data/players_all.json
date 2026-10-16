@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T11:50:00+00:00",
+ "updated": "2026-10-16T15:48:52+00:00",
  "count": 1245,
  "columns": [
   "Player",
@@ -3059,8 +3059,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "26.5",
-   "Team": "-",
-   "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|g>70|con<15|con<20|Quentin"
+   "Team": "SPI",
+   "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|age<30|age>25|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|g>70|con<15|con<20|Quentin"
   },
   {
    "Player": "A. Bailey, UTA, F",
@@ -3159,8 +3159,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "22.2",
-   "Team": "-",
-   "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|FTavail|age<25|age<30|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|con<10|con<15|con<20|Bilal"
+   "Team": "LEV",
+   "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|FTuser|age<25|age<30|NBAteam|Disney|g>5|g>10|g>20|g>30|g>50|con<10|con<15|con<20|Bilal"
   },
   {
    "Player": "S. Henderson, POR, G",
@@ -4239,8 +4239,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "28.0",
-   "Team": "-",
-   "FILTERS": "pos=g|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|g>5|g>10|g>20|g>30|g>50|con<10|con<15|con<20|Jordan"
+   "Team": "OPE",
+   "FILTERS": "pos=g|mpg>10|mpg>20|age<30|age>25|NBAteam|g>5|g>10|g>20|g>30|g>50|con<10|con<15|con<20|Jordan"
   },
   {
    "Player": "Z. Collins, CHI, C",
