@@ -1,9 +1,9 @@
-Avvio: 2026-10-22T01:44:09+00:00
+Avvio: 2026-10-22T06:40:01+00:00
 Login: click
 Contesto lega: https://sports.ws/fantasy-basketball/league/
 Pagina statistiche: https://sports.ws/nba/stats | Sports.ws | Fantasy Basketball
 DataTable righe totali: 1263 | select impostata a: None
 Colonne: ['Player', 'FPPG', 'FPPM', 'G', 'MPG', 'PPG', 'RPG', 'APG', 'BPG', 'SPG', 'OWN', 'ADP', 'CON', 'Poss/G', 'FPPP', 'Age', 'Team', 'Action', 'Watch', 'FILTERS']
-Prima riga: ['P. George, BOS, F', '48.0', '1.57', '1', '30.6', '38.0', '5.0', '3.0', '0.0', '5.0', '86.2', '94.9', '$54.1M', '', '0.00', '36.5', 'SAN', 'Trade', 'Watch', 'pos=f|mpg>10|mpg>20|mpg>30|age>25|age>30|NBAteam|Disney|Paul']
+Prima riga: ['T. Jerome, MEM, G', '58.0', '1.83', '1', '31.7', '45.0', '7.0', '6.0', '1.0', '0.0', '97.2', '71.9', '$9.2M', '', '0.00', '29.3', 'ALT', 'Trade', 'Watch', 'pos=g|mpg>10|mpg>20|mpg>30|age<30|age>25|NBAteam|Disney|con<10|con<15|con<20|Ty']
 Pagina 1: 1260 nuove righe (totale 1260)
 Salvati 1260 giocatori, di cui 1003 liberi
