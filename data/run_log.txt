@@ -1,4 +1,4 @@
-Avvio: 2026-10-22T06:40:01+00:00
+Avvio: 2026-10-22T12:37:30+00:00
 Login: click
 Contesto lega: https://sports.ws/fantasy-basketball/league/
 Pagina statistiche: https://sports.ws/nba/stats | Sports.ws | Fantasy Basketball
