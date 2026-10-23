@@ -86,6 +86,14 @@
   },
   {
    "tag": "A",
+   "text": "D. Mitchell",
+   "cls": "",
+   "href": "/nba/donovan-mitchell",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
    "text": "T. Maxey",
    "cls": "",
    "href": "/nba/tyrese-maxey",
@@ -217,14 +225,6 @@
    "text": "D. Lillard",
    "cls": "",
    "href": "/nba/damian-lillard",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "D. Murray",
-   "cls": "",
-   "href": "/nba/dejounte-murray",
    "onclick": "",
    "opts": null
   },
