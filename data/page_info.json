@@ -70,14 +70,6 @@
   },
   {
    "tag": "A",
-   "text": "S. Gilgeous-Alexander",
-   "cls": "",
-   "href": "/nba/shai-gilgeous-alexander",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
    "text": "J. Randle",
    "cls": "",
    "href": "/nba/julius-randle",
@@ -217,6 +209,14 @@
    "text": "Y. Missi",
    "cls": "",
    "href": "/nba/yves-missi",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "S. Gilgeous-Alexander",
+   "cls": "",
+   "href": "/nba/shai-gilgeous-alexander",
    "onclick": "",
    "opts": null
   },
