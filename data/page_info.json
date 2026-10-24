@@ -150,6 +150,14 @@
   },
   {
    "tag": "A",
+   "text": "T. Herro",
+   "cls": "",
+   "href": "/nba/tyler-herro",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
    "text": "K. Durant",
    "cls": "",
    "href": "/nba/kevin-durant",
@@ -217,14 +225,6 @@
    "text": "S. Gilgeous-Alexander",
    "cls": "",
    "href": "/nba/shai-gilgeous-alexander",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "D. Lillard",
-   "cls": "",
-   "href": "/nba/damian-lillard",
    "onclick": "",
    "opts": null
   },
