@@ -30,70 +30,6 @@
   },
   {
    "tag": "A",
-   "text": "T. Jerome",
-   "cls": "",
-   "href": "/nba/ty-jerome",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "D. Sabonis",
-   "cls": "",
-   "href": "/nba/domantas-sabonis",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "N. Jokic",
-   "cls": "",
-   "href": "/nba/nikola-jokic",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "D. Booker",
-   "cls": "",
-   "href": "/nba/devin-booker",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "J. Johnson",
-   "cls": "",
-   "href": "/nba/jalen-johnson",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "A. Edwards",
-   "cls": "",
-   "href": "/nba/anthony-edwards",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "J. Tatum",
-   "cls": "",
-   "href": "/nba/jayson-tatum",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "W. Kessler",
-   "cls": "",
-   "href": "/nba/walker-kessler",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
    "text": "G. Antetokounmpo",
    "cls": "",
    "href": "/nba/giannis-antetokounmpo",
@@ -102,33 +38,9 @@
   },
   {
    "tag": "A",
-   "text": "S. Barnes",
-   "cls": "",
-   "href": "/nba/scottie-barnes",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "T. Maxey",
-   "cls": "",
-   "href": "/nba/tyrese-maxey",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
    "text": "J. Randle",
    "cls": "",
    "href": "/nba/julius-randle",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "M. Porter Jr.",
-   "cls": "",
-   "href": "/nba/michael-porter-jr",
    "onclick": "",
    "opts": null
   },
@@ -150,81 +62,169 @@
   },
   {
    "tag": "A",
-   "text": "D. Mitchell",
+   "text": "K. Durant",
    "cls": "",
-   "href": "/nba/donovan-mitchell",
+   "href": "/nba/kevin-durant",
    "onclick": "",
    "opts": null
   },
   {
    "tag": "A",
-   "text": "A. Sengun",
+   "text": "A. Davis",
    "cls": "",
-   "href": "/nba/alperen-sengun",
+   "href": "/nba/anthony-davis",
    "onclick": "",
    "opts": null
   },
   {
    "tag": "A",
-   "text": "P. Banchero",
+   "text": "L. James",
    "cls": "",
-   "href": "/nba/paolo-banchero",
+   "href": "/nba/lebron-james",
    "onclick": "",
    "opts": null
   },
   {
    "tag": "A",
-   "text": "V. Wembanyama",
+   "text": "K. Leonard",
    "cls": "",
-   "href": "/nba/victor-wembanyama",
+   "href": "/nba/kawhi-leonard",
    "onclick": "",
    "opts": null
   },
   {
    "tag": "A",
-   "text": "S. Gilgeous-Alexander",
+   "text": "D. Lillard",
    "cls": "",
-   "href": "/nba/shai-gilgeous-alexander",
+   "href": "/nba/damian-lillard",
    "onclick": "",
    "opts": null
   },
   {
    "tag": "A",
-   "text": "D. Avdija",
+   "text": "Z. LaVine",
    "cls": "",
-   "href": "/nba/deni-avdija",
+   "href": "/nba/zach-lavine",
    "onclick": "",
    "opts": null
   },
   {
    "tag": "A",
-   "text": "T. Young",
+   "text": "B. Lopez",
    "cls": "",
-   "href": "/nba/trae-young",
+   "href": "/nba/brook-lopez",
    "onclick": "",
    "opts": null
   },
   {
    "tag": "A",
-   "text": "J. Murray",
+   "text": "S. Curry",
    "cls": "",
-   "href": "/nba/jamal-murray",
+   "href": "/nba/stephen-curry",
    "onclick": "",
    "opts": null
   },
   {
    "tag": "A",
-   "text": "A. Reaves",
+   "text": "K. Irving",
    "cls": "",
-   "href": "/nba/austin-reaves",
+   "href": "/nba/kyrie-irving",
    "onclick": "",
    "opts": null
   },
   {
    "tag": "A",
-   "text": "L. Doncic",
+   "text": "A. Gordon",
    "cls": "",
-   "href": "/nba/luka-doncic",
+   "href": "/nba/aaron-gordon",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "J. Harden",
+   "cls": "",
+   "href": "/nba/james-harden",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "D. Schroder",
+   "cls": "",
+   "href": "/nba/dennis-schroder",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "D. Jordan",
+   "cls": "",
+   "href": "/nba/deandre-jordan",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "R. Gobert",
+   "cls": "",
+   "href": "/nba/rudy-gobert",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "J. Holiday",
+   "cls": "",
+   "href": "/nba/jrue-holiday",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "C. McCollum",
+   "cls": "",
+   "href": "/nba/cj-mccollum",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "A. Drummond",
+   "cls": "",
+   "href": "/nba/andre-drummond",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "K. Caldwell-Pope",
+   "cls": "",
+   "href": "/nba/kentavious-caldwell-pope",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "D. DeRozan",
+   "cls": "",
+   "href": "/nba/demar-derozan",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "A. Wiggins",
+   "cls": "",
+   "href": "/nba/andrew-wiggins",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "K. Thompson",
+   "cls": "",
+   "href": "/nba/klay-thompson",
    "onclick": "",
    "opts": null
   },
