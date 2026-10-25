@@ -30,14 +30,6 @@
   },
   {
    "tag": "A",
-   "text": "J. Randle",
-   "cls": "",
-   "href": "/nba/julius-randle",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
    "text": "T. Jerome",
    "cls": "",
    "href": "/nba/ty-jerome",
@@ -54,9 +46,25 @@
   },
   {
    "tag": "A",
-   "text": "D. Mitchell",
+   "text": "N. Jokic",
    "cls": "",
-   "href": "/nba/donovan-mitchell",
+   "href": "/nba/nikola-jokic",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "D. Booker",
+   "cls": "",
+   "href": "/nba/devin-booker",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "J. Johnson",
+   "cls": "",
+   "href": "/nba/jalen-johnson",
    "onclick": "",
    "opts": null
   },
@@ -65,14 +73,6 @@
    "text": "A. Edwards",
    "cls": "",
    "href": "/nba/anthony-edwards",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "T. Maxey",
-   "cls": "",
-   "href": "/nba/tyrese-maxey",
    "onclick": "",
    "opts": null
   },
@@ -110,17 +110,25 @@
   },
   {
    "tag": "A",
-   "text": "T. Herro",
+   "text": "T. Maxey",
    "cls": "",
-   "href": "/nba/tyler-herro",
+   "href": "/nba/tyrese-maxey",
    "onclick": "",
    "opts": null
   },
   {
    "tag": "A",
-   "text": "A. Sengun",
+   "text": "J. Randle",
    "cls": "",
-   "href": "/nba/alperen-sengun",
+   "href": "/nba/julius-randle",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "M. Porter Jr.",
+   "cls": "",
+   "href": "/nba/michael-porter-jr",
    "onclick": "",
    "opts": null
   },
@@ -134,9 +142,25 @@
   },
   {
    "tag": "A",
-   "text": "J. Johnson",
+   "text": "J. Embiid",
    "cls": "",
-   "href": "/nba/jalen-johnson",
+   "href": "/nba/joel-embiid",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "D. Mitchell",
+   "cls": "",
+   "href": "/nba/donovan-mitchell",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "A. Sengun",
+   "cls": "",
+   "href": "/nba/alperen-sengun",
    "onclick": "",
    "opts": null
   },
@@ -166,6 +190,14 @@
   },
   {
    "tag": "A",
+   "text": "T. Young",
+   "cls": "",
+   "href": "/nba/trae-young",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
    "text": "D. Avdija",
    "cls": "",
    "href": "/nba/deni-avdija",
@@ -174,17 +206,9 @@
   },
   {
    "tag": "A",
-   "text": "K. Durant",
+   "text": "J. Murray",
    "cls": "",
-   "href": "/nba/kevin-durant",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "A. Davis",
-   "cls": "",
-   "href": "/nba/anthony-davis",
+   "href": "/nba/jamal-murray",
    "onclick": "",
    "opts": null
   },
@@ -201,30 +225,6 @@
    "text": "L. Doncic",
    "cls": "",
    "href": "/nba/luka-doncic",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "M. Porter Jr.",
-   "cls": "",
-   "href": "/nba/michael-porter-jr",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "T. Young",
-   "cls": "",
-   "href": "/nba/trae-young",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "T. Haliburton",
-   "cls": "",
-   "href": "/nba/tyrese-haliburton",
    "onclick": "",
    "opts": null
   },
