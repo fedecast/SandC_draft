@@ -30,14 +30,6 @@
   },
   {
    "tag": "A",
-   "text": "G. Antetokounmpo",
-   "cls": "",
-   "href": "/nba/giannis-antetokounmpo",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
    "text": "J. Randle",
    "cls": "",
    "href": "/nba/julius-randle",
@@ -97,6 +89,14 @@
    "text": "W. Kessler",
    "cls": "",
    "href": "/nba/walker-kessler",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "G. Antetokounmpo",
+   "cls": "",
+   "href": "/nba/giannis-antetokounmpo",
    "onclick": "",
    "opts": null
   },
