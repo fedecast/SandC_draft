@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T12:13:29+00:00",
+ "updated": "2026-10-27T18:06:45+00:00",
  "count": 1260,
  "columns": [
   "Player",
@@ -1124,8 +1124,8 @@
   },
   {
    "Player": "D. Garland, LAC, G",
-   "FPPG": "27.7",
-   "FPPM": "0.80",
+   "FPPG": "27.3",
+   "FPPM": "0.79",
    "G": "3",
    "MPG": "34.8",
    "PPG": "24.0",
@@ -1863,6 +1863,26 @@
    "FILTERS": "pos=f|mpg>10|mpg>20|FTuser|age<30|age>25|NBAteam|Disney|con<20|Obi"
   },
   {
+   "Player": "L. Markkanen, UTA, FC",
+   "FPPG": "22.5",
+   "FPPM": "0.79",
+   "G": "4",
+   "MPG": "28.6",
+   "PPG": "16.0",
+   "RPG": "5.5",
+   "APG": "1.8",
+   "BPG": "0.3",
+   "SPG": "0.3",
+   "OWN": "98.1",
+   "ADP": "34.5",
+   "CON": "$46.1M",
+   "Poss/G": "",
+   "FPPP": "0.00",
+   "Age": "29.5",
+   "Team": "VEG",
+   "FILTERS": "pos=f|pos=fc|pos=c|mpg>10|mpg>20|age<30|age>25|NBAteam|Disney|Lauri"
+  },
+  {
    "Player": "M. Diabate, CHA, C",
    "FPPG": "22.5",
    "FPPM": "0.81",
@@ -1901,26 +1921,6 @@
    "Age": "32.6",
    "Team": "-",
    "FILTERS": "pos=g|mpg>10|mpg>20|mpg>30|FTavail|age>25|age>30|NBAteam|Disney|con<10|con<15|con<20|Kris"
-  },
-  {
-   "Player": "L. Markkanen, UTA, FC",
-   "FPPG": "22.3",
-   "FPPM": "0.78",
-   "G": "4",
-   "MPG": "28.6",
-   "PPG": "16.0",
-   "RPG": "5.3",
-   "APG": "1.8",
-   "BPG": "0.3",
-   "SPG": "0.3",
-   "OWN": "98.1",
-   "ADP": "34.5",
-   "CON": "$46.1M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "29.5",
-   "Team": "VEG",
-   "FILTERS": "pos=f|pos=fc|pos=c|mpg>10|mpg>20|age<30|age>25|NBAteam|Disney|Lauri"
   },
   {
    "Player": "N. Marshall, DAL, GF",
@@ -2983,26 +2983,6 @@
    "FILTERS": "pos=f|mpg>10|mpg>20|age<25|age<30|NBAteam|con<15|con<20|Ausar"
   },
   {
-   "Player": "T. Shannon Jr., MIN, GF",
-   "FPPG": "18.0",
-   "FPPM": "0.81",
-   "G": "4",
-   "MPG": "22.1",
-   "PPG": "13.0",
-   "RPG": "3.3",
-   "APG": "2.5",
-   "BPG": "0.3",
-   "SPG": "0.5",
-   "OWN": "24.2",
-   "ADP": "225.9",
-   "CON": "$2.8M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "26.3",
-   "Team": "SAN",
-   "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|age<30|age>25|NBAteam|con<5|con<10|con<15|con<20|Terrence"
-  },
-  {
    "Player": "A. Sarr, WAS, C",
    "FPPG": "17.8",
    "FPPM": "0.73",
@@ -3021,6 +3001,26 @@
    "Age": "21.5",
    "Team": "OPE",
    "FILTERS": "pos=c|mpg>10|mpg>20|age<25|age<30|NBAteam|Disney|con<15|con<20|Alex"
+  },
+  {
+   "Player": "T. Shannon Jr., MIN, GF",
+   "FPPG": "17.8",
+   "FPPM": "0.80",
+   "G": "4",
+   "MPG": "22.1",
+   "PPG": "13.0",
+   "RPG": "3.3",
+   "APG": "2.5",
+   "BPG": "0.3",
+   "SPG": "0.5",
+   "OWN": "24.2",
+   "ADP": "225.9",
+   "CON": "$2.8M",
+   "Poss/G": "",
+   "FPPP": "0.00",
+   "Age": "26.3",
+   "Team": "SAN",
+   "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|age<30|age>25|NBAteam|con<5|con<10|con<15|con<20|Terrence"
   },
   {
    "Player": "T. da Silva, ORL, F",
@@ -3343,6 +3343,26 @@
    "FILTERS": "pos=c|mpg>10|age<30|age>25|NBAteam|Disney|con<15|con<20|Robert"
   },
   {
+   "Player": "R. Hachimura, LAC, F",
+   "FPPG": "16.0",
+   "FPPM": "0.51",
+   "G": "3",
+   "MPG": "31.2",
+   "PPG": "10.3",
+   "RPG": "6.0",
+   "APG": "1.0",
+   "BPG": "0.3",
+   "SPG": "1.0",
+   "OWN": "52.4",
+   "ADP": "148.5",
+   "CON": "$14.0M",
+   "Poss/G": "",
+   "FPPP": "0.00",
+   "Age": "28.7",
+   "Team": "PUN",
+   "FILTERS": "pos=f|mpg>10|mpg>20|mpg>30|age<30|age>25|NBAteam|Disney|con<15|con<20|Rui"
+  },
+  {
    "Player": "D. Vassell, SAS, GF",
    "FPPG": "16.0",
    "FPPM": "0.49",
@@ -3399,8 +3419,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "24.8",
-   "Team": "-",
-   "FILTERS": "pos=f|pos=fc|pos=c|mpg>10|FTavail|age<25|age<30|NBAteam|con<5|con<10|con<15|con<20|Josh"
+   "Team": "LEV",
+   "FILTERS": "pos=f|pos=fc|pos=c|mpg>10|FTuser|age<25|age<30|NBAteam|con<5|con<10|con<15|con<20|Josh"
   },
   {
    "Player": "T. Brazile, DEN, F",
@@ -3421,26 +3441,6 @@
    "Age": "23.8",
    "Team": "ZUC",
    "FILTERS": "pos=f|mpg>10|mpg>20|age<25|age<30|NBAteam|Disney|con<2|con<5|con<10|con<15|con<20|Trevon"
-  },
-  {
-   "Player": "R. Hachimura, LAC, F",
-   "FPPG": "15.7",
-   "FPPM": "0.50",
-   "G": "3",
-   "MPG": "31.2",
-   "PPG": "10.3",
-   "RPG": "6.0",
-   "APG": "1.0",
-   "BPG": "0.3",
-   "SPG": "1.0",
-   "OWN": "52.4",
-   "ADP": "148.5",
-   "CON": "$14.0M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "28.7",
-   "Team": "PUN",
-   "FILTERS": "pos=f|mpg>10|mpg>20|mpg>30|age<30|age>25|NBAteam|Disney|con<15|con<20|Rui"
   },
   {
    "Player": "Q. Grimes, LAL, GF",
@@ -3779,8 +3779,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "22.3",
-   "Team": "LEV",
-   "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|FTuser|age<25|age<30|NBAteam|Disney|con<10|con<15|con<20|Bilal"
+   "Team": "-",
+   "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|FTavail|age<25|age<30|NBAteam|Disney|con<10|con<15|con<20|Bilal"
   },
   {
    "Player": "J. Goodwin, PHX, G",
@@ -3923,6 +3923,26 @@
    "FILTERS": "pos=g|mpg>10|mpg>20|age<25|age<30|NBAteam|con<10|con<15|con<20|Egor"
   },
   {
+   "Player": "J. Beringer, MIN, FC",
+   "FPPG": "14.0",
+   "FPPM": "0.96",
+   "G": "4",
+   "MPG": "14.6",
+   "PPG": "6.8",
+   "RPG": "7.0",
+   "APG": "0.3",
+   "BPG": "0.5",
+   "SPG": "0.3",
+   "OWN": "53.2",
+   "ADP": "149.1",
+   "CON": "$4.4M",
+   "Poss/G": "",
+   "FPPP": "0.00",
+   "Age": "20.0",
+   "Team": "VIL",
+   "FILTERS": "pos=f|pos=fc|pos=c|mpg>10|age<25|age<30|NBAteam|con<5|con<10|con<15|con<20|Joan"
+  },
+  {
    "Player": "A. Graves, TOR, F",
    "FPPG": "14.0",
    "FPPM": "0.92",
@@ -4001,26 +4021,6 @@
    "Age": "22.7",
    "Team": "ALB",
    "FILTERS": "pos=g|mpg>10|mpg>20|age<25|age<30|NBAteam|con<5|con<10|con<15|con<20|Jared"
-  },
-  {
-   "Player": "J. Beringer, MIN, FC",
-   "FPPG": "13.8",
-   "FPPM": "0.94",
-   "G": "4",
-   "MPG": "14.6",
-   "PPG": "6.8",
-   "RPG": "7.0",
-   "APG": "0.3",
-   "BPG": "0.5",
-   "SPG": "0.0",
-   "OWN": "53.2",
-   "ADP": "149.1",
-   "CON": "$4.4M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "20.0",
-   "Team": "VIL",
-   "FILTERS": "pos=f|pos=fc|pos=c|mpg>10|age<25|age<30|NBAteam|con<5|con<10|con<15|con<20|Joan"
   },
   {
    "Player": "S. Merrill, CLE, GF",
@@ -5232,7 +5232,7 @@
    "RPG": "2.0",
    "APG": "0.7",
    "BPG": "0.0",
-   "SPG": "0.7",
+   "SPG": "1.0",
    "OWN": "14.2",
    "ADP": "450",
    "CON": "$2.3M",
@@ -6183,6 +6183,26 @@
    "FILTERS": "pos=g|FTavail|age<25|age<30|NBAteam|Disney|con<2|con<5|con<10|con<15|con<20|Ryan"
   },
   {
+   "Player": "K. Looney, LAL, FC",
+   "FPPG": "5.7",
+   "FPPM": "0.72",
+   "G": "3",
+   "MPG": "7.9",
+   "PPG": "2.7",
+   "RPG": "2.7",
+   "APG": "0.3",
+   "BPG": "0.0",
+   "SPG": "0.0",
+   "OWN": "27.7",
+   "ADP": "198.0",
+   "CON": "$2.4M",
+   "Poss/G": "",
+   "FPPP": "0.00",
+   "Age": "30.7",
+   "Team": "-",
+   "FILTERS": "pos=f|pos=fc|pos=c|FTavail|age>25|age>30|NBAteam|Disney|con<5|con<10|con<15|con<20|Kevon"
+  },
+  {
    "Player": "J. Green, UTA, G",
    "FPPG": "5.5",
    "FPPM": "0.39",
@@ -6261,26 +6281,6 @@
    "Age": "36.0",
    "Team": "IDA",
    "FILTERS": "pos=c|age>25|age>30|NBAteam|Disney|con<5|con<10|con<15|con<20|Nikola"
-  },
-  {
-   "Player": "K. Looney, LAL, FC",
-   "FPPG": "5.3",
-   "FPPM": "0.67",
-   "G": "3",
-   "MPG": "7.9",
-   "PPG": "2.7",
-   "RPG": "2.3",
-   "APG": "0.3",
-   "BPG": "0.0",
-   "SPG": "0.0",
-   "OWN": "27.7",
-   "ADP": "198.0",
-   "CON": "$2.4M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "30.7",
-   "Team": "-",
-   "FILTERS": "pos=f|pos=fc|pos=c|FTavail|age>25|age>30|NBAteam|Disney|con<5|con<10|con<15|con<20|Kevon"
   },
   {
    "Player": "H. Jones, NOP, GF",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T12:13:29+00:00",
+ "updated": "2026-10-27T18:06:45+00:00",
  "count": 1003,
  "columns": [
   "Player",
@@ -223,26 +223,6 @@
    "FILTERS": "pos=f|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|Disney|con<20|Julian"
   },
   {
-   "Player": "J. Minott, BKN, FC",
-   "FPPG": "16.0",
-   "FPPM": "1.05",
-   "G": "2",
-   "MPG": "15.2",
-   "PPG": "9.5",
-   "RPG": "5.0",
-   "APG": "1.0",
-   "BPG": "0.0",
-   "SPG": "1.0",
-   "OWN": "19.6",
-   "ADP": "235.4",
-   "CON": "$4.5M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "24.8",
-   "Team": "-",
-   "FILTERS": "pos=f|pos=fc|pos=c|mpg>10|FTavail|age<25|age<30|NBAteam|con<5|con<10|con<15|con<20|Josh"
-  },
-  {
    "Player": "D. Melton, GSW, G",
    "FPPG": "15.3",
    "FPPM": "0.70",
@@ -321,6 +301,26 @@
    "Age": "30.0",
    "Team": "-",
    "FILTERS": "pos=f|mpg>10|mpg>20|mpg>30|FTavail|age>25|age>30|NBAteam|Disney|con<10|con<15|con<20|Dean"
+  },
+  {
+   "Player": "B. Coulibaly, WAS, GF",
+   "FPPG": "14.5",
+   "FPPM": "0.53",
+   "G": "4",
+   "MPG": "27.3",
+   "PPG": "8.0",
+   "RPG": "4.3",
+   "APG": "0.5",
+   "BPG": "0.8",
+   "SPG": "1.8",
+   "OWN": "53.0",
+   "ADP": "155.5",
+   "CON": "$9.2M",
+   "Poss/G": "",
+   "FPPP": "0.00",
+   "Age": "22.3",
+   "Team": "-",
+   "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|FTavail|age<25|age<30|NBAteam|Disney|con<10|con<15|con<20|Bilal"
   },
   {
    "Player": "A. Nesmith, IND, GF",
@@ -1032,7 +1032,7 @@
    "RPG": "2.0",
    "APG": "0.7",
    "BPG": "0.0",
-   "SPG": "0.7",
+   "SPG": "1.0",
    "OWN": "14.2",
    "ADP": "450",
    "CON": "$2.3M",
@@ -1763,6 +1763,26 @@
    "FILTERS": "pos=g|FTavail|age<25|age<30|NBAteam|Disney|con<2|con<5|con<10|con<15|con<20|Ryan"
   },
   {
+   "Player": "K. Looney, LAL, FC",
+   "FPPG": "5.7",
+   "FPPM": "0.72",
+   "G": "3",
+   "MPG": "7.9",
+   "PPG": "2.7",
+   "RPG": "2.7",
+   "APG": "0.3",
+   "BPG": "0.0",
+   "SPG": "0.0",
+   "OWN": "27.7",
+   "ADP": "198.0",
+   "CON": "$2.4M",
+   "Poss/G": "",
+   "FPPP": "0.00",
+   "Age": "30.7",
+   "Team": "-",
+   "FILTERS": "pos=f|pos=fc|pos=c|FTavail|age>25|age>30|NBAteam|Disney|con<5|con<10|con<15|con<20|Kevon"
+  },
+  {
    "Player": "J. Green, UTA, G",
    "FPPG": "5.5",
    "FPPM": "0.39",
@@ -1821,26 +1841,6 @@
    "Age": "22.3",
    "Team": "-",
    "FILTERS": "pos=f|FTavail|age<25|age<30|NBAteam|Disney|con<2|con<5|con<10|con<15|con<20|Cam"
-  },
-  {
-   "Player": "K. Looney, LAL, FC",
-   "FPPG": "5.3",
-   "FPPM": "0.67",
-   "G": "3",
-   "MPG": "7.9",
-   "PPG": "2.7",
-   "RPG": "2.3",
-   "APG": "0.3",
-   "BPG": "0.0",
-   "SPG": "0.0",
-   "OWN": "27.7",
-   "ADP": "198.0",
-   "CON": "$2.4M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "30.7",
-   "Team": "-",
-   "FILTERS": "pos=f|pos=fc|pos=c|FTavail|age>25|age>30|NBAteam|Disney|con<5|con<10|con<15|con<20|Kevon"
   },
   {
    "Player": "H. Jones, NOP, GF",
