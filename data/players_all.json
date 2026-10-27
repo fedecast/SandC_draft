@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T06:08:37+00:00",
+ "updated": "2026-10-27T12:13:29+00:00",
  "count": 1260,
  "columns": [
   "Player",
@@ -1439,8 +1439,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "28.5",
-   "Team": "-",
-   "FILTERS": "pos=c|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|Disney|con<5|con<10|con<15|con<20|Mo"
+   "Team": "OPE",
+   "FILTERS": "pos=c|mpg>10|mpg>20|age<30|age>25|NBAteam|Disney|con<5|con<10|con<15|con<20|Mo"
   },
   {
    "Player": "J. Morant, POR, G",
@@ -4459,8 +4459,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "28.2",
-   "Team": "-",
-   "FILTERS": "pos=c|mpg>10|FTavail|age<30|age>25|NBAteam|Disney|con<5|con<10|con<15|con<20|Jay"
+   "Team": "PUN",
+   "FILTERS": "pos=c|mpg>10|age<30|age>25|NBAteam|Disney|con<5|con<10|con<15|con<20|Jay"
   },
   {
    "Player": "T. Salaun, CHA, F",
@@ -4603,7 +4603,7 @@
    "FILTERS": "pos=f|mpg>10|mpg>20|FTavail|age<25|age<30|NBAteam|Disney|con<10|con<15|con<20|Jarace"
   },
   {
-   "Player": "C. Wallace, OKC, GF",
+   "Player": "C. Wallace, OKC, G",
    "FPPG": "11.3",
    "FPPM": "0.70",
    "G": "3",
@@ -4619,8 +4619,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "23.0",
-   "Team": "OPE",
-   "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|age<25|age<30|NBAteam|con<10|con<15|con<20|Cason"
+   "Team": "-",
+   "FILTERS": "pos=g|mpg>10|FTavail|age<25|age<30|NBAteam|con<10|con<15|con<20|Cason"
   },
   {
    "Player": "G. Dick, LAC, GF",
@@ -5119,8 +5119,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "26.0",
-   "Team": "PUN",
-   "FILTERS": "pos=c|age<30|age>25|NBAteam|con<5|con<10|con<15|con<20|Charles"
+   "Team": "-",
+   "FILTERS": "pos=c|FTavail|age<30|age>25|NBAteam|con<5|con<10|con<15|con<20|Charles"
   },
   {
    "Player": "J. Alvarado, NYK, G",

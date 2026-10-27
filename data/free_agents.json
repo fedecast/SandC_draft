@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T06:08:37+00:00",
+ "updated": "2026-10-27T12:13:29+00:00",
  "count": 1003,
  "columns": [
   "Player",
@@ -22,26 +22,6 @@
   "FILTERS"
  ],
  "players": [
-  {
-   "Player": "M. Bamba, UTA, C",
-   "FPPG": "25.0",
-   "FPPM": "0.88",
-   "G": "1",
-   "MPG": "28.6",
-   "PPG": "14.0",
-   "RPG": "7.0",
-   "APG": "1.0",
-   "BPG": "4.0",
-   "SPG": "0.0",
-   "OWN": "6.5",
-   "ADP": "209.4",
-   "CON": "$3.5M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "28.5",
-   "Team": "-",
-   "FILTERS": "pos=c|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|Disney|con<5|con<10|con<15|con<20|Mo"
-  },
   {
    "Player": "K. Dunn, LAC, G",
    "FPPG": "22.3",
@@ -583,26 +563,6 @@
    "FILTERS": "pos=f|pos=fc|pos=c|mpg>10|FTavail|age<25|age<30|NBAteam|con<2|con<5|con<10|con<15|con<20|Tobe"
   },
   {
-   "Player": "J. Huff, IND, C",
-   "FPPG": "11.7",
-   "FPPM": "0.72",
-   "G": "3",
-   "MPG": "16.2",
-   "PPG": "6.7",
-   "RPG": "3.3",
-   "APG": "1.3",
-   "BPG": "1.0",
-   "SPG": "0.0",
-   "OWN": "35.5",
-   "ADP": "171.5",
-   "CON": "$2.7M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "28.2",
-   "Team": "-",
-   "FILTERS": "pos=c|mpg>10|FTavail|age<30|age>25|NBAteam|Disney|con<5|con<10|con<15|con<20|Jay"
-  },
-  {
    "Player": "T. Salaun, CHA, F",
    "FPPG": "11.7",
    "FPPM": "0.72",
@@ -721,6 +681,26 @@
    "Age": "23.2",
    "Team": "-",
    "FILTERS": "pos=f|mpg>10|mpg>20|FTavail|age<25|age<30|NBAteam|Disney|con<10|con<15|con<20|Jarace"
+  },
+  {
+   "Player": "C. Wallace, OKC, G",
+   "FPPG": "11.3",
+   "FPPM": "0.70",
+   "G": "3",
+   "MPG": "16.3",
+   "PPG": "6.3",
+   "RPG": "2.3",
+   "APG": "1.3",
+   "BPG": "0.0",
+   "SPG": "2.3",
+   "OWN": "43.8",
+   "ADP": "161.6",
+   "CON": "$7.4M",
+   "Poss/G": "",
+   "FPPP": "0.00",
+   "Age": "23.0",
+   "Team": "-",
+   "FILTERS": "pos=g|mpg>10|FTavail|age<25|age<30|NBAteam|con<10|con<15|con<20|Cason"
   },
   {
    "Player": "G. Dick, LAC, GF",
@@ -941,6 +921,26 @@
    "Age": "27.4",
    "Team": "-",
    "FILTERS": "pos=g|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|Disney|con<10|con<15|con<20|Anfernee"
+  },
+  {
+   "Player": "C. Bassey, GSW, C",
+   "FPPG": "9.5",
+   "FPPM": "1.26",
+   "G": "2",
+   "MPG": "7.5",
+   "PPG": "5.0",
+   "RPG": "4.0",
+   "APG": "0.0",
+   "BPG": "1.0",
+   "SPG": "0.0",
+   "OWN": "32.8",
+   "ADP": "187.9",
+   "CON": "$2.4M",
+   "Poss/G": "",
+   "FPPP": "0.00",
+   "Age": "26.0",
+   "Team": "-",
+   "FILTERS": "pos=c|FTavail|age<30|age>25|NBAteam|con<5|con<10|con<15|con<20|Charles"
   },
   {
    "Player": "J. Alvarado, NYK, G",
