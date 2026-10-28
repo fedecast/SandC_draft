@@ -46,17 +46,17 @@
   },
   {
    "tag": "A",
-   "text": "G. Antetokounmpo",
+   "text": "N. Jokic",
    "cls": "",
-   "href": "/nba/giannis-antetokounmpo",
+   "href": "/nba/nikola-jokic",
    "onclick": "",
    "opts": null
   },
   {
    "tag": "A",
-   "text": "N. Jokic",
+   "text": "G. Antetokounmpo",
    "cls": "",
-   "href": "/nba/nikola-jokic",
+   "href": "/nba/giannis-antetokounmpo",
    "onclick": "",
    "opts": null
   },
