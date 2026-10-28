@@ -38,6 +38,14 @@
   },
   {
    "tag": "A",
+   "text": "J. Tatum",
+   "cls": "",
+   "href": "/nba/jayson-tatum",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
    "text": "G. Antetokounmpo",
    "cls": "",
    "href": "/nba/giannis-antetokounmpo",
@@ -102,9 +110,9 @@
   },
   {
    "tag": "A",
-   "text": "J. Tatum",
+   "text": "V. Wembanyama",
    "cls": "",
-   "href": "/nba/jayson-tatum",
+   "href": "/nba/victor-wembanyama",
    "onclick": "",
    "opts": null
   },
@@ -142,6 +150,14 @@
   },
   {
    "tag": "A",
+   "text": "K. Towns",
+   "cls": "",
+   "href": "/nba/karl-anthony-towns",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
    "text": "T. Haliburton",
    "cls": "",
    "href": "/nba/tyrese-haliburton",
@@ -158,14 +174,6 @@
   },
   {
    "tag": "A",
-   "text": "V. Wembanyama",
-   "cls": "",
-   "href": "/nba/victor-wembanyama",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
    "text": "T. Young",
    "cls": "",
    "href": "/nba/trae-young",
@@ -174,9 +182,9 @@
   },
   {
    "tag": "A",
-   "text": "D. Avdija",
+   "text": "A. Reaves",
    "cls": "",
-   "href": "/nba/deni-avdija",
+   "href": "/nba/austin-reaves",
    "onclick": "",
    "opts": null
   },
@@ -190,17 +198,9 @@
   },
   {
    "tag": "A",
-   "text": "Z. LaVine",
+   "text": "D. Avdija",
    "cls": "",
-   "href": "/nba/zach-lavine",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "A. Reaves",
-   "cls": "",
-   "href": "/nba/austin-reaves",
+   "href": "/nba/deni-avdija",
    "onclick": "",
    "opts": null
   },
@@ -222,9 +222,9 @@
   },
   {
    "tag": "A",
-   "text": "K. Towns",
+   "text": "J. Murray",
    "cls": "",
-   "href": "/nba/karl-anthony-towns",
+   "href": "/nba/jamal-murray",
    "onclick": "",
    "opts": null
   },
