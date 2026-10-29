@@ -38,6 +38,14 @@
   },
   {
    "tag": "A",
+   "text": "V. Wembanyama",
+   "cls": "",
+   "href": "/nba/victor-wembanyama",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
    "text": "G. Antetokounmpo",
    "cls": "",
    "href": "/nba/giannis-antetokounmpo",
@@ -54,17 +62,17 @@
   },
   {
    "tag": "A",
-   "text": "N. Jokic",
+   "text": "A. Edwards",
    "cls": "",
-   "href": "/nba/nikola-jokic",
+   "href": "/nba/anthony-edwards",
    "onclick": "",
    "opts": null
   },
   {
    "tag": "A",
-   "text": "A. Edwards",
+   "text": "N. Jokic",
    "cls": "",
-   "href": "/nba/anthony-edwards",
+   "href": "/nba/nikola-jokic",
    "onclick": "",
    "opts": null
   },
@@ -94,14 +102,6 @@
   },
   {
    "tag": "A",
-   "text": "V. Wembanyama",
-   "cls": "",
-   "href": "/nba/victor-wembanyama",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
    "text": "C. Flagg",
    "cls": "",
    "href": "/nba/cooper-flagg",
@@ -126,17 +126,9 @@
   },
   {
    "tag": "A",
-   "text": "S. Gilgeous-Alexander",
+   "text": "S. Curry",
    "cls": "",
-   "href": "/nba/shai-gilgeous-alexander",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "K. Towns",
-   "cls": "",
-   "href": "/nba/karl-anthony-towns",
+   "href": "/nba/stephen-curry",
    "onclick": "",
    "opts": null
   },
@@ -158,9 +150,25 @@
   },
   {
    "tag": "A",
+   "text": "K. Towns",
+   "cls": "",
+   "href": "/nba/karl-anthony-towns",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
    "text": "J. Embiid",
    "cls": "",
    "href": "/nba/joel-embiid",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "S. Gilgeous-Alexander",
+   "cls": "",
+   "href": "/nba/shai-gilgeous-alexander",
    "onclick": "",
    "opts": null
   },
@@ -182,22 +190,6 @@
   },
   {
    "tag": "A",
-   "text": "A. Reaves",
-   "cls": "",
-   "href": "/nba/austin-reaves",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "Y. Lendeborg",
-   "cls": "",
-   "href": "/nba/yaxel-lendeborg",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
    "text": "D. Avdija",
    "cls": "",
    "href": "/nba/deni-avdija",
@@ -214,17 +206,25 @@
   },
   {
    "tag": "A",
-   "text": "T. Herro",
+   "text": "Y. Lendeborg",
    "cls": "",
-   "href": "/nba/tyler-herro",
+   "href": "/nba/yaxel-lendeborg",
    "onclick": "",
    "opts": null
   },
   {
    "tag": "A",
-   "text": "J. Murray",
+   "text": "E. Mobley",
    "cls": "",
-   "href": "/nba/jamal-murray",
+   "href": "/nba/evan-mobley",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "B. Miller",
+   "cls": "",
+   "href": "/nba/brandon-miller",
    "onclick": "",
    "opts": null
   },
