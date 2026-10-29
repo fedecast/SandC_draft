@@ -38,6 +38,14 @@
   },
   {
    "tag": "A",
+   "text": "G. Antetokounmpo",
+   "cls": "",
+   "href": "/nba/giannis-antetokounmpo",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
    "text": "J. Tatum",
    "cls": "",
    "href": "/nba/jayson-tatum",
@@ -49,14 +57,6 @@
    "text": "N. Jokic",
    "cls": "",
    "href": "/nba/nikola-jokic",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "G. Antetokounmpo",
-   "cls": "",
-   "href": "/nba/giannis-antetokounmpo",
    "onclick": "",
    "opts": null
   },
@@ -78,14 +78,6 @@
   },
   {
    "tag": "A",
-   "text": "J. Johnson",
-   "cls": "",
-   "href": "/nba/jalen-johnson",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
    "text": "T. Jerome",
    "cls": "",
    "href": "/nba/ty-jerome",
@@ -97,14 +89,6 @@
    "text": "A. Sengun",
    "cls": "",
    "href": "/nba/alperen-sengun",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "T. Maxey",
-   "cls": "",
-   "href": "/nba/tyrese-maxey",
    "onclick": "",
    "opts": null
   },
@@ -126,9 +110,17 @@
   },
   {
    "tag": "A",
-   "text": "D. Mitchell",
+   "text": "T. Maxey",
    "cls": "",
-   "href": "/nba/donovan-mitchell",
+   "href": "/nba/tyrese-maxey",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "J. Johnson",
+   "cls": "",
+   "href": "/nba/jalen-johnson",
    "onclick": "",
    "opts": null
   },
@@ -137,14 +129,6 @@
    "text": "S. Gilgeous-Alexander",
    "cls": "",
    "href": "/nba/shai-gilgeous-alexander",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "J. Embiid",
-   "cls": "",
-   "href": "/nba/joel-embiid",
    "onclick": "",
    "opts": null
   },
@@ -174,9 +158,25 @@
   },
   {
    "tag": "A",
-   "text": "T. Young",
+   "text": "J. Embiid",
    "cls": "",
-   "href": "/nba/trae-young",
+   "href": "/nba/joel-embiid",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "C. Cunningham",
+   "cls": "",
+   "href": "/nba/cade-cunningham",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "D. Mitchell",
+   "cls": "",
+   "href": "/nba/donovan-mitchell",
    "onclick": "",
    "opts": null
   },
@@ -206,9 +206,9 @@
   },
   {
    "tag": "A",
-   "text": "A. Davis",
+   "text": "P. Siakam",
    "cls": "",
-   "href": "/nba/anthony-davis",
+   "href": "/nba/pascal-siakam",
    "onclick": "",
    "opts": null
   },
