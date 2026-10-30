@@ -1,6 +1,5 @@
 Player,FPPG,FPPM,G,MPG,PPG,RPG,APG,BPG,SPG,OWN,ADP,CON,Poss/G,FPPP,Age,Team,FILTERS
 "D. Mitchell, MIA, G",23.8,0.70,5,34.1,16.4,0.8,7.6,0.6,1.2,58.6,153.0,$12.4M,,0.00,28.2,-,pos=g|mpg>10|mpg>20|mpg>30|FTavail|age<30|age>25|NBAteam|Disney|con<15|con<20|Davion
-"D. Jones Jr., LAC, GF",20.8,0.70,4,29.7,12.5,5.3,1.8,0.5,1.8,38.2,239.4,$10.5M,,0.00,29.7,-,pos=g|pos=gf|pos=f|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|Disney|con<15|con<20|Derrick
 "D. Jenkins, DET, G",19.4,0.78,5,24.8,12.2,4.0,3.8,0.2,0.6,47.6,187.6,$4.0M,,0.00,25.2,-,pos=g|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|con<5|con<10|con<15|con<20|Daniss
 "K. Dunn, LAC, G",19.0,0.63,4,30.1,8.5,4.0,5.3,1.0,2.8,51.6,215.3,$5.7M,,0.00,32.6,-,pos=g|mpg>10|mpg>20|mpg>30|FTavail|age>25|age>30|NBAteam|Disney|con<10|con<15|con<20|Kris
 "C. Braun, DEN, GF",18.8,0.52,4,35.8,11.5,4.5,2.3,0.3,2.3,43.3,163.3,$21.6M,,0.00,25.6,-,pos=g|pos=gf|pos=f|mpg>10|mpg>20|mpg>30|FTavail|age<30|age>25|NBAteam|Disney|Christian
@@ -24,9 +23,11 @@ Player,FPPG,FPPM,G,MPG,PPG,RPG,APG,BPG,SPG,OWN,ADP,CON,Poss/G,FPPP,Age,Team,FILT
 "L. Shamet, NYK, G",13.0,0.51,5,25.7,9.2,1.8,2.6,0.4,0.2,13.1,265.6,$5.5M,,0.00,29.7,-,pos=g|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|con<10|con<15|con<20|Landry
 "T. Watford, NOP, F",13.0,0.75,1,17.3,8.0,1.0,2.0,0.0,3.0,11.5,240.7,$2.4M,,0.00,26.0,-,pos=f|mpg>10|FTavail|age<30|age>25|NBAteam|con<5|con<10|con<15|con<20|Trendon
 "K. Caldwell-Pope, PHI, GF",12.8,0.49,5,26.2,7.2,2.8,1.6,0.2,1.4,21.1,271.0,$2.4M,,0.00,33.7,-,pos=g|pos=gf|pos=f|mpg>10|mpg>20|FTavail|age>25|age>30|NBAteam|Disney|con<5|con<10|con<15|con<20|Kentavious
+"J. Grant, MEM, F",12.8,0.52,5,24.6,8.2,2.2,2.4,1.0,0.6,43.6,154.2,$34.2M,,0.00,32.7,-,pos=f|mpg>10|mpg>20|FTavail|age>25|age>30|NBAteam|Disney|Jerami
 "A. Simons, PHI, G",12.8,0.55,5,23.2,8.8,2.4,1.2,0.4,0.6,34.8,173.5,$6.0M,,0.00,27.4,-,pos=g|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|Disney|con<10|con<15|con<20|Anfernee
 "K. Sanders, LAC, GF",12.8,0.60,4,21.3,7.0,2.8,2.5,0.0,2.0,20.1,233.2,$2.6M,,0.00,24.4,-,pos=g|pos=gf|pos=f|mpg>10|mpg>20|FTavail|age<25|age<30|NBAteam|Disney|con<5|con<10|con<15|con<20|Kobe
 "M. Sasser, DAL, G",12.6,0.59,5,21.4,9.0,1.6,2.6,0.2,0.2,23.0,267.7,$5.2M,,0.00,26.1,-,pos=g|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|Disney|con<10|con<15|con<20|Marcus
+"D. Green, GSW, FC",12.5,0.45,4,27.7,3.3,5.5,6.8,1.0,0.3,46.3,153.7,$27.7M,,0.00,36.7,-,pos=f|pos=fc|pos=c|mpg>10|mpg>20|FTavail|age>25|age>30|NBAteam|Draymond
 "J. Poole, NOP, G",12.0,0.76,4,15.9,6.0,2.0,3.0,0.5,1.3,34.5,202.2,$34.0M,,0.00,27.4,-,pos=g|mpg>10|FTavail|age<30|age>25|NBAteam|Jordan
 "C. Martin, DAL, GF",12.0,0.87,1,13.8,10.0,2.0,0.0,0.0,1.0,5.9,290.4,$10.0M,,0.00,31.1,-,pos=g|pos=gf|pos=f|mpg>10|FTavail|age>25|age>30|NBAteam|Disney|con<15|con<20|Caleb
 "J. Walker, IND, F",12.0,0.57,5,21.0,5.6,6.0,1.4,0.6,0.6,33.4,174.0,$8.5M,,0.00,23.2,-,pos=f|mpg>10|mpg>20|FTavail|age<25|age<30|NBAteam|Disney|con<10|con<15|con<20|Jarace
@@ -78,7 +79,6 @@ Player,FPPG,FPPM,G,MPG,PPG,RPG,APG,BPG,SPG,OWN,ADP,CON,Poss/G,FPPP,Age,Team,FILT
 "B. Hyland, MIN, G",7.4,0.77,5,9.6,4.4,1.4,1.4,0.6,0.4,22.2,243.3,$2.4M,,0.00,26.1,-,pos=g|FTavail|age<30|age>25|NBAteam|con<5|con<10|con<15|con<20|Bones
 "B. Scheierman, BOS, GF",7.3,0.42,4,17.2,3.8,3.3,0.8,0.0,0.8,21.9,228.2,$2.7M,,0.00,26.1,-,pos=g|pos=gf|pos=f|mpg>10|FTavail|age<30|age>25|NBAteam|Disney|con<5|con<10|con<15|con<20|Baylor
 "T. Proctor, CLE, G",7.3,0.70,4,10.4,3.5,2.3,1.5,0.0,0.3,12.6,253.6,$2.2M,,0.00,22.6,-,pos=g|mpg>10|FTavail|age<25|age<30|NBAteam|con<5|con<10|con<15|con<20|Tyrese
-"A. Bona, PHI, C",7.2,0.58,5,12.4,1.8,4.0,0.6,1.2,0.4,25.1,200.4,$2.3M,,0.00,23.6,-,pos=c|mpg>10|FTavail|age<25|age<30|NBAteam|Disney|con<5|con<10|con<15|con<20|Adem
 "M. Conley, BOS, G",7.0,0.98,1,7.1,6.0,0.0,0.0,0.0,2.0,7.8,223.1,$2.4M,,0.00,39.1,-,pos=g|FTavail|age>25|age>30|NBAteam|Disney|con<5|con<10|con<15|con<20|Mike
 "S. Adams, HOU, C",7.0,0.79,1,8.9,4.0,2.0,1.0,0.0,0.0,27.0,182.8,$13.0M,,0.00,33.3,-,pos=c|FTavail|age>25|age>30|NBAteam|Disney|con<15|con<20|Steven
 "G. Payton II, GSW, GF",7.0,0.51,5,13.6,5.6,1.6,0.2,0.0,0.2,35.6,171.2,$2.4M,,0.00,33.9,-,pos=g|pos=gf|pos=f|mpg>10|FTavail|age>25|age>30|NBAteam|con<5|con<10|con<15|con<20|Gary
