@@ -86,6 +86,14 @@
   },
   {
    "tag": "A",
+   "text": "C. Flagg",
+   "cls": "",
+   "href": "/nba/cooper-flagg",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
    "text": "D. Sabonis",
    "cls": "",
    "href": "/nba/domantas-sabonis",
@@ -190,6 +198,14 @@
   },
   {
    "tag": "A",
+   "text": "Y. Lendeborg",
+   "cls": "",
+   "href": "/nba/yaxel-lendeborg",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
    "text": "D. Mitchell",
    "cls": "",
    "href": "/nba/donovan-mitchell",
@@ -209,22 +225,6 @@
    "text": "J. Randle",
    "cls": "",
    "href": "/nba/julius-randle",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "J. Murray",
-   "cls": "",
-   "href": "/nba/jamal-murray",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "A. Davis",
-   "cls": "",
-   "href": "/nba/anthony-davis",
    "onclick": "",
    "opts": null
   },
