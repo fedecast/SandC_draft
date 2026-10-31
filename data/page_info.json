@@ -38,17 +38,17 @@
   },
   {
    "tag": "A",
-   "text": "V. Wembanyama",
+   "text": "G. Antetokounmpo",
    "cls": "",
-   "href": "/nba/victor-wembanyama",
+   "href": "/nba/giannis-antetokounmpo",
    "onclick": "",
    "opts": null
   },
   {
    "tag": "A",
-   "text": "G. Antetokounmpo",
+   "text": "V. Wembanyama",
    "cls": "",
-   "href": "/nba/giannis-antetokounmpo",
+   "href": "/nba/victor-wembanyama",
    "onclick": "",
    "opts": null
   },
@@ -70,6 +70,14 @@
   },
   {
    "tag": "A",
+   "text": "C. Flagg",
+   "cls": "",
+   "href": "/nba/cooper-flagg",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
    "text": "N. Jokic",
    "cls": "",
    "href": "/nba/nikola-jokic",
@@ -81,14 +89,6 @@
    "text": "A. Sengun",
    "cls": "",
    "href": "/nba/alperen-sengun",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "C. Flagg",
-   "cls": "",
-   "href": "/nba/cooper-flagg",
    "onclick": "",
    "opts": null
   },
@@ -110,17 +110,25 @@
   },
   {
    "tag": "A",
-   "text": "D. Avdija",
+   "text": "S. Curry",
    "cls": "",
-   "href": "/nba/deni-avdija",
+   "href": "/nba/stephen-curry",
    "onclick": "",
    "opts": null
   },
   {
    "tag": "A",
-   "text": "S. Curry",
+   "text": "J. Murray",
    "cls": "",
-   "href": "/nba/stephen-curry",
+   "href": "/nba/jamal-murray",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "D. Avdija",
+   "cls": "",
+   "href": "/nba/deni-avdija",
    "onclick": "",
    "opts": null
   },
@@ -182,25 +190,9 @@
   },
   {
    "tag": "A",
-   "text": "P. Siakam",
-   "cls": "",
-   "href": "/nba/pascal-siakam",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
    "text": "T. Jerome",
    "cls": "",
    "href": "/nba/ty-jerome",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "Y. Lendeborg",
-   "cls": "",
-   "href": "/nba/yaxel-lendeborg",
    "onclick": "",
    "opts": null
   },
@@ -222,9 +214,17 @@
   },
   {
    "tag": "A",
-   "text": "J. Murray",
+   "text": "T. Young",
    "cls": "",
-   "href": "/nba/jamal-murray",
+   "href": "/nba/trae-young",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "J. Brunson",
+   "cls": "",
+   "href": "/nba/jalen-brunson",
    "onclick": "",
    "opts": null
   },
