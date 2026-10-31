@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T08:52:51+00:00",
+ "updated": "2026-10-31T15:14:49+00:00",
  "count": 1002,
  "columns": [
   "Player",
@@ -43,24 +43,24 @@
    "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|mpg>30|FTavail|age<30|age>25|NBAteam|Disney|Christian"
   },
   {
-   "Player": "D. Hunter, SAC, F",
-   "FPPG": "18.6",
-   "FPPM": "0.65",
+   "Player": "P. Watson, CLE, F",
+   "FPPG": "19.2",
+   "FPPM": "0.64",
    "G": "5",
-   "MPG": "28.8",
-   "PPG": "13.0",
-   "RPG": "5.4",
-   "APG": "1.2",
-   "BPG": "0.2",
-   "SPG": "0.2",
-   "OWN": "26.5",
-   "ADP": "203.6",
-   "CON": "$24.9M",
+   "MPG": "29.8",
+   "PPG": "12.0",
+   "RPG": "4.4",
+   "APG": "2.4",
+   "BPG": "1.8",
+   "SPG": "1.2",
+   "OWN": "57.0",
+   "ADP": "137.8",
+   "CON": "$20.5M",
    "Poss/G": "",
    "FPPP": "0.00",
-   "Age": "28.9",
+   "Age": "24.2",
    "Team": "-",
-   "FILTERS": "pos=f|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|Disney|De'Andre"
+   "FILTERS": "pos=f|mpg>10|mpg>20|FTavail|age<25|age<30|NBAteam|Peyton"
   },
   {
    "Player": "D. Jenkins, DET, G",
@@ -161,26 +161,6 @@
    "Age": "25.4",
    "Team": "-",
    "FILTERS": "pos=f|mpg>10|FTavail|age<30|age>25|NBAteam|Disney|con<5|con<10|con<15|con<20|Justin"
-  },
-  {
-   "Player": "D. Melton, GSW, G",
-   "FPPG": "16.8",
-   "FPPM": "0.79",
-   "G": "6",
-   "MPG": "21.4",
-   "PPG": "10.3",
-   "RPG": "3.8",
-   "APG": "2.2",
-   "BPG": "0.3",
-   "SPG": "1.3",
-   "OWN": "37.2",
-   "ADP": "201.3",
-   "CON": "$6.1M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "28.4",
-   "Team": "-",
-   "FILTERS": "pos=g|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|g>5|con<10|con<15|con<20|De'Anthony"
   },
   {
    "Player": "B. Coulibaly, WAS, GF",
@@ -941,6 +921,26 @@
    "Age": "34.2",
    "Team": "-",
    "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|FTavail|age>25|age>30|NBAteam|Disney|g>5|con<5|con<10|con<15|con<20|Bogdan"
+  },
+  {
+   "Player": "S. Pippen Jr., MEM, G",
+   "FPPG": "10.2",
+   "FPPM": "0.64",
+   "G": "5",
+   "MPG": "16.0",
+   "PPG": "6.4",
+   "RPG": "2.4",
+   "APG": "2.2",
+   "BPG": "0.2",
+   "SPG": "1.0",
+   "OWN": "62.6",
+   "ADP": "139.6",
+   "CON": "$2.5M",
+   "Poss/G": "",
+   "FPPP": "0.00",
+   "Age": "26.0",
+   "Team": "-",
+   "FILTERS": "pos=g|mpg>10|FTavail|age<30|age>25|NBAteam|Disney|con<5|con<10|con<15|con<20|Scotty"
   },
   {
    "Player": "B. Carrington, WAS, G",
@@ -1763,6 +1763,26 @@
    "FILTERS": "pos=f|mpg>10|FTavail|age<30|age>25|NBAteam|Disney|con<2|con<5|con<10|con<15|con<20|Jalen"
   },
   {
+   "Player": "Y. Hansen, POR, C",
+   "FPPG": "6.5",
+   "FPPM": "0.79",
+   "G": "2",
+   "MPG": "8.3",
+   "PPG": "4.0",
+   "RPG": "2.5",
+   "APG": "0.5",
+   "BPG": "0.5",
+   "SPG": "0.0",
+   "OWN": "18.7",
+   "ADP": "199.3",
+   "CON": "$4.6M",
+   "Poss/G": "",
+   "FPPP": "0.00",
+   "Age": "21.4",
+   "Team": "-",
+   "FILTERS": "pos=c|FTavail|age<25|age<30|NBAteam|Disney|con<5|con<10|con<15|con<20|Yang"
+  },
+  {
    "Player": "L. Cryer, GSW, G",
    "FPPG": "6.5",
    "FPPM": "1.00",
@@ -1983,26 +2003,6 @@
    "FILTERS": "pos=f|pos=fc|pos=c|mpg>10|FTavail|age<30|age>25|NBAteam|Disney|con<2|con<5|con<10|con<15|con<20|Jonathan"
   },
   {
-   "Player": "Y. Hansen, POR, C",
-   "FPPG": "6.0",
-   "FPPM": "0.73",
-   "G": "2",
-   "MPG": "8.3",
-   "PPG": "4.0",
-   "RPG": "2.5",
-   "APG": "0.0",
-   "BPG": "0.5",
-   "SPG": "0.0",
-   "OWN": "18.7",
-   "ADP": "199.3",
-   "CON": "$4.6M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "21.4",
-   "Team": "-",
-   "FILTERS": "pos=c|FTavail|age<25|age<30|NBAteam|Disney|con<5|con<10|con<15|con<20|Yang"
-  },
-  {
    "Player": "R. Nembhard, DEN, G",
    "FPPG": "6.0",
    "FPPM": "2.28",
@@ -2063,6 +2063,26 @@
    "FILTERS": "pos=f|mpg>10|FTavail|age<30|age>25|NBAteam|Disney|con<2|con<5|con<10|con<15|con<20|Bryce"
   },
   {
+   "Player": "E. Sharp, SAC, G",
+   "FPPG": "5.4",
+   "FPPM": "0.32",
+   "G": "5",
+   "MPG": "16.8",
+   "PPG": "4.2",
+   "RPG": "0.6",
+   "APG": "0.6",
+   "BPG": "0.2",
+   "SPG": "0.4",
+   "OWN": "11.2",
+   "ADP": "121.4",
+   "CON": "$1.4M",
+   "Poss/G": "",
+   "FPPP": "0.00",
+   "Age": "22.7",
+   "Team": "-",
+   "FILTERS": "pos=g|mpg>10|FTavail|age<25|age<30|NBAteam|Disney|con<2|con<5|con<10|con<15|con<20|Emanuel"
+  },
+  {
    "Player": "O. Dieng, MIL, FC",
    "FPPG": "5.3",
    "FPPM": "0.40",
@@ -2101,26 +2121,6 @@
    "Age": "28.2",
    "Team": "-",
    "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|FTavail|age<30|age>25|NBAteam|Disney|con<5|con<10|con<15|con<20|Daeqwon"
-  },
-  {
-   "Player": "E. Sharp, SAC, G",
-   "FPPG": "5.2",
-   "FPPM": "0.31",
-   "G": "5",
-   "MPG": "16.8",
-   "PPG": "4.2",
-   "RPG": "0.4",
-   "APG": "0.6",
-   "BPG": "0.2",
-   "SPG": "0.4",
-   "OWN": "11.2",
-   "ADP": "121.4",
-   "CON": "$1.4M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "22.7",
-   "Team": "-",
-   "FILTERS": "pos=g|mpg>10|FTavail|age<25|age<30|NBAteam|Disney|con<2|con<5|con<10|con<15|con<20|Emanuel"
   },
   {
    "Player": "J. Walker, PHI, F",
@@ -4523,7 +4523,7 @@
    "FILTERS": "pos=g|FTavail|age>25|age>30|con<2|con<5|con<10|con<15|con<20|D'Angelo"
   },
   {
-   "Player": "L. Lovering, *FA, C",
+   "Player": "L. Lovering, LAL, C",
    "FPPG": "",
    "FPPM": "",
    "G": "",
@@ -4540,7 +4540,7 @@
    "FPPP": "",
    "Age": "23.5",
    "Team": "-",
-   "FILTERS": "pos=c|FTavail|age<25|age<30|con<2|con<5|con<10|con<15|con<20|Lawson"
+   "FILTERS": "pos=c|FTavail|age<25|age<30|NBAteam|Disney|con<2|con<5|con<10|con<15|con<20|Lawson"
   },
   {
    "Player": "E. Udeh, CLE, C",
@@ -7503,7 +7503,7 @@
    "FILTERS": "pos=g|pos=gf|pos=f|FTavail|age<30|age>25|con<2|con<5|con<10|con<15|con<20|Ochai"
   },
   {
-   "Player": "E. Freeman, *FA, F",
+   "Player": "E. Freeman, MIN, F",
    "FPPG": "",
    "FPPM": "",
    "G": "",
@@ -7520,7 +7520,7 @@
    "FPPP": "",
    "Age": "26.3",
    "Team": "-",
-   "FILTERS": "pos=f|FTavail|age<30|age>25|con<2|con<5|con<10|con<15|con<20|Enrique"
+   "FILTERS": "pos=f|FTavail|age<30|age>25|NBAteam|con<2|con<5|con<10|con<15|con<20|Enrique"
   },
   {
    "Player": "U. Haslem, *FA, FC",
@@ -20023,7 +20023,7 @@
    "FILTERS": "pos=g|FTavail|age<25|age<30|NBAteam|con<2|con<5|con<10|con<15|con<20|Kylan"
   },
   {
-   "Player": "A. Okereke, LAL, F",
+   "Player": "A. Okereke, *FA, F",
    "FPPG": "",
    "FPPM": "",
    "G": "",
@@ -20040,7 +20040,7 @@
    "FPPP": "",
    "Age": "23.3",
    "Team": "-",
-   "FILTERS": "pos=f|FTavail|age<25|age<30|NBAteam|Disney|con<2|con<5|con<10|con<15|con<20|AK"
+   "FILTERS": "pos=f|FTavail|age<25|age<30|con<2|con<5|con<10|con<15|con<20|AK"
   },
   {
    "Player": "M. Dia, NOP, F",

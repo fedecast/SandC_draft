@@ -1,12 +1,11 @@
 Player,FPPG,FPPM,G,MPG,PPG,RPG,APG,BPG,SPG,OWN,ADP,CON,Poss/G,FPPP,Age,Team,FILTERS
 "C. Braun, DEN, GF",22.4,0.62,5,36.1,15.4,4.2,2.0,0.2,2.4,43.6,163.3,$21.6M,,0.00,25.6,-,pos=g|pos=gf|pos=f|mpg>10|mpg>20|mpg>30|FTavail|age<30|age>25|NBAteam|Disney|Christian
-"D. Hunter, SAC, F",18.6,0.65,5,28.8,13.0,5.4,1.2,0.2,0.2,26.5,203.6,$24.9M,,0.00,28.9,-,pos=f|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|Disney|De'Andre
+"P. Watson, CLE, F",19.2,0.64,5,29.8,12.0,4.4,2.4,1.8,1.2,57.0,137.8,$20.5M,,0.00,24.2,-,pos=f|mpg>10|mpg>20|FTavail|age<25|age<30|NBAteam|Peyton
 "D. Jenkins, DET, G",18.5,0.75,6,24.7,11.2,3.8,4.0,0.2,0.5,50.5,187.6,$4.0M,,0.00,25.2,-,pos=g|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|g>5|con<5|con<10|con<15|con<20|Daniss
 "K. Dunn, LAC, G",18.4,0.61,5,30.3,7.8,4.2,5.6,0.8,2.2,50.5,215.3,$5.7M,,0.00,32.6,-,pos=g|mpg>10|mpg>20|mpg>30|FTavail|age>25|age>30|NBAteam|Disney|con<10|con<15|con<20|Kris
 "J. Champagnie, SAS, F",18.4,0.66,5,28.0,11.6,3.4,1.4,1.2,1.2,52.4,165.2,$15.4M,,0.00,25.4,-,pos=f|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|Disney|con<20|Julian
 "Z. Williams, LAL, GF",17.5,0.62,4,28.4,11.3,3.0,2.3,0.3,1.5,35.6,246.8,$2.4M,,0.00,25.2,-,pos=g|pos=gf|pos=f|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|Disney|con<5|con<10|con<15|con<20|Ziaire
 "J. Champagnie, WAS, F",17.0,0.93,4,18.3,7.3,7.5,1.3,0.5,0.5,55.9,163.6,$2.7M,,0.00,25.4,-,pos=f|mpg>10|FTavail|age<30|age>25|NBAteam|Disney|con<5|con<10|con<15|con<20|Justin
-"D. Melton, GSW, G",16.8,0.79,6,21.4,10.3,3.8,2.2,0.3,1.3,37.2,201.3,$6.1M,,0.00,28.4,-,pos=g|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|g>5|con<10|con<15|con<20|De'Anthony
 "B. Coulibaly, WAS, GF",14.8,0.56,6,26.3,8.3,4.0,0.5,1.0,1.5,48.4,155.5,$9.2M,,0.00,22.3,-,pos=g|pos=gf|pos=f|mpg>10|mpg>20|FTavail|age<25|age<30|NBAteam|Disney|g>5|con<10|con<15|con<20|Bilal
 "A. Simons, PHI, G",14.5,0.59,6,24.6,10.8,2.3,1.2,0.3,0.5,34.8,173.5,$6.0M,,0.00,27.4,-,pos=g|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|Disney|g>5|con<10|con<15|con<20|Anfernee
 "S. Merrill, CLE, GF",14.4,0.58,5,24.6,9.0,2.8,2.2,0.0,0.8,24.1,215.6,$9.2M,,0.00,30.5,-,pos=g|pos=gf|pos=f|mpg>10|mpg>20|FTavail|age>25|age>30|NBAteam|con<10|con<15|con<20|Sam
@@ -45,6 +44,7 @@ Player,FPPG,FPPM,G,MPG,PPG,RPG,APG,BPG,SPG,OWN,ADP,CON,Poss/G,FPPP,Age,Team,FILT
 "Q. Post, MEM, C",10.4,0.69,5,15.1,7.6,2.6,0.6,0.4,0.0,23.0,213.2,$9.0M,,0.00,26.6,-,pos=c|mpg>10|FTavail|age<30|age>25|NBAteam|Disney|con<10|con<15|con<20|Quinten
 "T. Lyles, MIN, FC",10.3,0.65,6,15.9,5.5,3.7,1.0,0.2,0.3,21.7,250.5,$2.4M,,0.00,31.0,-,pos=f|pos=fc|pos=c|mpg>10|FTavail|age>25|age>30|NBAteam|g>5|con<5|con<10|con<15|con<20|Trey
 "B. Bogdanovic, HOU, GF",10.2,0.75,6,13.5,7.7,1.3,1.3,0.0,0.5,25.4,245.3,$2.4M,,0.00,34.2,-,pos=g|pos=gf|pos=f|mpg>10|FTavail|age>25|age>30|NBAteam|Disney|g>5|con<5|con<10|con<15|con<20|Bogdan
+"S. Pippen Jr., MEM, G",10.2,0.64,5,16.0,6.4,2.4,2.2,0.2,1.0,62.6,139.6,$2.5M,,0.00,26.0,-,pos=g|mpg>10|FTavail|age<30|age>25|NBAteam|Disney|con<5|con<10|con<15|con<20|Scotty
 "B. Carrington, WAS, G",10.2,0.52,6,19.7,6.7,1.5,2.2,0.0,0.5,28.6,182.0,$4.9M,,0.00,21.3,-,pos=g|mpg>10|FTavail|age<25|age<30|NBAteam|Disney|g>5|con<5|con<10|con<15|con<20|Bub
 "C. Martin, DAL, GF",10.0,0.52,2,19.4,9.0,1.0,0.0,0.0,0.5,10.4,290.4,$10.0M,,0.00,31.1,-,pos=g|pos=gf|pos=f|mpg>10|FTavail|age>25|age>30|NBAteam|Disney|con<15|con<20|Caleb
 "I. Joe, DET, G",10.0,0.72,3,13.9,7.3,1.7,1.0,0.3,0.3,26.2,203.5,$11.3M,,0.00,27.4,-,pos=g|mpg>10|FTavail|age<30|age>25|NBAteam|con<15|con<20|Isaiah
@@ -86,6 +86,7 @@ Player,FPPG,FPPM,G,MPG,PPG,RPG,APG,BPG,SPG,OWN,ADP,CON,Poss/G,FPPP,Age,Team,FILT
 "C. Castleton, ORL, C",7.0,1.31,2,5.3,4.5,2.0,0.5,0.5,0.0,4.5,147.0,$-M,,0.00,26.5,-,pos=c|FTavail|age<30|age>25|NBAteam|Disney|con<2|con<5|con<10|con<15|con<20|Colin
 "L. Kornet, SAS, C",6.6,0.45,5,14.7,2.4,3.6,0.6,0.6,0.2,32.4,176.2,$10.5M,,0.00,31.3,-,pos=c|mpg>10|FTavail|age>25|age>30|NBAteam|Disney|con<15|con<20|Luke
 "J. Slawson, IND, F",6.6,0.58,5,11.4,2.6,2.8,0.8,0.6,0.8,12.8,236.9,$-M,,0.00,27.0,-,pos=f|mpg>10|FTavail|age<30|age>25|NBAteam|Disney|con<2|con<5|con<10|con<15|con<20|Jalen
+"Y. Hansen, POR, C",6.5,0.79,2,8.3,4.0,2.5,0.5,0.5,0.0,18.7,199.3,$4.6M,,0.00,21.4,-,pos=c|FTavail|age<25|age<30|NBAteam|Disney|con<5|con<10|con<15|con<20|Yang
 "L. Cryer, GSW, G",6.5,1.00,4,6.5,4.5,0.5,1.8,0.0,0.0,5.6,450,$-M,,0.00,25.1,-,pos=g|FTavail|age<30|age>25|NBAteam|con<2|con<5|con<10|con<15|con<20|LJ
 "J. Cain, ORL, GF",6.4,0.45,5,14.3,5.4,1.4,0.0,0.0,0.4,8.6,246.9,$2.6M,,0.00,27.6,-,pos=g|pos=gf|pos=f|mpg>10|FTavail|age<30|age>25|NBAteam|Disney|con<5|con<10|con<15|con<20|Jamal
 "J. Okogie, UTA, GF",6.3,0.38,4,16.6,1.8,3.5,1.3,0.3,0.3,9.6,262.6,$6.0M,,0.00,28.2,-,pos=g|pos=gf|pos=f|mpg>10|FTavail|age<30|age>25|NBAteam|Disney|con<10|con<15|con<20|Josh
@@ -97,13 +98,12 @@ Player,FPPG,FPPM,G,MPG,PPG,RPG,APG,BPG,SPG,OWN,ADP,CON,Poss/G,FPPP,Age,Team,FILT
 "Z. Nnaji, DEN, FC",6.0,1.69,1,3.6,5.0,1.0,0.0,0.0,0.0,7.0,238.5,$7.5M,,0.00,25.8,-,pos=f|pos=fc|pos=c|FTavail|age<30|age>25|NBAteam|Disney|con<10|con<15|con<20|Zeke
 "K. Brown, IND, F",6.0,0.82,3,7.3,3.0,2.0,1.3,0.0,0.0,6.7,251.3,$-M,,0.00,26.8,-,pos=f|FTavail|age<30|age>25|NBAteam|Disney|con<2|con<5|con<10|con<15|con<20|Kobe
 "J. Mogbo, SAC, FC",6.0,0.40,3,14.9,3.0,2.7,0.3,0.3,0.7,14.2,195.8,$-M,,0.00,25.0,-,pos=f|pos=fc|pos=c|mpg>10|FTavail|age<30|age>25|NBAteam|Disney|con<2|con<5|con<10|con<15|con<20|Jonathan
-"Y. Hansen, POR, C",6.0,0.73,2,8.3,4.0,2.5,0.0,0.5,0.0,18.7,199.3,$4.6M,,0.00,21.4,-,pos=c|FTavail|age<25|age<30|NBAteam|Disney|con<5|con<10|con<15|con<20|Yang
 "R. Nembhard, DEN, G",6.0,2.28,2,2.6,4.5,0.5,1.0,0.0,0.0,17.1,215.9,$-M,,0.00,23.7,-,pos=g|FTavail|age<25|age<30|NBAteam|Disney|con<2|con<5|con<10|con<15|con<20|Ryan
 "C. Whitmore, DEN, F",5.5,0.74,2,7.4,4.0,1.0,0.5,0.0,0.5,18.2,221.8,$-M,,0.00,22.3,-,pos=f|FTavail|age<25|age<30|NBAteam|Disney|con<2|con<5|con<10|con<15|con<20|Cam
 "B. Hopkins, DEN, F",5.5,0.33,4,16.5,3.8,2.0,0.5,0.0,0.0,7.5,102.3,$-M,,0.00,25.2,-,pos=f|mpg>10|FTavail|age<30|age>25|NBAteam|Disney|con<2|con<5|con<10|con<15|con<20|Bryce
+"E. Sharp, SAC, G",5.4,0.32,5,16.8,4.2,0.6,0.6,0.2,0.4,11.2,121.4,$1.4M,,0.00,22.7,-,pos=g|mpg>10|FTavail|age<25|age<30|NBAteam|Disney|con<2|con<5|con<10|con<15|con<20|Emanuel
 "O. Dieng, MIL, FC",5.3,0.40,4,13.2,3.0,1.3,1.0,0.0,0.3,21.7,211.4,$5.8M,,0.00,23.5,-,pos=f|pos=fc|pos=c|mpg>10|FTavail|age<25|age<30|NBAteam|Disney|con<10|con<15|con<20|Ousmane
 "D. Plowden, SAC, GF",5.3,0.32,4,16.7,2.5,1.8,0.5,0.3,0.5,9.4,291.7,$2.4M,,0.00,28.2,-,pos=g|pos=gf|pos=f|mpg>10|FTavail|age<30|age>25|NBAteam|Disney|con<5|con<10|con<15|con<20|Daeqwon
-"E. Sharp, SAC, G",5.2,0.31,5,16.8,4.2,0.4,0.6,0.2,0.4,11.2,121.4,$1.4M,,0.00,22.7,-,pos=g|mpg>10|FTavail|age<25|age<30|NBAteam|Disney|con<2|con<5|con<10|con<15|con<20|Emanuel
 "J. Walker, PHI, F",5.0,0.79,3,6.4,2.7,1.3,0.7,0.0,0.3,13.1,284.6,$2.6M,,0.00,24.3,-,pos=f|FTavail|age<25|age<30|NBAteam|Disney|con<5|con<10|con<15|con<20|Jabari
 "J. Bouyea, PHX, G",5.0,1.03,2,4.9,2.5,1.0,1.5,0.0,0.0,6.1,309.4,$2.6M,,0.00,27.4,-,pos=g|FTavail|age<30|age>25|NBAteam|con<5|con<10|con<15|con<20|Jamaree
 "O. Prosper, MEM, F",5.0,1.96,1,2.6,4.0,1.0,0.0,0.0,0.0,16.0,222.9,$2.5M,,0.00,24.3,-,pos=f|FTavail|age<25|age<30|NBAteam|Disney|con<5|con<10|con<15|con<20|Olivier-Maxence
@@ -224,7 +224,7 @@ Player,FPPG,FPPM,G,MPG,PPG,RPG,APG,BPG,SPG,OWN,ADP,CON,Poss/G,FPPP,Age,Team,FILT
 "B. Klintman, *FA, F",,,,,,,,,,0.5,450,$-M,,,23.7,-,pos=f|FTavail|age<25|age<30|con<2|con<5|con<10|con<15|con<20|Bobi
 "M. Brown, *FA, C",,,,,,,,,,0.3,450,$-M,,,27.1,-,pos=c|FTavail|age<30|age>25|con<2|con<5|con<10|con<15|con<20|Moses
 "D. Russell, *FA, G",,,,,,,,,,4.5,236.4,$-M,,,30.7,-,pos=g|FTavail|age>25|age>30|con<2|con<5|con<10|con<15|con<20|D'Angelo
-"L. Lovering, *FA, C",,,,,,,,,,2.7,296.3,$-M,,,23.5,-,pos=c|FTavail|age<25|age<30|con<2|con<5|con<10|con<15|con<20|Lawson
+"L. Lovering, LAL, C",,,,,,,,,,2.7,296.3,$-M,,,23.5,-,pos=c|FTavail|age<25|age<30|NBAteam|Disney|con<2|con<5|con<10|con<15|con<20|Lawson
 "E. Udeh, CLE, C",,,,,,,,,,0.5,450,$-M,,,22.8,-,pos=c|FTavail|age<25|age<30|NBAteam|con<2|con<5|con<10|con<15|con<20|Ernest
 "J. Small, MEM, G",,,,,,,,,,13.4,214.1,$-M,,,23.9,-,pos=g|FTavail|age<25|age<30|NBAteam|Disney|con<2|con<5|con<10|con<15|con<20|Javon
 "T. Antetokounmpo, *FA, F",,,,,,,,,,0.3,450,$-M,,,34.3,-,pos=f|FTavail|age>25|age>30|con<2|con<5|con<10|con<15|con<20|Thanasis
@@ -373,7 +373,7 @@ Player,FPPG,FPPM,G,MPG,PPG,RPG,APG,BPG,SPG,OWN,ADP,CON,Poss/G,FPPP,Age,Team,FILT
 "Y. Kawamura, *FA, G",,,,,,,,,,0.8,213.7,$-M,,,25.5,-,pos=g|FTavail|age<30|age>25|con<2|con<5|con<10|con<15|con<20|Yuki
 "H. Tyson, *FA, F",,,,,,,,,,0.5,450,$-M,,,26.4,-,pos=f|FTavail|age<30|age>25|con<2|con<5|con<10|con<15|con<20|Hunter
 "O. Agbaji, *FA, GF",,,,,,,,,,1.6,202.3,$-M,,,26.5,-,pos=g|pos=gf|pos=f|FTavail|age<30|age>25|con<2|con<5|con<10|con<15|con<20|Ochai
-"E. Freeman, *FA, F",,,,,,,,,,0.3,216.7,$-M,,,26.3,-,pos=f|FTavail|age<30|age>25|con<2|con<5|con<10|con<15|con<20|Enrique
+"E. Freeman, MIN, F",,,,,,,,,,0.3,216.7,$-M,,,26.3,-,pos=f|FTavail|age<30|age>25|NBAteam|con<2|con<5|con<10|con<15|con<20|Enrique
 "U. Haslem, *FA, FC",,,,,,,,,,0.3,112.5,$-M,,,46.4,-,pos=f|pos=fc|pos=c|FTavail|age>25|age>30|con<2|con<5|con<10|con<15|con<20|Udonis
 "T. Newton, *FA, GF",,,,,,,,,,0.5,450,$-M,,,25.5,-,pos=g|pos=gf|pos=f|FTavail|age<30|age>25|con<2|con<5|con<10|con<15|con<20|Tristen
 "R. McGruder, *FA, GF",,,,,,,,,,0.3,450,$-M,,,35.3,-,pos=g|pos=gf|pos=f|FTavail|age>25|age>30|con<2|con<5|con<10|con<15|con<20|Rodney
@@ -999,5 +999,5 @@ Player,FPPG,FPPM,G,MPG,PPG,RPG,APG,BPG,SPG,OWN,ADP,CON,Poss/G,FPPP,Age,Team,FILT
 "T. Key, *FA, G",,,,,,,,,,0.0,450,$-M,,,"2,028.3",-,pos=g|FTavail|age<25|age<30|con<2|con<5|con<10|con<15|con<20|Tyreke
 "H. Gray, *FA, G",,,,,,,,,,0.0,450,$-M,,,"2,028.3",-,pos=g|FTavail|age<25|age<30|con<2|con<5|con<10|con<15|con<20|Hayden
 "K. Boswell, CHA, G",,,,,,,,,,0.0,450,$-M,,,21.6,-,pos=g|FTavail|age<25|age<30|NBAteam|con<2|con<5|con<10|con<15|con<20|Kylan
-"A. Okereke, LAL, F",,,,,,,,,,0.0,450,$-M,,,23.3,-,pos=f|FTavail|age<25|age<30|NBAteam|Disney|con<2|con<5|con<10|con<15|con<20|AK
+"A. Okereke, *FA, F",,,,,,,,,,0.0,450,$-M,,,23.3,-,pos=f|FTavail|age<25|age<30|con<2|con<5|con<10|con<15|con<20|AK
 "M. Dia, NOP, F",,,,,,,,,,0.0,450,$-M,,,22.8,-,pos=f|FTavail|age<25|age<30|NBAteam|con<2|con<5|con<10|con<15|con<20|Malik
