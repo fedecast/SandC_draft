@@ -126,14 +126,6 @@
   },
   {
    "tag": "A",
-   "text": "D. Avdija",
-   "cls": "",
-   "href": "/nba/deni-avdija",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
    "text": "J. Johnson",
    "cls": "",
    "href": "/nba/jalen-johnson",
@@ -177,6 +169,14 @@
    "text": "S. Barnes",
    "cls": "",
    "href": "/nba/scottie-barnes",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "D. Avdija",
+   "cls": "",
+   "href": "/nba/deni-avdija",
    "onclick": "",
    "opts": null
   },
