@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T09:58:57+00:00",
+ "updated": "2026-11-04T18:02:04+00:00",
  "count": 1003,
  "columns": [
   "Player",
@@ -24,15 +24,15 @@
  "players": [
   {
    "Player": "C. Braun, DEN, GF",
-   "FPPG": "22.3",
-   "FPPM": "0.62",
+   "FPPG": "22.2",
+   "FPPM": "0.61",
    "G": "6",
    "MPG": "36.3",
    "PPG": "15.2",
    "RPG": "4.0",
    "APG": "2.2",
    "BPG": "0.2",
-   "SPG": "2.5",
+   "SPG": "2.3",
    "OWN": "50.0",
    "ADP": "163.3",
    "CON": "$21.6M",
@@ -264,7 +264,7 @@
   },
   {
    "Player": "B. Coulibaly, WAS, GF",
-   "FPPG": "14.9",
+   "FPPG": "14.7",
    "FPPM": "0.54",
    "G": "7",
    "MPG": "27.3",
@@ -272,7 +272,7 @@
    "RPG": "3.6",
    "APG": "0.7",
    "BPG": "1.3",
-   "SPG": "1.6",
+   "SPG": "1.4",
    "OWN": "46.0",
    "ADP": "155.5",
    "CON": "$9.2M",
@@ -2663,26 +2663,6 @@
    "FILTERS": "pos=c|FTavail|age<30|age>25|NBAteam|con<10|con<15|con<20|Zach"
   },
   {
-   "Player": "T. Bradley, UTA, C",
-   "FPPG": "4.0",
-   "FPPM": "0.63",
-   "G": "2",
-   "MPG": "6.4",
-   "PPG": "2.0",
-   "RPG": "2.0",
-   "APG": "0.0",
-   "BPG": "0.5",
-   "SPG": "0.5",
-   "OWN": "2.1",
-   "ADP": "450",
-   "CON": "$2.4M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "28.8",
-   "Team": "-",
-   "FILTERS": "pos=c|FTavail|age<30|age>25|NBAteam|Disney|con<5|con<10|con<15|con<20|Tony"
-  },
-  {
    "Player": "G. Trent Jr., MIL, GF",
    "FPPG": "4.0",
    "FPPM": "0.63",
@@ -2861,6 +2841,26 @@
    "Age": "33.1",
    "Team": "-",
    "FILTERS": "pos=f|FTavail|age>25|age>30|NBAteam|Disney|con<5|con<10|con<15|con<20|Kyle"
+  },
+  {
+   "Player": "T. Bradley, UTA, C",
+   "FPPG": "3.5",
+   "FPPM": "0.55",
+   "G": "2",
+   "MPG": "6.4",
+   "PPG": "2.0",
+   "RPG": "2.0",
+   "APG": "0.0",
+   "BPG": "0.0",
+   "SPG": "0.5",
+   "OWN": "2.1",
+   "ADP": "450",
+   "CON": "$2.4M",
+   "Poss/G": "",
+   "FPPP": "0.00",
+   "Age": "28.8",
+   "Team": "-",
+   "FILTERS": "pos=c|FTavail|age<30|age>25|NBAteam|Disney|con<5|con<10|con<15|con<20|Tony"
   },
   {
    "Player": "D. Holmes II, DEN, FC",
