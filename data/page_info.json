@@ -86,14 +86,6 @@
   },
   {
    "tag": "A",
-   "text": "T. Maxey",
-   "cls": "",
-   "href": "/nba/tyrese-maxey",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
    "text": "S. Curry",
    "cls": "",
    "href": "/nba/stephen-curry",
@@ -126,9 +118,25 @@
   },
   {
    "tag": "A",
+   "text": "T. Maxey",
+   "cls": "",
+   "href": "/nba/tyrese-maxey",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
    "text": "S. Barnes",
    "cls": "",
    "href": "/nba/scottie-barnes",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "C. Cunningham",
+   "cls": "",
+   "href": "/nba/cade-cunningham",
    "onclick": "",
    "opts": null
   },
@@ -158,9 +166,9 @@
   },
   {
    "tag": "A",
-   "text": "C. Cunningham",
+   "text": "A. Davis",
    "cls": "",
-   "href": "/nba/cade-cunningham",
+   "href": "/nba/anthony-davis",
    "onclick": "",
    "opts": null
   },
@@ -177,14 +185,6 @@
    "text": "K. Towns",
    "cls": "",
    "href": "/nba/karl-anthony-towns",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "A. Davis",
-   "cls": "",
-   "href": "/nba/anthony-davis",
    "onclick": "",
    "opts": null
   },
@@ -222,9 +222,9 @@
   },
   {
    "tag": "A",
-   "text": "T. Young",
+   "text": "J. Embiid",
    "cls": "",
-   "href": "/nba/trae-young",
+   "href": "/nba/joel-embiid",
    "onclick": "",
    "opts": null
   },
