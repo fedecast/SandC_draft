@@ -78,14 +78,6 @@
   },
   {
    "tag": "A",
-   "text": "S. Gilgeous-Alexander",
-   "cls": "",
-   "href": "/nba/shai-gilgeous-alexander",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
    "text": "A. Sengun",
    "cls": "",
    "href": "/nba/alperen-sengun",
@@ -94,17 +86,17 @@
   },
   {
    "tag": "A",
-   "text": "S. Curry",
+   "text": "S. Gilgeous-Alexander",
    "cls": "",
-   "href": "/nba/stephen-curry",
+   "href": "/nba/shai-gilgeous-alexander",
    "onclick": "",
    "opts": null
   },
   {
    "tag": "A",
-   "text": "T. Maxey",
+   "text": "S. Curry",
    "cls": "",
-   "href": "/nba/tyrese-maxey",
+   "href": "/nba/stephen-curry",
    "onclick": "",
    "opts": null
   },
@@ -121,6 +113,14 @@
    "text": "C. Cunningham",
    "cls": "",
    "href": "/nba/cade-cunningham",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "T. Maxey",
+   "cls": "",
+   "href": "/nba/tyrese-maxey",
    "onclick": "",
    "opts": null
   },
@@ -166,14 +166,6 @@
   },
   {
    "tag": "A",
-   "text": "T. Jerome",
-   "cls": "",
-   "href": "/nba/ty-jerome",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
    "text": "D. Avdija",
    "cls": "",
    "href": "/nba/deni-avdija",
@@ -190,9 +182,9 @@
   },
   {
    "tag": "A",
-   "text": "D. Sabonis",
+   "text": "T. Jerome",
    "cls": "",
-   "href": "/nba/domantas-sabonis",
+   "href": "/nba/ty-jerome",
    "onclick": "",
    "opts": null
   },
@@ -209,6 +201,14 @@
    "text": "D. Acuff Jr.",
    "cls": "",
    "href": "/nba/darius-acuff",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "D. Sabonis",
+   "cls": "",
+   "href": "/nba/domantas-sabonis",
    "onclick": "",
    "opts": null
   },
