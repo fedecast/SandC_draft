@@ -78,9 +78,9 @@
   },
   {
    "tag": "A",
-   "text": "A. Sengun",
+   "text": "S. Curry",
    "cls": "",
-   "href": "/nba/alperen-sengun",
+   "href": "/nba/stephen-curry",
    "onclick": "",
    "opts": null
   },
@@ -94,9 +94,9 @@
   },
   {
    "tag": "A",
-   "text": "S. Curry",
+   "text": "A. Sengun",
    "cls": "",
-   "href": "/nba/stephen-curry",
+   "href": "/nba/alperen-sengun",
    "onclick": "",
    "opts": null
   },
@@ -142,6 +142,14 @@
   },
   {
    "tag": "A",
+   "text": "K. Towns",
+   "cls": "",
+   "href": "/nba/karl-anthony-towns",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
    "text": "A. Davis",
    "cls": "",
    "href": "/nba/anthony-davis",
@@ -158,14 +166,6 @@
   },
   {
    "tag": "A",
-   "text": "D. Avdija",
-   "cls": "",
-   "href": "/nba/deni-avdija",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
    "text": "J. Murray",
    "cls": "",
    "href": "/nba/jamal-murray",
@@ -174,9 +174,17 @@
   },
   {
    "tag": "A",
-   "text": "K. Towns",
+   "text": "J. Johnson",
    "cls": "",
-   "href": "/nba/karl-anthony-towns",
+   "href": "/nba/jalen-johnson",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "J. Brunson",
+   "cls": "",
+   "href": "/nba/jalen-brunson",
    "onclick": "",
    "opts": null
   },
@@ -185,14 +193,6 @@
    "text": "T. Jerome",
    "cls": "",
    "href": "/nba/ty-jerome",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "J. Johnson",
-   "cls": "",
-   "href": "/nba/jalen-johnson",
    "onclick": "",
    "opts": null
   },
@@ -214,17 +214,17 @@
   },
   {
    "tag": "A",
-   "text": "J. Brunson",
+   "text": "D. Mitchell",
    "cls": "",
-   "href": "/nba/jalen-brunson",
+   "href": "/nba/donovan-mitchell",
    "onclick": "",
    "opts": null
   },
   {
    "tag": "A",
-   "text": "D. Booker",
+   "text": "D. Avdija",
    "cls": "",
-   "href": "/nba/devin-booker",
+   "href": "/nba/deni-avdija",
    "onclick": "",
    "opts": null
   },
