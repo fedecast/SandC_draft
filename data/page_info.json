@@ -126,14 +126,6 @@
   },
   {
    "tag": "A",
-   "text": "J. Murray",
-   "cls": "",
-   "href": "/nba/jamal-murray",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
    "text": "T. Haliburton",
    "cls": "",
    "href": "/nba/tyrese-haliburton",
@@ -169,6 +161,14 @@
    "text": "D. Avdija",
    "cls": "",
    "href": "/nba/deni-avdija",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "J. Murray",
+   "cls": "",
+   "href": "/nba/jamal-murray",
    "onclick": "",
    "opts": null
   },
