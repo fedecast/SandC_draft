@@ -118,14 +118,6 @@
   },
   {
    "tag": "A",
-   "text": "C. Cunningham",
-   "cls": "",
-   "href": "/nba/cade-cunningham",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
    "text": "T. Haliburton",
    "cls": "",
    "href": "/nba/tyrese-haliburton",
@@ -169,6 +161,14 @@
    "text": "J. Murray",
    "cls": "",
    "href": "/nba/jamal-murray",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "C. Cunningham",
+   "cls": "",
+   "href": "/nba/cade-cunningham",
    "onclick": "",
    "opts": null
   },
