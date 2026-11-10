@@ -94,6 +94,14 @@
   },
   {
    "tag": "A",
+   "text": "A. Davis",
+   "cls": "",
+   "href": "/nba/anthony-davis",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
    "text": "C. Flagg",
    "cls": "",
    "href": "/nba/cooper-flagg",
@@ -142,14 +150,6 @@
   },
   {
    "tag": "A",
-   "text": "A. Davis",
-   "cls": "",
-   "href": "/nba/anthony-davis",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
    "text": "S. Barnes",
    "cls": "",
    "href": "/nba/scottie-barnes",
@@ -161,22 +161,6 @@
    "text": "J. Murray",
    "cls": "",
    "href": "/nba/jamal-murray",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "C. Cunningham",
-   "cls": "",
-   "href": "/nba/cade-cunningham",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "J. Johnson",
-   "cls": "",
-   "href": "/nba/jalen-johnson",
    "onclick": "",
    "opts": null
   },
@@ -198,9 +182,25 @@
   },
   {
    "tag": "A",
+   "text": "C. Cunningham",
+   "cls": "",
+   "href": "/nba/cade-cunningham",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
    "text": "T. Jerome",
    "cls": "",
    "href": "/nba/ty-jerome",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "J. Johnson",
+   "cls": "",
+   "href": "/nba/jalen-johnson",
    "onclick": "",
    "opts": null
   },
@@ -214,17 +214,17 @@
   },
   {
    "tag": "A",
-   "text": "D. Mitchell",
+   "text": "D. Avdija",
    "cls": "",
-   "href": "/nba/donovan-mitchell",
+   "href": "/nba/deni-avdija",
    "onclick": "",
    "opts": null
   },
   {
    "tag": "A",
-   "text": "D. Avdija",
+   "text": "F. Wagner",
    "cls": "",
-   "href": "/nba/deni-avdija",
+   "href": "/nba/franz-wagner",
    "onclick": "",
    "opts": null
   },
