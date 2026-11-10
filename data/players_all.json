@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T11:43:39+00:00",
+ "updated": "2026-11-10T18:55:16+00:00",
  "count": 1260,
  "columns": [
   "Player",
@@ -4743,6 +4743,26 @@
    "FILTERS": "pos=c|mpg>10|FTavail|age<30|age>25|NBAteam|Disney|g>5|con<5|con<10|con<15|con<20|Jay"
   },
   {
+   "Player": "J. LaRavia, LAL, F",
+   "FPPG": "12.0",
+   "FPPM": "0.48",
+   "G": "11",
+   "MPG": "24.8",
+   "PPG": "6.1",
+   "RPG": "3.5",
+   "APG": "1.8",
+   "BPG": "0.7",
+   "SPG": "1.4",
+   "OWN": "27.7",
+   "ADP": "203.2",
+   "CON": "$6.0M",
+   "Poss/G": "",
+   "FPPP": "0.00",
+   "Age": "25.0",
+   "Team": "SPI",
+   "FILTERS": "pos=f|mpg>10|mpg>20|age<30|age>25|NBAteam|Disney|g>5|g>10|con<10|con<15|con<20|Jake"
+  },
+  {
    "Player": "S. James, CHA, GF",
    "FPPG": "12.0",
    "FPPM": "0.47",
@@ -4781,26 +4801,6 @@
    "Age": "28.9",
    "Team": "-",
    "FILTERS": "pos=f|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|Disney|g>5|con<15|con<20|Sam"
-  },
-  {
-   "Player": "J. LaRavia, LAL, F",
-   "FPPG": "11.9",
-   "FPPM": "0.48",
-   "G": "11",
-   "MPG": "24.8",
-   "PPG": "6.1",
-   "RPG": "3.5",
-   "APG": "1.7",
-   "BPG": "0.7",
-   "SPG": "1.4",
-   "OWN": "27.7",
-   "ADP": "203.2",
-   "CON": "$6.0M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "25.0",
-   "Team": "SPI",
-   "FILTERS": "pos=f|mpg>10|mpg>20|age<30|age>25|NBAteam|Disney|g>5|g>10|con<10|con<15|con<20|Jake"
   },
   {
    "Player": "I. Collier, UTA, G",
@@ -5183,26 +5183,6 @@
    "FILTERS": "pos=f|mpg>10|FTavail|age<25|age<30|NBAteam|g>5|con<10|con<15|con<20|Tidjane"
   },
   {
-   "Player": "B. Scheierman, BOS, GF",
-   "FPPG": "10.8",
-   "FPPM": "0.53",
-   "G": "10",
-   "MPG": "20.2",
-   "PPG": "5.9",
-   "RPG": "3.8",
-   "APG": "1.2",
-   "BPG": "0.0",
-   "SPG": "0.8",
-   "OWN": "24.5",
-   "ADP": "228.2",
-   "CON": "$2.7M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "26.1",
-   "Team": "-",
-   "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|Disney|g>5|con<5|con<10|con<15|con<20|Baylor"
-  },
-  {
    "Player": "C. Capela, HOU, C",
    "FPPG": "10.7",
    "FPPM": "0.75",
@@ -5241,6 +5221,26 @@
    "Age": "21.4",
    "Team": "-",
    "FILTERS": "pos=f|mpg>10|FTavail|age<25|age<30|NBAteam|g>5|con<10|con<15|con<20|Ron"
+  },
+  {
+   "Player": "B. Scheierman, BOS, GF",
+   "FPPG": "10.7",
+   "FPPM": "0.53",
+   "G": "10",
+   "MPG": "20.2",
+   "PPG": "5.9",
+   "RPG": "3.8",
+   "APG": "1.2",
+   "BPG": "0.0",
+   "SPG": "0.7",
+   "OWN": "24.5",
+   "ADP": "228.2",
+   "CON": "$2.7M",
+   "Poss/G": "",
+   "FPPP": "0.00",
+   "Age": "26.1",
+   "Team": "-",
+   "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|Disney|g>5|con<5|con<10|con<15|con<20|Baylor"
   },
   {
    "Player": "L. Kennard, PHX, GF",
@@ -6123,6 +6123,26 @@
    "FILTERS": "pos=f|mpg>10|age<25|age<30|NBAteam|Disney|g>5|con<5|con<10|con<15|con<20|Allen"
   },
   {
+   "Player": "J. Walsh, BOS, F",
+   "FPPG": "8.2",
+   "FPPM": "0.53",
+   "G": "10",
+   "MPG": "15.6",
+   "PPG": "4.0",
+   "RPG": "3.6",
+   "APG": "0.6",
+   "BPG": "0.1",
+   "SPG": "0.6",
+   "OWN": "20.8",
+   "ADP": "251.0",
+   "CON": "$2.4M",
+   "Poss/G": "",
+   "FPPP": "0.00",
+   "Age": "22.7",
+   "Team": "-",
+   "FILTERS": "pos=f|mpg>10|FTavail|age<25|age<30|NBAteam|Disney|g>5|con<5|con<10|con<15|con<20|Jordan"
+  },
+  {
    "Player": "W. Richard, GSW, GF",
    "FPPG": "8.2",
    "FPPM": "0.48",
@@ -6141,26 +6161,6 @@
    "Age": "23.9",
    "Team": "-",
    "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|FTavail|age<25|age<30|NBAteam|g>5|con<5|con<10|con<15|con<20|Will"
-  },
-  {
-   "Player": "J. Walsh, BOS, F",
-   "FPPG": "8.1",
-   "FPPM": "0.52",
-   "G": "10",
-   "MPG": "15.6",
-   "PPG": "4.0",
-   "RPG": "3.6",
-   "APG": "0.6",
-   "BPG": "0.1",
-   "SPG": "0.5",
-   "OWN": "20.8",
-   "ADP": "251.0",
-   "CON": "$2.4M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "22.7",
-   "Team": "-",
-   "FILTERS": "pos=f|mpg>10|FTavail|age<25|age<30|NBAteam|Disney|g>5|con<5|con<10|con<15|con<20|Jordan"
   },
   {
    "Player": "A. Martin, TOR, G",
