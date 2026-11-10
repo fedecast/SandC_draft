@@ -78,9 +78,9 @@
   },
   {
    "tag": "A",
-   "text": "S. Curry",
+   "text": "C. Flagg",
    "cls": "",
-   "href": "/nba/stephen-curry",
+   "href": "/nba/cooper-flagg",
    "onclick": "",
    "opts": null
   },
@@ -94,17 +94,17 @@
   },
   {
    "tag": "A",
-   "text": "A. Davis",
+   "text": "S. Curry",
    "cls": "",
-   "href": "/nba/anthony-davis",
+   "href": "/nba/stephen-curry",
    "onclick": "",
    "opts": null
   },
   {
    "tag": "A",
-   "text": "C. Flagg",
+   "text": "A. Davis",
    "cls": "",
-   "href": "/nba/cooper-flagg",
+   "href": "/nba/anthony-davis",
    "onclick": "",
    "opts": null
   },
@@ -121,6 +121,14 @@
    "text": "T. Maxey",
    "cls": "",
    "href": "/nba/tyrese-maxey",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "J. Murray",
+   "cls": "",
+   "href": "/nba/jamal-murray",
    "onclick": "",
    "opts": null
   },
@@ -153,14 +161,6 @@
    "text": "S. Barnes",
    "cls": "",
    "href": "/nba/scottie-barnes",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "J. Murray",
-   "cls": "",
-   "href": "/nba/jamal-murray",
    "onclick": "",
    "opts": null
   },
