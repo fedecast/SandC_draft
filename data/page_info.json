@@ -78,17 +78,17 @@
   },
   {
    "tag": "A",
-   "text": "S. Gilgeous-Alexander",
+   "text": "J. Tatum",
    "cls": "",
-   "href": "/nba/shai-gilgeous-alexander",
+   "href": "/nba/jayson-tatum",
    "onclick": "",
    "opts": null
   },
   {
    "tag": "A",
-   "text": "J. Tatum",
+   "text": "S. Gilgeous-Alexander",
    "cls": "",
-   "href": "/nba/jayson-tatum",
+   "href": "/nba/shai-gilgeous-alexander",
    "onclick": "",
    "opts": null
   },
@@ -182,6 +182,14 @@
   },
   {
    "tag": "A",
+   "text": "F. Wagner",
+   "cls": "",
+   "href": "/nba/franz-wagner",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
    "text": "T. Jerome",
    "cls": "",
    "href": "/nba/ty-jerome",
@@ -198,22 +206,6 @@
   },
   {
    "tag": "A",
-   "text": "J. Johnson",
-   "cls": "",
-   "href": "/nba/jalen-johnson",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "D. Sabonis",
-   "cls": "",
-   "href": "/nba/domantas-sabonis",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
    "text": "D. Avdija",
    "cls": "",
    "href": "/nba/deni-avdija",
@@ -222,9 +214,17 @@
   },
   {
    "tag": "A",
-   "text": "F. Wagner",
+   "text": "J. Johnson",
    "cls": "",
-   "href": "/nba/franz-wagner",
+   "href": "/nba/jalen-johnson",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "P. Siakam",
+   "cls": "",
+   "href": "/nba/pascal-siakam",
    "onclick": "",
    "opts": null
   },
