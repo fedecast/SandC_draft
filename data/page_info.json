@@ -70,14 +70,6 @@
   },
   {
    "tag": "A",
-   "text": "J. Tatum",
-   "cls": "",
-   "href": "/nba/jayson-tatum",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
    "text": "C. Flagg",
    "cls": "",
    "href": "/nba/cooper-flagg",
@@ -89,6 +81,14 @@
    "text": "S. Gilgeous-Alexander",
    "cls": "",
    "href": "/nba/shai-gilgeous-alexander",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "J. Tatum",
+   "cls": "",
+   "href": "/nba/jayson-tatum",
    "onclick": "",
    "opts": null
   },
@@ -118,17 +118,17 @@
   },
   {
    "tag": "A",
-   "text": "T. Maxey",
+   "text": "J. Murray",
    "cls": "",
-   "href": "/nba/tyrese-maxey",
+   "href": "/nba/jamal-murray",
    "onclick": "",
    "opts": null
   },
   {
    "tag": "A",
-   "text": "J. Murray",
+   "text": "K. Towns",
    "cls": "",
-   "href": "/nba/jamal-murray",
+   "href": "/nba/karl-anthony-towns",
    "onclick": "",
    "opts": null
   },
@@ -150,9 +150,9 @@
   },
   {
    "tag": "A",
-   "text": "K. Towns",
+   "text": "T. Maxey",
    "cls": "",
-   "href": "/nba/karl-anthony-towns",
+   "href": "/nba/tyrese-maxey",
    "onclick": "",
    "opts": null
   },
@@ -174,14 +174,6 @@
   },
   {
    "tag": "A",
-   "text": "J. Brunson",
-   "cls": "",
-   "href": "/nba/jalen-brunson",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
    "text": "C. Cunningham",
    "cls": "",
    "href": "/nba/cade-cunningham",
@@ -193,6 +185,14 @@
    "text": "T. Jerome",
    "cls": "",
    "href": "/nba/ty-jerome",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "J. Brunson",
+   "cls": "",
+   "href": "/nba/jalen-brunson",
    "onclick": "",
    "opts": null
   },
