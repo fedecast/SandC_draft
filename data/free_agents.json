@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T10:11:41+00:00",
+ "updated": "2026-11-12T18:25:58+00:00",
  "count": 1003,
  "columns": [
   "Player",
@@ -1181,26 +1181,6 @@
    "Age": "28.1",
    "Team": "-",
    "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|g>5|g>10|con<15|con<20|Herbert"
-  },
-  {
-   "Player": "N. Essengue, CHI, FC",
-   "FPPG": "9.8",
-   "FPPM": "0.71",
-   "G": "9",
-   "MPG": "13.8",
-   "PPG": "5.6",
-   "RPG": "3.6",
-   "APG": "0.7",
-   "BPG": "0.3",
-   "SPG": "0.4",
-   "OWN": "19.9",
-   "ADP": "208.1",
-   "CON": "$5.7M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "19.9",
-   "Team": "-",
-   "FILTERS": "pos=f|pos=fc|pos=c|mpg>10|FTavail|age<25|age<30|NBAteam|g>5|con<10|con<15|con<20|Noa"
   },
   {
    "Player": "J. Cain, ORL, GF",
@@ -2523,26 +2503,6 @@
    "FILTERS": "pos=f|mpg>10|FTavail|age<25|age<30|NBAteam|Disney|g>5|g>10|con<10|con<15|con<20|Carter"
   },
   {
-   "Player": "A. Morales, ORL, G",
-   "FPPG": "5.1",
-   "FPPM": "0.41",
-   "G": "8",
-   "MPG": "12.5",
-   "PPG": "2.1",
-   "RPG": "2.4",
-   "APG": "0.6",
-   "BPG": "0.0",
-   "SPG": "0.4",
-   "OWN": "0.3",
-   "ADP": "450",
-   "CON": "$-M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "29.0",
-   "Team": "-",
-   "FILTERS": "pos=g|mpg>10|FTavail|age<30|age>25|NBAteam|Disney|g>5|con<2|con<5|con<10|con<15|con<20|Alex"
-  },
-  {
    "Player": "G. Trent Jr., MIL, GF",
    "FPPG": "5.0",
    "FPPM": "0.86",
@@ -2661,6 +2621,26 @@
    "Age": "25.4",
    "Team": "-",
    "FILTERS": "pos=g|pos=gf|pos=f|FTavail|age<30|age>25|NBAteam|con<2|con<5|con<10|con<15|con<20|Tristan"
+  },
+  {
+   "Player": "A. Morales, ORL, G",
+   "FPPG": "5.0",
+   "FPPM": "0.40",
+   "G": "8",
+   "MPG": "12.5",
+   "PPG": "2.1",
+   "RPG": "2.3",
+   "APG": "0.6",
+   "BPG": "0.0",
+   "SPG": "0.4",
+   "OWN": "0.3",
+   "ADP": "450",
+   "CON": "$-M",
+   "Poss/G": "",
+   "FPPP": "0.00",
+   "Age": "29.0",
+   "Team": "-",
+   "FILTERS": "pos=g|mpg>10|FTavail|age<30|age>25|NBAteam|Disney|g>5|con<2|con<5|con<10|con<15|con<20|Alex"
   },
   {
    "Player": "T. Mann, BKN, GF",
@@ -3441,6 +3421,26 @@
    "Age": "30.8",
    "Team": "-",
    "FILTERS": "pos=f|pos=fc|pos=c|FTavail|age>25|age>30|NBAteam|Disney|g>5|con<5|con<10|con<15|con<20|Kevon"
+  },
+  {
+   "Player": "K. Peat, PHX, F",
+   "FPPG": "3.2",
+   "FPPM": "0.73",
+   "G": "6",
+   "MPG": "4.4",
+   "PPG": "2.5",
+   "RPG": "0.7",
+   "APG": "0.2",
+   "BPG": "0.0",
+   "SPG": "0.0",
+   "OWN": "11.7",
+   "ADP": "123.0",
+   "CON": "$2.9M",
+   "Poss/G": "",
+   "FPPP": "0.00",
+   "Age": "19.8",
+   "Team": "-",
+   "FILTERS": "pos=f|FTavail|age<25|age<30|NBAteam|g>5|con<5|con<10|con<15|con<20|Koa"
   },
   {
    "Player": "B. Wesley, *FA, G",
