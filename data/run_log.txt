@@ -1,9 +1,9 @@
-Avvio: 2026-11-13T12:02:29+00:00
+Avvio: 2026-11-13T19:38:40+00:00
 Login: click
 Contesto lega: https://sports.ws/fantasy-basketball/league/
 Pagina statistiche: https://sports.ws/nba/stats | Sports.ws | Fantasy Basketball
 DataTable righe totali: 1261 | select impostata a: None
 Colonne: ['Player', 'FPPG', 'FPPM', 'G', 'MPG', 'PPG', 'RPG', 'APG', 'BPG', 'SPG', 'OWN', 'ADP', 'CON', 'Poss/G', 'FPPP', 'Age', 'Team', 'Action', 'Watch', 'FILTERS']
-Prima riga: ['L. Doncic, LAL, G', '51.6', '1.44', '11', '35.9', '38.6', '7.5', '7.6', '0.7', '2.1', '100.0', '4.3', '$49.5M', '', '0.00', '27.7', 'ALB', 'Trade', 'Watch', 'pos=g|mpg>10|mpg>20|mpg>30|age<30|age>25|NBAteam|Disney|g>5|g>10|Luka']
+Prima riga: ['L. Doncic, LAL, G', '51.5', '1.43', '11', '35.9', '38.6', '7.5', '7.6', '0.7', '2.0', '100.0', '4.3', '$49.5M', '', '0.00', '27.7', 'ALB', 'Trade', 'Watch', 'pos=g|mpg>10|mpg>20|mpg>30|age<30|age>25|NBAteam|Disney|g>5|g>10|Luka']
 Pagina 1: 1260 nuove righe (totale 1260)
 Salvati 1260 giocatori, di cui 1002 liberi
