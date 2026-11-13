@@ -70,17 +70,17 @@
   },
   {
    "tag": "A",
-   "text": "C. Flagg",
+   "text": "J. Tatum",
    "cls": "",
-   "href": "/nba/cooper-flagg",
+   "href": "/nba/jayson-tatum",
    "onclick": "",
    "opts": null
   },
   {
    "tag": "A",
-   "text": "J. Tatum",
+   "text": "A. Davis",
    "cls": "",
-   "href": "/nba/jayson-tatum",
+   "href": "/nba/anthony-davis",
    "onclick": "",
    "opts": null
   },
@@ -94,6 +94,14 @@
   },
   {
    "tag": "A",
+   "text": "C. Flagg",
+   "cls": "",
+   "href": "/nba/cooper-flagg",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
    "text": "A. Sengun",
    "cls": "",
    "href": "/nba/alperen-sengun",
@@ -102,9 +110,9 @@
   },
   {
    "tag": "A",
-   "text": "A. Davis",
+   "text": "C. Cunningham",
    "cls": "",
-   "href": "/nba/anthony-davis",
+   "href": "/nba/cade-cunningham",
    "onclick": "",
    "opts": null
   },
@@ -134,17 +142,17 @@
   },
   {
    "tag": "A",
-   "text": "P. Banchero",
+   "text": "T. Maxey",
    "cls": "",
-   "href": "/nba/paolo-banchero",
+   "href": "/nba/tyrese-maxey",
    "onclick": "",
    "opts": null
   },
   {
    "tag": "A",
-   "text": "T. Maxey",
+   "text": "P. Banchero",
    "cls": "",
-   "href": "/nba/tyrese-maxey",
+   "href": "/nba/paolo-banchero",
    "onclick": "",
    "opts": null
   },
@@ -177,14 +185,6 @@
    "text": "D. Acuff Jr.",
    "cls": "",
    "href": "/nba/darius-acuff",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "C. Cunningham",
-   "cls": "",
-   "href": "/nba/cade-cunningham",
    "onclick": "",
    "opts": null
   },
