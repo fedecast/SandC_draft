@@ -38,6 +38,14 @@
   },
   {
    "tag": "A",
+   "text": "V. Wembanyama",
+   "cls": "",
+   "href": "/nba/victor-wembanyama",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
    "text": "G. Antetokounmpo",
    "cls": "",
    "href": "/nba/giannis-antetokounmpo",
@@ -94,6 +102,14 @@
   },
   {
    "tag": "A",
+   "text": "C. Flagg",
+   "cls": "",
+   "href": "/nba/cooper-flagg",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
    "text": "C. Cunningham",
    "cls": "",
    "href": "/nba/cade-cunningham",
@@ -142,6 +158,14 @@
   },
   {
    "tag": "A",
+   "text": "P. Banchero",
+   "cls": "",
+   "href": "/nba/paolo-banchero",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
    "text": "S. Barnes",
    "cls": "",
    "href": "/nba/scottie-barnes",
@@ -182,6 +206,14 @@
   },
   {
    "tag": "A",
+   "text": "D. Acuff Jr.",
+   "cls": "",
+   "href": "/nba/darius-acuff",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
    "text": "B. Adebayo",
    "cls": "",
    "href": "/nba/bam-adebayo",
@@ -193,38 +225,6 @@
    "text": "T. Jerome",
    "cls": "",
    "href": "/nba/ty-jerome",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "D. Booker",
-   "cls": "",
-   "href": "/nba/devin-booker",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "D. Mitchell",
-   "cls": "",
-   "href": "/nba/donovan-mitchell",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "P. Siakam",
-   "cls": "",
-   "href": "/nba/pascal-siakam",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "R. Barrett",
-   "cls": "",
-   "href": "/nba/rj-barrett",
    "onclick": "",
    "opts": null
   },
