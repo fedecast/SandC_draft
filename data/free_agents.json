@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T06:58:16+00:00",
+ "updated": "2026-11-14T14:04:32+00:00",
  "count": 1002,
  "columns": [
   "Player",
@@ -343,6 +343,26 @@
    "FILTERS": "pos=f|pos=fc|pos=c|mpg>10|mpg>20|FTavail|age>25|age>30|NBAteam|g>5|g>10|Draymond"
   },
   {
+   "Player": "K. Sanders, LAC, GF",
+   "FPPG": "13.9",
+   "FPPM": "0.60",
+   "G": "11",
+   "MPG": "23.4",
+   "PPG": "9.4",
+   "RPG": "2.6",
+   "APG": "2.5",
+   "BPG": "0.1",
+   "SPG": "0.9",
+   "OWN": "26.9",
+   "ADP": "233.2",
+   "CON": "$2.6M",
+   "Poss/G": "",
+   "FPPP": "0.00",
+   "Age": "24.5",
+   "Team": "-",
+   "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|FTavail|age<25|age<30|NBAteam|Disney|g>5|g>10|con<5|con<10|con<15|con<20|Kobe"
+  },
+  {
    "Player": "A. Simons, PHI, G",
    "FPPG": "13.8",
    "FPPM": "0.63",
@@ -603,6 +623,26 @@
    "FILTERS": "pos=f|mpg>10|mpg>20|FTavail|age>25|age>30|NBAteam|g>5|g>10|con<10|con<15|con<20|Kenrich"
   },
   {
+   "Player": "S. James, CHA, GF",
+   "FPPG": "12.1",
+   "FPPM": "0.46",
+   "G": "12",
+   "MPG": "26.1",
+   "PPG": "6.0",
+   "RPG": "3.5",
+   "APG": "2.9",
+   "BPG": "0.0",
+   "SPG": "0.8",
+   "OWN": "17.6",
+   "ADP": "262.7",
+   "CON": "$2.4M",
+   "Poss/G": "",
+   "FPPP": "0.00",
+   "Age": "24.0",
+   "Team": "-",
+   "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|FTavail|age<25|age<30|NBAteam|g>5|g>10|con<5|con<10|con<15|con<20|Sion"
+  },
+  {
    "Player": "G. Niang, GSW, F",
    "FPPG": "12.0",
    "FPPM": "0.60",
@@ -641,26 +681,6 @@
    "Age": "26.0",
    "Team": "-",
    "FILTERS": "pos=f|mpg>10|FTavail|age<30|age>25|NBAteam|g>5|con<5|con<10|con<15|con<20|Trendon"
-  },
-  {
-   "Player": "S. James, CHA, GF",
-   "FPPG": "12.0",
-   "FPPM": "0.46",
-   "G": "12",
-   "MPG": "26.1",
-   "PPG": "6.0",
-   "RPG": "3.4",
-   "APG": "2.9",
-   "BPG": "0.0",
-   "SPG": "0.8",
-   "OWN": "17.6",
-   "ADP": "262.7",
-   "CON": "$2.4M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "24.0",
-   "Team": "-",
-   "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|FTavail|age<25|age<30|NBAteam|g>5|g>10|con<5|con<10|con<15|con<20|Sion"
   },
   {
    "Player": "M. Thybulle, LAL, GF",
@@ -781,26 +801,6 @@
    "Age": "28.2",
    "Team": "-",
    "FILTERS": "pos=c|mpg>10|FTavail|age<30|age>25|NBAteam|Disney|g>5|g>10|con<5|con<10|con<15|con<20|Jay"
-  },
-  {
-   "Player": "G. Dick, LAC, GF",
-   "FPPG": "11.5",
-   "FPPM": "0.74",
-   "G": "11",
-   "MPG": "15.7",
-   "PPG": "7.8",
-   "RPG": "3.0",
-   "APG": "0.6",
-   "BPG": "0.2",
-   "SPG": "0.6",
-   "OWN": "26.1",
-   "ADP": "261.7",
-   "CON": "$7.1M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "23.0",
-   "Team": "-",
-   "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|FTavail|age<25|age<30|NBAteam|Disney|g>5|g>10|con<10|con<15|con<20|Gradey"
   },
   {
    "Player": "R. Dunn, PHX, F",
