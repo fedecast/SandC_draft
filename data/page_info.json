@@ -78,14 +78,6 @@
   },
   {
    "tag": "A",
-   "text": "J. Tatum",
-   "cls": "",
-   "href": "/nba/jayson-tatum",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
    "text": "S. Gilgeous-Alexander",
    "cls": "",
    "href": "/nba/shai-gilgeous-alexander",
@@ -94,9 +86,9 @@
   },
   {
    "tag": "A",
-   "text": "A. Davis",
+   "text": "J. Tatum",
    "cls": "",
-   "href": "/nba/anthony-davis",
+   "href": "/nba/jayson-tatum",
    "onclick": "",
    "opts": null
   },
@@ -118,6 +110,14 @@
   },
   {
    "tag": "A",
+   "text": "A. Davis",
+   "cls": "",
+   "href": "/nba/anthony-davis",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
    "text": "J. Murray",
    "cls": "",
    "href": "/nba/jamal-murray",
@@ -129,6 +129,14 @@
    "text": "F. Wagner",
    "cls": "",
    "href": "/nba/franz-wagner",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "S. Barnes",
+   "cls": "",
+   "href": "/nba/scottie-barnes",
    "onclick": "",
    "opts": null
   },
@@ -166,14 +174,6 @@
   },
   {
    "tag": "A",
-   "text": "S. Barnes",
-   "cls": "",
-   "href": "/nba/scottie-barnes",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
    "text": "S. Curry",
    "cls": "",
    "href": "/nba/stephen-curry",
@@ -182,17 +182,17 @@
   },
   {
    "tag": "A",
-   "text": "D. Avdija",
+   "text": "J. Brunson",
    "cls": "",
-   "href": "/nba/deni-avdija",
+   "href": "/nba/jalen-brunson",
    "onclick": "",
    "opts": null
   },
   {
    "tag": "A",
-   "text": "J. Brunson",
+   "text": "D. Avdija",
    "cls": "",
-   "href": "/nba/jalen-brunson",
+   "href": "/nba/deni-avdija",
    "onclick": "",
    "opts": null
   },
