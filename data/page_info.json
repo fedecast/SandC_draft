@@ -86,14 +86,6 @@
   },
   {
    "tag": "A",
-   "text": "A. Sengun",
-   "cls": "",
-   "href": "/nba/alperen-sengun",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
    "text": "C. Cunningham",
    "cls": "",
    "href": "/nba/cade-cunningham",
@@ -110,22 +102,6 @@
   },
   {
    "tag": "A",
-   "text": "A. Davis",
-   "cls": "",
-   "href": "/nba/anthony-davis",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "J. Murray",
-   "cls": "",
-   "href": "/nba/jamal-murray",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
    "text": "F. Wagner",
    "cls": "",
    "href": "/nba/franz-wagner",
@@ -134,9 +110,33 @@
   },
   {
    "tag": "A",
+   "text": "A. Davis",
+   "cls": "",
+   "href": "/nba/anthony-davis",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "A. Sengun",
+   "cls": "",
+   "href": "/nba/alperen-sengun",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
    "text": "C. Flagg",
    "cls": "",
    "href": "/nba/cooper-flagg",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "J. Murray",
+   "cls": "",
+   "href": "/nba/jamal-murray",
    "onclick": "",
    "opts": null
   },
@@ -198,6 +198,14 @@
   },
   {
    "tag": "A",
+   "text": "D. Acuff Jr.",
+   "cls": "",
+   "href": "/nba/darius-acuff",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
    "text": "J. Johnson",
    "cls": "",
    "href": "/nba/jalen-johnson",
@@ -214,17 +222,9 @@
   },
   {
    "tag": "A",
-   "text": "D. Acuff Jr.",
+   "text": "P. Siakam",
    "cls": "",
-   "href": "/nba/darius-acuff",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "T. Jerome",
-   "cls": "",
-   "href": "/nba/ty-jerome",
+   "href": "/nba/pascal-siakam",
    "onclick": "",
    "opts": null
   },
