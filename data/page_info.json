@@ -158,17 +158,17 @@
   },
   {
    "tag": "A",
-   "text": "T. Maxey",
+   "text": "J. Murray",
    "cls": "",
-   "href": "/nba/tyrese-maxey",
+   "href": "/nba/jamal-murray",
    "onclick": "",
    "opts": null
   },
   {
    "tag": "A",
-   "text": "J. Murray",
+   "text": "T. Maxey",
    "cls": "",
-   "href": "/nba/jamal-murray",
+   "href": "/nba/tyrese-maxey",
    "onclick": "",
    "opts": null
   },
@@ -222,9 +222,9 @@
   },
   {
    "tag": "A",
-   "text": "T. Jerome",
+   "text": "J. Embiid",
    "cls": "",
-   "href": "/nba/ty-jerome",
+   "href": "/nba/joel-embiid",
    "onclick": "",
    "opts": null
   },
