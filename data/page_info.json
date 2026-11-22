@@ -166,6 +166,14 @@
   },
   {
    "tag": "A",
+   "text": "J. Brunson",
+   "cls": "",
+   "href": "/nba/jalen-brunson",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
    "text": "T. Maxey",
    "cls": "",
    "href": "/nba/tyrese-maxey",
@@ -177,14 +185,6 @@
    "text": "S. Curry",
    "cls": "",
    "href": "/nba/stephen-curry",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
-   "text": "J. Brunson",
-   "cls": "",
-   "href": "/nba/jalen-brunson",
    "onclick": "",
    "opts": null
   },
