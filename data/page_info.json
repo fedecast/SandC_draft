@@ -30,17 +30,17 @@
   },
   {
    "tag": "A",
-   "text": "L. Doncic",
+   "text": "V. Wembanyama",
    "cls": "",
-   "href": "/nba/luka-doncic",
+   "href": "/nba/victor-wembanyama",
    "onclick": "",
    "opts": null
   },
   {
    "tag": "A",
-   "text": "V. Wembanyama",
+   "text": "L. Doncic",
    "cls": "",
-   "href": "/nba/victor-wembanyama",
+   "href": "/nba/luka-doncic",
    "onclick": "",
    "opts": null
   },
@@ -198,14 +198,6 @@
   },
   {
    "tag": "A",
-   "text": "D. Acuff Jr.",
-   "cls": "",
-   "href": "/nba/darius-acuff",
-   "onclick": "",
-   "opts": null
-  },
-  {
-   "tag": "A",
    "text": "J. Johnson",
    "cls": "",
    "href": "/nba/jalen-johnson",
@@ -225,6 +217,14 @@
    "text": "J. Embiid",
    "cls": "",
    "href": "/nba/joel-embiid",
+   "onclick": "",
+   "opts": null
+  },
+  {
+   "tag": "A",
+   "text": "D. Acuff Jr.",
+   "cls": "",
+   "href": "/nba/darius-acuff",
    "onclick": "",
    "opts": null
   },
