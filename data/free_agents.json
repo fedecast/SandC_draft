@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T08:27:16+00:00",
+ "updated": "2026-11-25T18:48:29+00:00",
  "count": 1006,
  "columns": [
   "Player",
@@ -1883,26 +1883,6 @@
    "FILTERS": "pos=c|mpg>10|FTavail|age<25|age<30|NBAteam|Disney|con<5|con<10|con<15|con<20|Yanic"
   },
   {
-   "Player": "J. Sellers, CHI, G",
-   "FPPG": "7.7",
-   "FPPM": "0.77",
-   "G": "7",
-   "MPG": "10.0",
-   "PPG": "5.0",
-   "RPG": "0.9",
-   "APG": "1.7",
-   "BPG": "0.3",
-   "SPG": "0.4",
-   "OWN": "5.0",
-   "ADP": "450",
-   "CON": "$-M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "23.5",
-   "Team": "-",
-   "FILTERS": "pos=g|FTavail|age<25|age<30|NBAteam|g>5|con<2|con<5|con<10|con<15|con<20|Jaylin"
-  },
-  {
    "Player": "J. Williams, OKC, FC",
    "FPPG": "7.6",
    "FPPM": "0.44",
@@ -1921,6 +1901,26 @@
    "Age": "24.4",
    "Team": "-",
    "FILTERS": "pos=f|pos=fc|pos=c|mpg>10|FTavail|age<25|age<30|NBAteam|g>5|con<10|con<15|con<20|Jaylin"
+  },
+  {
+   "Player": "J. Sellers, CHI, G",
+   "FPPG": "7.6",
+   "FPPM": "0.76",
+   "G": "7",
+   "MPG": "10.0",
+   "PPG": "5.0",
+   "RPG": "0.9",
+   "APG": "1.7",
+   "BPG": "0.1",
+   "SPG": "0.4",
+   "OWN": "5.0",
+   "ADP": "450",
+   "CON": "$-M",
+   "Poss/G": "",
+   "FPPP": "0.00",
+   "Age": "23.5",
+   "Team": "-",
+   "FILTERS": "pos=g|FTavail|age<25|age<30|NBAteam|g>5|con<2|con<5|con<10|con<15|con<20|Jaylin"
   },
   {
    "Player": "L. Nance Jr., IND, F",
