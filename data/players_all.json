@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T10:46:10+00:00",
+ "updated": "2026-11-26T19:53:14+00:00",
  "count": 1263,
  "columns": [
   "Player",
@@ -4805,11 +4805,11 @@
   {
    "Player": "M. Johnson Jr., DAL, FC",
    "FPPG": "12.4",
-   "FPPM": "0.72",
+   "FPPM": "0.71",
    "G": "17",
    "MPG": "17.3",
    "PPG": "6.5",
-   "RPG": "5.1",
+   "RPG": "5.0",
    "APG": "1.4",
    "BPG": "0.1",
    "SPG": "0.7",
@@ -4979,8 +4979,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "28.7",
-   "Team": "BOL",
-   "FILTERS": "pos=f|pos=fc|pos=c|mpg>10|age<30|age>25|NBAteam|Disney|g>5|g>10|con<20|Mitchell"
+   "Team": "-",
+   "FILTERS": "pos=f|pos=fc|pos=c|mpg>10|FTavail|age<30|age>25|NBAteam|Disney|g>5|g>10|con<20|Mitchell"
   },
   {
    "Player": "J. Walker, IND, F",
@@ -5263,6 +5263,26 @@
    "FILTERS": "pos=g|mpg>10|FTavail|age<25|age<30|NBAteam|con<10|con<15|con<20|Cason"
   },
   {
+   "Player": "J. Green, DET, GF",
+   "FPPG": "11.2",
+   "FPPM": "0.58",
+   "G": "17",
+   "MPG": "19.3",
+   "PPG": "7.1",
+   "RPG": "2.6",
+   "APG": "0.5",
+   "BPG": "0.3",
+   "SPG": "0.9",
+   "OWN": "30.2",
+   "ADP": "247.1",
+   "CON": "$3.9M",
+   "Poss/G": "",
+   "FPPP": "0.00",
+   "Age": "33.4",
+   "Team": "-",
+   "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|FTavail|age>25|age>30|NBAteam|g>5|g>10|con<5|con<10|con<15|con<20|Javonte"
+  },
+  {
    "Player": "R. Holland, DET, F",
    "FPPG": "11.2",
    "FPPM": "0.72",
@@ -5301,26 +5321,6 @@
    "Age": "24.9",
    "Team": "PHO",
    "FILTERS": "pos=c|mpg>10|age<25|age<30|NBAteam|g>5|g>10|con<5|con<10|con<15|con<20|Ryan"
-  },
-  {
-   "Player": "J. Green, DET, GF",
-   "FPPG": "11.1",
-   "FPPM": "0.58",
-   "G": "17",
-   "MPG": "19.3",
-   "PPG": "7.1",
-   "RPG": "2.6",
-   "APG": "0.5",
-   "BPG": "0.3",
-   "SPG": "0.9",
-   "OWN": "30.2",
-   "ADP": "247.1",
-   "CON": "$3.9M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "33.4",
-   "Team": "-",
-   "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|FTavail|age>25|age>30|NBAteam|g>5|g>10|con<5|con<10|con<15|con<20|Javonte"
   },
   {
    "Player": "K. Caldwell-Pope, PHI, GF",
@@ -6839,8 +6839,8 @@
    "Poss/G": "",
    "FPPP": "0.00",
    "Age": "23.1",
-   "Team": "-",
-   "FILTERS": "pos=c|FTavail|age<25|age<30|NBAteam|Disney|g>5|g>10|con<5|con<10|con<15|con<20|Kyle"
+   "Team": "BOL",
+   "FILTERS": "pos=c|age<25|age<30|NBAteam|Disney|g>5|g>10|con<5|con<10|con<15|con<20|Kyle"
   },
   {
    "Player": "S. Jones, DEN, F",
@@ -8269,9 +8269,9 @@
    "G": "3",
    "MPG": "3.5",
    "PPG": "2.7",
-   "RPG": "0.3",
+   "RPG": "0.7",
    "APG": "0.0",
-   "BPG": "0.3",
+   "BPG": "0.0",
    "SPG": "0.3",
    "OWN": "5.8",
    "ADP": "238.5",
