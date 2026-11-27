@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T11:29:01+00:00",
+ "updated": "2026-11-27T20:16:01+00:00",
  "count": 1005,
  "columns": [
   "Player",
@@ -303,6 +303,26 @@
    "FILTERS": "pos=g|mpg>10|FTavail|age<30|age>25|NBAteam|g>5|con<15|con<20|Isaiah"
   },
   {
+   "Player": "D. Barlow, PHI, F",
+   "FPPG": "15.0",
+   "FPPM": "1.03",
+   "G": "3",
+   "MPG": "14.5",
+   "PPG": "9.0",
+   "RPG": "4.7",
+   "APG": "0.3",
+   "BPG": "1.0",
+   "SPG": "0.3",
+   "OWN": "34.1",
+   "ADP": "222.9",
+   "CON": "$3.4M",
+   "Poss/G": "",
+   "FPPP": "0.00",
+   "Age": "23.5",
+   "Team": "-",
+   "FILTERS": "pos=f|mpg>10|FTavail|age<25|age<30|NBAteam|Disney|con<5|con<10|con<15|con<20|Dominick"
+  },
+  {
    "Player": "L. Dort, ATL, F",
    "FPPG": "14.7",
    "FPPM": "0.59",
@@ -321,26 +341,6 @@
    "Age": "27.6",
    "Team": "-",
    "FILTERS": "pos=f|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|g>5|g>10|con<20|Luguentz"
-  },
-  {
-   "Player": "D. Barlow, PHI, F",
-   "FPPG": "14.7",
-   "FPPM": "1.01",
-   "G": "3",
-   "MPG": "14.5",
-   "PPG": "9.0",
-   "RPG": "4.3",
-   "APG": "0.3",
-   "BPG": "1.0",
-   "SPG": "0.3",
-   "OWN": "34.1",
-   "ADP": "222.9",
-   "CON": "$3.4M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "23.5",
-   "Team": "-",
-   "FILTERS": "pos=f|mpg>10|FTavail|age<25|age<30|NBAteam|Disney|con<5|con<10|con<15|con<20|Dominick"
   },
   {
    "Player": "L. Shamet, NYK, G",
@@ -623,26 +623,6 @@
    "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|FTavail|age<30|age>25|NBAteam|g>5|g>10|con<15|con<20|Isaac"
   },
   {
-   "Player": "D. Wade, PHI, F",
-   "FPPG": "12.1",
-   "FPPM": "0.45",
-   "G": "15",
-   "MPG": "26.6",
-   "PPG": "4.7",
-   "RPG": "4.5",
-   "APG": "1.7",
-   "BPG": "0.5",
-   "SPG": "1.1",
-   "OWN": "17.2",
-   "ADP": "254.6",
-   "CON": "$9.0M",
-   "Poss/G": "",
-   "FPPP": "0.00",
-   "Age": "30.0",
-   "Team": "-",
-   "FILTERS": "pos=f|mpg>10|mpg>20|FTavail|age>25|age>30|NBAteam|Disney|g>5|g>10|con<10|con<15|con<20|Dean"
-  },
-  {
    "Player": "S. James, CHA, GF",
    "FPPG": "12.1",
    "FPPM": "0.44",
@@ -661,6 +641,26 @@
    "Age": "24.0",
    "Team": "-",
    "FILTERS": "pos=g|pos=gf|pos=f|mpg>10|mpg>20|FTavail|age<25|age<30|NBAteam|g>5|g>10|con<5|con<10|con<15|con<20|Sion"
+  },
+  {
+   "Player": "D. Wade, PHI, F",
+   "FPPG": "12.0",
+   "FPPM": "0.45",
+   "G": "15",
+   "MPG": "26.6",
+   "PPG": "4.7",
+   "RPG": "4.4",
+   "APG": "1.7",
+   "BPG": "0.5",
+   "SPG": "1.1",
+   "OWN": "17.2",
+   "ADP": "254.6",
+   "CON": "$9.0M",
+   "Poss/G": "",
+   "FPPP": "0.00",
+   "Age": "30.0",
+   "Team": "-",
+   "FILTERS": "pos=f|mpg>10|mpg>20|FTavail|age>25|age>30|NBAteam|Disney|g>5|g>10|con<10|con<15|con<20|Dean"
   },
   {
    "Player": "T. Watford, NOP, F",
@@ -1512,7 +1512,7 @@
    "RPG": "1.6",
    "APG": "1.6",
    "BPG": "0.8",
-   "SPG": "1.1",
+   "SPG": "1.0",
    "OWN": "16.9",
    "ADP": "268.7",
    "CON": "$9.0M",
