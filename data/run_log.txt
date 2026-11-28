@@ -1,9 +1,9 @@
-Avvio: 2026-11-28T02:49:01+00:00
+Avvio: 2026-11-28T11:02:15+00:00
 Login: click
 Contesto lega: https://sports.ws/fantasy-basketball/league/
 Pagina statistiche: https://sports.ws/nba/stats | Sports.ws | Fantasy Basketball
 DataTable righe totali: 1264 | select impostata a: None
 Colonne: ['Player', 'FPPG', 'FPPM', 'G', 'MPG', 'PPG', 'RPG', 'APG', 'BPG', 'SPG', 'OWN', 'ADP', 'CON', 'Poss/G', 'FPPP', 'Age', 'Team', 'Action', 'Watch', 'FILTERS']
-Prima riga: ['V. Wembanyama, SAS, C', '49.2', '1.61', '18', '30.5', '30.7', '12.5', '3.2', '3.8', '1.3', '99.7', '3.9', '$16.9M', '', '0.00', '22.9', 'LEV', 'Drop', 'Watch', 'pos=c|mpg>10|mpg>20|mpg>30|FTuser|age<25|age<30|NBAteam|Disney|g>5|g>10|con<20|Victor']
+Prima riga: ['V. Wembanyama, SAS, C', '49.1', '1.60', '19', '30.7', '30.4', '12.7', '3.1', '3.7', '1.4', '99.7', '3.9', '$16.9M', '', '0.00', '22.9', 'LEV', 'Drop', 'Watch', 'pos=c|mpg>10|mpg>20|mpg>30|FTuser|age<25|age<30|NBAteam|Disney|g>5|g>10|con<20|Victor']
 Pagina 1: 1263 nuove righe (totale 1263)
 Salvati 1263 giocatori, di cui 1006 liberi
